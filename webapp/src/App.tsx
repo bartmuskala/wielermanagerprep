@@ -146,11 +146,16 @@ function RiderModal({ rider, racesMeta, onClose }: { rider: Rider, racesMeta: Re
           {activeTab === 'expertises' && (
             <div>
               {rider.expertises && Object.keys(rider.expertises).length > 0 ? (
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                   {Object.entries(rider.expertises).sort((a, b) => b[1] - a[1]).map(([exp, val]: any) => (
-                    <div key={exp} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: 'rgba(255,255,255,0.02)', padding: '0.5rem', borderRadius: '8px' }}>
-                      <span style={{ fontWeight: 'bold' }}>{exp}</span>
-                      <span style={{ color: 'var(--primary-color)' }}>{val}</span>
+                    <div key={exp} style={{ background: 'rgba(255,255,255,0.02)', padding: '0.8rem', borderRadius: '8px' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.95rem', marginBottom: '6px' }}>
+                        <span style={{ fontWeight: 'bold' }}>{exp}</span>
+                        <span style={{ color: 'var(--primary-color)' }}>{val}</span>
+                      </div>
+                      <div style={{ width: '100%', height: '8px', background: 'rgba(0,0,0,0.3)', borderRadius: '4px', overflow: 'hidden' }}>
+                        <div style={{ width: `${Math.min(100, (val / 8000) * 100)}%`, height: '100%', background: 'var(--primary-color)' }} />
+                      </div>
                     </div>
                   ))}
                 </div>
