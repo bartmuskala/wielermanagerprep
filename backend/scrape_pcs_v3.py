@@ -146,13 +146,13 @@ def scrape():
     print("\n--- FINAL SCORED SQUAD ---")
     print(f"Total riders with points: {len(scored_riders)}")
 
-    with open('pcs_data_v3.json', 'w') as f:
+    with open('../webapp/api/pcs_data_v3.json', 'w') as f:
         json.dump({
             "riders": scored_riders,
             "races": races
         }, f, indent=2)
         
-    print("Scraping complete. Saved to pcs_data_v3.json.")
+    print("Scraping complete. Saved to ../webapp/api/pcs_data_v3.json.")
 
 if __name__ == "__main__":
     scrape()

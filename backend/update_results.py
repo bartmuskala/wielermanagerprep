@@ -14,7 +14,7 @@ def get_sporza_points(rank):
     return scale.get(rank, 0)
 
 def update_results():
-    db_file = "pcs_data_v3.json"
+    db_file = "../webapp/api/pcs_data_v3.json"
     try:
         with open(db_file, "r") as f:
             data = json.load(f)

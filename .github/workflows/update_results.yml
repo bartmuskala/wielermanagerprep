@@ -1,0 +1,39 @@
+name: Update Race Results
+
+on:
+  schedule:
+    # 7 PM CET is 18:00 UTC (17:00 UTC during summer/DST, but typically 18:00 UTC works for standard)
+    - cron: '0 18 * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  scrape-results:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd backend
+          pip install -r requirements.txt
+
+      - name: Fetch actual finished races and parse points
+        run: |
+          cd backend
+          python update_results.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add webapp/api/pcs_data_v3.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update of completed race points 🏆" && git push)
