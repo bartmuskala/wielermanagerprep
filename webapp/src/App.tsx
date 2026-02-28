@@ -13,6 +13,9 @@ interface Rider {
   global_score: number;
   starts: string[];
   top_ranks: Record<string, number>;
+  sporza_price?: number;
+  sporza_popularity?: number;
+  roi?: number;
 }
 
 interface RacesMetadata {
@@ -113,9 +116,13 @@ function RiderModal({ rider, racesMeta, onClose }: { rider: Rider, racesMeta: Re
 
         <div style={{ background: 'rgba(102, 252, 241, 0.1)', padding: '1rem', borderRadius: '12px', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '15px' }}>
           <BarChart3 size={32} color="var(--primary-color)" />
-          <div>
+          <div style={{ flex: 1 }}>
             <div style={{ fontSize: '0.9rem', color: 'var(--text-main)' }}>Global Competitor Score</div>
             <div style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--text-highlight)' }}>{rider.global_score} pts</div>
+          </div>
+          <div style={{ background: 'rgba(0,0,0,0.2)', padding: '0.8rem', borderRadius: '8px', textAlign: 'right' }}>
+            <div style={{ fontSize: '0.8rem', color: 'var(--text-main)' }}>Sporza Prijs</div>
+            <div style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>€{rider.sporza_price || 0}M</div>
           </div>
         </div>
 
@@ -231,12 +238,23 @@ function Dashboard() {
         alert("Je ploeg mag maximaal 20 renners bevatten.");
         return;
       }
+
+      const currentBudget = updatedRiders.reduce((sum, id) => sum + (ridersMeta[id]?.sporza_price || 0), 0);
+      const riderPrice = ridersMeta[riderId]?.sporza_price || 0;
+      if (currentBudget + riderPrice > 120) {
+        alert(`Budget overschreden! Deze renner kost €${riderPrice}M, maar je hebt nog maar €${120 - currentBudget}M over.`);
+        return;
+      }
+
       updatedRiders.push(riderId);
     }
 
     const updatedTeams = teams.map(t => t.id === activeTeamId ? { ...t, riders: updatedRiders } : t);
     saveTeamsToLocal(updatedTeams);
   };
+
+  const teamSpent = activeTeam.riders.reduce((sum, id) => sum + (ridersMeta[id]?.sporza_price || 0), 0);
+  const teamRemaining = 120 - teamSpent;
 
   // Calculate Middle Column: The best 12 from the active team
   const evaluateStarters = () => {
@@ -394,7 +412,8 @@ function Dashboard() {
                   <div className="rider-info">
                     <div className="rider-name">{rider?.name || 'Onbekend'}</div>
                     <div className="rider-team" style={{ gap: '10px' }}>
-                      <span style={{ color: 'var(--primary-color)' }}>Global score: {rider?.global_score}</span>
+                      <span style={{ color: 'var(--primary-color)' }}>{rider?.global_score} pts</span>
+                      <span style={{ opacity: 0.5 }}>| €{rider?.sporza_price || 0}M</span>
                     </div>
                   </div>
 
@@ -424,11 +443,17 @@ function Dashboard() {
         {/* Start Team (Right Column Full Database Market) */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }} className="animate-fade-in delay-3">
           <div className="glass-panel" style={{ flex: 1, overflowY: 'auto', maxHeight: '75vh' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1.5rem', position: 'sticky', top: 0, background: 'var(--bg-color)', zIndex: 10, paddingBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1.5rem', position: 'sticky', top: 0, background: 'var(--bg-color)', zIndex: 10, paddingBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', flexWrap: 'wrap' }}>
               <TrendingUp size={24} color="var(--primary-color)" />
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '1.2rem' }}>Ploeg samenstellen</h2>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-main)' }}>Klik om toe te voegen aan ({activeTeam.riders.length}/20)</div>
+                <div style={{ fontSize: '0.8rem', color: 'var(--text-main)' }}>Selecteer ({activeTeam.riders.length}/20)</div>
+              </div>
+              <div style={{ background: 'rgba(0,0,0,0.3)', padding: '0.5rem 1rem', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.1)' }}>
+                <div style={{ fontSize: '0.75rem', color: 'var(--text-main)' }}>Resterend Budget</div>
+                <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: teamRemaining < 0 ? 'var(--accent-red)' : 'var(--primary-color)' }}>
+                  €{teamRemaining}M <span style={{ fontSize: '0.8rem', opacity: 0.5 }}>/ €120M</span>
+                </div>
               </div>
             </div>
 
@@ -451,9 +476,11 @@ function Dashboard() {
                   <div style={{ color: 'var(--text-main)', fontSize: '0.8rem', width: '25px', opacity: 0.5 }}>{index + 1}.</div>
                   <div className="rider-info">
                     <div className="rider-name" style={{ fontSize: '0.95rem', color: inCustomTeam ? 'var(--text-highlight)' : 'var(--text-highlight)' }}>{rider?.name}</div>
+                    <div style={{ fontSize: '0.7rem', color: 'var(--text-main)' }}>ROI: {rider.roi || 0} pts/M</div>
                   </div>
-                  <div className="rider-price" style={{ background: 'rgba(255, 255, 255, 0.1)', color: 'white', fontSize: '0.85rem', padding: '0.2rem 0.5rem' }}>
-                    {rider?.global_score} <span style={{ fontSize: '0.7rem', opacity: 0.7 }}>pts</span>
+                  <div className="rider-price" style={{ background: 'rgba(255, 255, 255, 0.1)', color: 'white', fontSize: '0.85rem', padding: '0.2rem 0.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <span>€{rider.sporza_price || 0}M</span>
+                    <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>{rider?.global_score} pts</span>
                   </div>
 
                   {inCustomTeam && (

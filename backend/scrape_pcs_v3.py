@@ -140,16 +140,15 @@ def scrape():
     riders_list = list(all_riders_data.values())
     riders_list.sort(key=lambda x: x['global_score'], reverse=True)
     
-    # User requested top 30
-    top_30 = riders_list[:30]
+    # Filter to only riders who have a global score > 0
+    scored_riders = [r for r in riders_list if r["global_score"] > 0]
     
-    print("\n--- FINAL TOP 30 SQUAD ---")
-    for i, r in enumerate(top_30):
-        print(f"{i+1}. {r['name']} - {r['global_score']} pts")
+    print("\n--- FINAL SCORED SQUAD ---")
+    print(f"Total riders with points: {len(scored_riders)}")
 
     with open('pcs_data_v3.json', 'w') as f:
         json.dump({
-            "riders": top_30,
+            "riders": scored_riders,
             "races": races
         }, f, indent=2)
         
