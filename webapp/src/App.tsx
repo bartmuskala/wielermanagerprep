@@ -202,7 +202,12 @@ function Dashboard() {
         if (racesRes.length > 0) setActiveRaceId(racesRes[0].id);
 
         // Mock load from LocalStorage first instead of forcing Firestore setup
-        const localTeams = localStorage.getItem('wielermanager_teams');
+        const rawUser = localStorage.getItem("google_user");
+        let userId = "default";
+        if (rawUser) {
+          userId = JSON.parse(rawUser).sub || "default";
+        }
+        const localTeams = localStorage.getItem(`wielermanager_teams_${userId}`);
         if (localTeams) {
           setTeams(JSON.parse(localTeams));
         }
@@ -224,7 +229,8 @@ function Dashboard() {
 
   const saveTeamsToLocal = (updatedTeams: CustomTeam[]) => {
     setTeams(updatedTeams);
-    localStorage.setItem('wielermanager_teams', JSON.stringify(updatedTeams));
+    const userId = user?.sub || "default";
+    localStorage.setItem(`wielermanager_teams_${userId}`, JSON.stringify(updatedTeams));
   };
 
   const handleDeleteTeam = (tId: string) => {
@@ -332,7 +338,7 @@ function Dashboard() {
           <div className="stats-badge">
             <div className="stat-item glass-panel" style={{ padding: '0.5rem 1rem' }}>
               <Users size={16} />
-              <span>{user?.displayName || "Sim User"}</span>
+              <span>{user?.name || user?.given_name || "Sim User"}</span>
             </div>
           </div>
           <button onClick={handleLogout} className="glass-panel" style={{ padding: '0.5rem', cursor: 'pointer', background: 'transparent', border: '1px solid rgba(255,255,255,0.1)', color: 'white' }}>
