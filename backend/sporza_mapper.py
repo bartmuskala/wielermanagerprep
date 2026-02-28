@@ -78,6 +78,7 @@ def map_sporza_prices():
             rider_data["sporza_price"] = s_data.get("price", 0)
             rider_data["sporza_popularity"] = s_data.get("popularity", 0)
             rider_data["sporza_id"] = s_data.get("id")
+            rider_data["team_logo"] = s_data.get("team", {}).get("jerseyUrl")
             
             # Calculate ROI
             price = rider_data["sporza_price"]

@@ -17,6 +17,7 @@ interface Rider {
   sporza_popularity?: number;
   roi?: number;
   team?: string;
+  team_logo?: string;
   expertises?: Record<string, number>;
   historic_results?: string[];
 }
@@ -69,7 +70,10 @@ function LandingPage() {
   )
 }
 
-function TeamLogo({ teamName, size = 32 }: { teamName?: string, size?: number }) {
+function TeamLogo({ teamName, logoUrl, size = 32 }: { teamName?: string, logoUrl?: string, size?: number }) {
+  if (logoUrl) {
+    return <img src={logoUrl} alt={teamName || "Team"} style={{ width: `${size}px`, height: `${size}px`, objectFit: 'contain' }} title={teamName} />;
+  }
   if (!teamName) return <User size={size} />;
   const initials = teamName.split(' ').map(w => w[0]).join('').substring(0, 2).toUpperCase();
   return (
@@ -113,7 +117,7 @@ function RiderModal({ rider, racesMeta, onClose }: { rider: Rider, racesMeta: Re
         </button>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '2rem' }}>
-          <TeamLogo teamName={rider.team} size={64} />
+          <TeamLogo teamName={rider.team} logoUrl={rider.team_logo} size={64} />
           <div>
             <h2 style={{ fontSize: '2rem', marginBottom: '0.2rem' }}>{rider.name}</h2>
             <div style={{ color: 'var(--primary-color)', fontSize: '1.1rem' }}>{rider.team || 'Global Database Pool'}</div>
@@ -229,6 +233,7 @@ function Dashboard() {
   // Filters & Sorting State
   const [searchTerm, setSearchTerm] = useState("");
   const [teamFilter, setTeamFilter] = useState("All Teams");
+  const [maxBudget, setMaxBudget] = useState<number | "All">("All");
   const [sortBy, setSortBy] = useState("score_desc"); // "budget_desc", "budget_asc", "score_desc", "roi_desc", "race_desc"
 
   React.useEffect(() => {
@@ -376,6 +381,10 @@ function Dashboard() {
       filtered = filtered.filter(r => r.team === teamFilter);
     }
 
+    if (maxBudget !== "All") {
+      filtered = filtered.filter(r => (r.sporza_price || 0) <= maxBudget);
+    }
+
     const arr = [...filtered];
     arr.sort((a, b) => {
       if (sortBy === "budget_desc") return (b.sporza_price || 0) - (a.sporza_price || 0);
@@ -390,7 +399,7 @@ function Dashboard() {
     });
 
     return arr;
-  }, [ridersList, searchTerm, teamFilter, sortBy, activeRaceId]);
+  }, [ridersList, searchTerm, teamFilter, maxBudget, sortBy, activeRaceId]);
 
   if (loading) {
     return (
@@ -594,7 +603,7 @@ function Dashboard() {
                     )}
 
                     <div className="rider-avatar">
-                      <TeamLogo teamName={rider?.team} size={24} />
+                      <TeamLogo teamName={rider?.team} logoUrl={rider?.team_logo} size={24} />
                     </div>
                     <div className="rider-info">
                       <div className="rider-name">{rider?.name || 'Onbekend'}</div>
@@ -676,15 +685,27 @@ function Dashboard() {
                     ))}
                   </select>
                   <select
+                    value={maxBudget}
+                    onChange={e => setMaxBudget(e.target.value === "All" ? "All" : Number(e.target.value))}
+                    style={{ flex: 1, padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'var(--bg-color)', color: 'white', outline: 'none', maxWidth: '140px' }}
+                  >
+                    <option value="All">Max Budget</option>
+                    <option value={12}>&le; €12M</option>
+                    <option value={10}>&le; €10M</option>
+                    <option value={8}>&le; €8M</option>
+                    <option value={6}>&le; €6M</option>
+                    <option value={4}>&le; €4M</option>
+                  </select>
+                  <select
                     value={sortBy}
                     onChange={e => setSortBy(e.target.value)}
                     style={{ flex: 1, padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'var(--bg-color)', color: 'white', outline: 'none' }}
                   >
-                    <option value="score_desc">Hoogste PCS Potentieel</option>
-                    <option value="budget_desc">Duurste Prijs</option>
-                    <option value="budget_asc">Goedkoopste Prijs</option>
-                    <option value="roi_desc">Beste ROI</option>
-                    <option value="race_desc">Verwachte Punten (Actieve Race)</option>
+                    <option value="score_desc">Rangschikking: PCS Score</option>
+                    <option value="race_desc">Rangschikking: Actieve Race</option>
+                    <option value="budget_desc">Rangschikking: Duurste</option>
+                    <option value="budget_asc">Rangschikking: Goedkoopste</option>
+                    <option value="roi_desc">Rangschikking: Beste ROI</option>
                   </select>
                 </div>
               </div>
@@ -708,16 +729,25 @@ function Dashboard() {
                     onClick={() => handleToggleRider(rider.id)}
                   >
                     <div style={{ color: 'var(--text-main)', fontSize: '0.8rem', width: '25px', opacity: 0.5 }}>{index + 1}.</div>
-                    <div className="rider-info">
+                    <div className="rider-avatar">
+                      <TeamLogo teamName={rider?.team} logoUrl={rider?.team_logo} size={28} />
+                    </div>
+                    <div className="rider-info" style={{ marginLeft: '10px' }}>
                       <div className="rider-name" style={{ fontSize: '0.95rem', color: inCustomTeam ? 'var(--text-highlight)' : 'var(--text-highlight)', display: 'flex', alignItems: 'center', gap: '8px' }}>
                         {rider?.name}
                         {isRacing && <span style={{ fontSize: '0.6rem', background: 'var(--primary-color)', color: '#000', padding: '2px 5px', borderRadius: '4px' }}>Rides</span>}
                       </div>
                       <div style={{ fontSize: '0.7rem', color: 'var(--text-main)' }}>ROI: {rider.roi || 0} pts/M</div>
                     </div>
-                    <div className="rider-price" style={{ background: 'rgba(255, 255, 255, 0.1)', color: 'white', fontSize: '0.85rem', padding: '0.2rem 0.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <div className="rider-price" style={{ background: 'rgba(255, 255, 255, 0.1)', color: 'white', fontSize: '0.85rem', padding: '0.2rem 0.6rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                       <span>€{rider.sporza_price || 0}M</span>
-                      <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>{rider?.global_score} pts</span>
+
+                      {/* Dynamic Ranking View depending on active sort */}
+                      {sortBy === 'score_desc' && <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>{rider.global_score} pts</span>}
+                      {sortBy === 'roi_desc' && <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>{rider.roi} ROI</span>}
+                      {sortBy === 'budget_desc' && <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>{rider.global_score} pts</span>}
+                      {sortBy === 'budget_asc' && <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>{rider.global_score} pts</span>}
+                      {sortBy === 'race_desc' && activeRaceId && <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>#{rider.top_ranks?.[activeRaceId] || '-'} Rank</span>}
                     </div>
 
                     {inCustomTeam && (

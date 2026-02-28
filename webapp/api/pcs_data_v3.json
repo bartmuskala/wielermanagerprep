@@ -41,7 +41,8 @@
       "sporza_price": 8,
       "sporza_popularity": 0.57,
       "sporza_id": 609,
-      "roi": 70.0
+      "roi": 70.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484217.png"
     },
     {
       "id": "arnaud-de-lie",
@@ -84,7 +85,8 @@
       "sporza_price": 6,
       "sporza_popularity": 0.5,
       "sporza_id": 171,
-      "roi": 90.0
+      "roi": 90.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "mads-pedersen",
@@ -138,7 +140,8 @@
       "sporza_price": 10,
       "sporza_popularity": 0.13,
       "sporza_id": 155,
-      "roi": 53.0
+      "roi": 53.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "jasper-philipsen",
@@ -185,7 +188,8 @@
       "sporza_price": 9,
       "sporza_popularity": 0.83,
       "sporza_id": 17,
-      "roi": 58.33
+      "roi": 58.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "tadej-pogacar",
@@ -238,7 +242,8 @@
       "sporza_price": 14,
       "sporza_popularity": 0.86,
       "sporza_id": 377,
-      "roi": 35.71
+      "roi": 35.71,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "mathieu-van-der-poel",
@@ -292,7 +297,8 @@
       "sporza_price": 14,
       "sporza_popularity": 0.96,
       "sporza_id": 28,
-      "roi": 30.71
+      "roi": 30.71,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "matthew-brennan",
@@ -335,7 +341,8 @@
       "sporza_price": 6,
       "sporza_popularity": 0.64,
       "sporza_id": 333,
-      "roi": 62.5
+      "roi": 62.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "romain-gregoire1",
@@ -382,7 +389,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.24,
       "sporza_id": 94,
-      "roi": 74.6
+      "roi": 74.6,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "dylan-groenewegen",
@@ -423,7 +431,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.23,
       "sporza_id": 750,
-      "roi": 89.5
+      "roi": 89.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "jordi-meeus",
@@ -466,7 +475,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.4,
       "sporza_id": 227,
-      "roi": 63.8
+      "roi": 63.8,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "paul-magnier",
@@ -519,7 +529,8 @@
       "sporza_price": 7,
       "sporza_popularity": 0.79,
       "sporza_id": 253,
-      "roi": 43.57
+      "roi": 43.57,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "tim-wellens",
@@ -572,7 +583,8 @@
       "sporza_price": 6,
       "sporza_popularity": 0.8,
       "sporza_id": 385,
-      "roi": 50.17
+      "roi": 50.17,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "remco-evenepoel",
@@ -623,7 +635,8 @@
       "sporza_price": 12,
       "sporza_popularity": 0.08,
       "sporza_id": 219,
-      "roi": 23.33
+      "roi": 23.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "wout-van-aert",
@@ -676,7 +689,8 @@
       "sporza_price": 11,
       "sporza_popularity": 0.56,
       "sporza_id": 353,
-      "roi": 24.55
+      "roi": 24.55,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "milan-fretin",
@@ -717,7 +731,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.49,
       "sporza_id": 506,
-      "roi": 50.0
+      "roi": 50.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "jonathan-milan",
@@ -756,7 +771,8 @@
       "sporza_price": 7,
       "sporza_popularity": 0.31,
       "sporza_id": 149,
-      "roi": 34.29
+      "roi": 34.29,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "tobias-lund-andresen",
@@ -797,7 +813,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.07,
       "sporza_id": 1101,
-      "roi": 57.75
+      "roi": 57.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "tim-merlier",
@@ -834,7 +851,8 @@
       "sporza_price": 8,
       "sporza_popularity": 0.13,
       "sporza_id": 254,
-      "roi": 27.5
+      "roi": 27.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "milan-menten",
@@ -871,7 +889,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.06,
       "sporza_id": 178,
-      "roi": 53.75
+      "roi": 53.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "lukas-kubis",
@@ -912,7 +931,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.36,
       "sporza_id": 754,
-      "roi": 53.25
+      "roi": 53.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "ben-healy",
@@ -949,7 +969,8 @@
       "sporza_price": 7,
       "sporza_popularity": 0.1,
       "sporza_id": 65,
-      "roi": 29.29
+      "roi": 29.29,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46342.png"
     },
     {
       "id": "matteo-jorgenson",
@@ -988,7 +1009,8 @@
       "sporza_price": 6,
       "sporza_popularity": 0.08,
       "sporza_id": 340,
-      "roi": 30.83
+      "roi": 30.83,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "christian-scaroni",
@@ -1023,7 +1045,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.01,
       "sporza_id": 434,
-      "roi": 36.0
+      "roi": 36.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "pavel-bittner",
@@ -1062,7 +1085,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.04,
       "sporza_id": 304,
-      "roi": 44.0
+      "roi": 44.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "michael-matthews",
@@ -1103,7 +1127,8 @@
       "sporza_price": 6,
       "sporza_popularity": 0.06,
       "sporza_id": 291,
-      "roi": 27.17
+      "roi": 27.17,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "isaac-del-toro",
@@ -1153,7 +1178,8 @@
       "sporza_price": 7,
       "sporza_popularity": 0.08,
       "sporza_id": 364,
-      "roi": 22.86
+      "roi": 22.86,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "stanislaw-aniolkowski",
@@ -1194,7 +1220,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.03,
       "sporza_id": 497,
-      "roi": 50.67
+      "roi": 50.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "soren-waerenskjold",
@@ -1237,7 +1264,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.17,
       "sporza_id": 416,
-      "roi": 29.2
+      "roi": 29.2,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "hugo-hofstetter",
@@ -1282,7 +1310,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.11,
       "sporza_id": 1140,
-      "roi": 27.8
+      "roi": 27.8,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "giulio-ciccone",
@@ -1317,7 +1346,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.01,
       "sporza_id": 142,
-      "roi": 27.0
+      "roi": 27.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "jan-christen",
@@ -1354,7 +1384,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.02,
       "sporza_id": 362,
-      "roi": 26.8
+      "roi": 26.8,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "juan-ayuso-pesquera",
@@ -1429,7 +1460,8 @@
       "sporza_price": 6,
       "sporza_popularity": 0.05,
       "sporza_id": 14,
-      "roi": 21.5
+      "roi": 21.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "biniam-girmay",
@@ -1466,7 +1498,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.25,
       "sporza_id": 1138,
-      "roi": 24.0
+      "roi": 24.0,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "mauro-schmid",
@@ -1505,7 +1538,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.02,
       "sporza_id": 299,
-      "roi": 29.75
+      "roi": 29.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "clement-venturini",
@@ -1544,7 +1578,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 1222,
-      "roi": 38.33
+      "roi": 38.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "alfred-wright",
@@ -1589,7 +1624,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.02,
       "sporza_id": 613,
-      "roi": 28.25
+      "roi": 28.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484217.png"
     },
     {
       "id": "dries-de-bondt",
@@ -1638,7 +1674,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.08,
       "sporza_id": 278,
-      "roi": 27.0
+      "roi": 27.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "mattias-skjelmose-jensen",
@@ -1673,7 +1710,8 @@
       "sporza_price": 7,
       "sporza_popularity": 0.05,
       "sporza_id": 157,
-      "roi": 15.0
+      "roi": 15.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "steffen-de-schuyteneer",
@@ -1712,7 +1750,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.18,
       "sporza_id": 172,
-      "roi": 32.67
+      "roi": 32.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "erlend-blikra",
@@ -1747,7 +1786,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.04,
       "sporza_id": 389,
-      "roi": 32.67
+      "roi": 32.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "arne-marit",
@@ -1792,7 +1832,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.12,
       "sporza_id": 225,
-      "roi": 24.0
+      "roi": 24.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "jonas-abrahamsen",
@@ -1837,7 +1878,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.32,
       "sporza_id": 387,
-      "roi": 23.75
+      "roi": 23.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "alexis-renard",
@@ -1880,7 +1922,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.03,
       "sporza_id": 518,
-      "roi": 29.67
+      "roi": 29.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "florian-vermeersch",
@@ -1929,7 +1972,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.45,
       "sporza_id": 383,
-      "roi": 17.8
+      "roi": 17.8,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "amaury-capiot",
@@ -1980,7 +2024,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.07,
       "sporza_id": 275,
-      "roi": 26.67
+      "roi": 26.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "sente-sentjens",
@@ -2019,7 +2064,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.17,
       "sporza_id": 25,
-      "roi": 37.0
+      "roi": 37.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "toms-skujins",
@@ -2062,7 +2108,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.07,
       "sporza_id": 158,
-      "roi": 17.75
+      "roi": 17.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "emilien-jeanniere",
@@ -2095,7 +2142,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0,
       "sporza_id": 700,
-      "roi": 17.5
+      "roi": 17.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "thibaud-gruel",
@@ -2136,7 +2184,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 95,
-      "roi": 23.0
+      "roi": 23.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "alex-aranburu",
@@ -2173,7 +2222,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 498,
-      "roi": 15.75
+      "roi": 15.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "tobias-halland-johannessen",
@@ -2210,7 +2260,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.04,
       "sporza_id": 402,
-      "roi": 12.4
+      "roi": 12.4,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "julian-alaphilippe",
@@ -2249,7 +2300,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.05,
       "sporza_id": 712,
-      "roi": 15.25
+      "roi": 15.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "alberto-dainese",
@@ -2282,7 +2334,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0,
       "sporza_id": 245,
-      "roi": 13.75
+      "roi": 13.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "sandy-dujardin",
@@ -2317,7 +2370,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 697,
-      "roi": 17.33
+      "roi": 17.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "tom-crabbe",
@@ -2360,7 +2414,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.5,
       "sporza_id": 615,
-      "roi": 16.67
+      "roi": 16.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "jenno-berckmoes",
@@ -2407,7 +2462,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.25,
       "sporza_id": 168,
-      "roi": 11.0
+      "roi": 11.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "bryan-coquard",
@@ -2442,7 +2498,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 503,
-      "roi": 10.5
+      "roi": 10.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "paul-penhoet",
@@ -2475,7 +2532,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0,
       "sporza_id": 106,
-      "roi": 10.25
+      "roi": 10.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "quinten-hermans",
@@ -2516,7 +2574,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.05,
       "sporza_id": 600,
-      "roi": 10.0
+      "roi": 10.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484217.png"
     },
     {
       "id": "elmar-reinders",
@@ -2557,7 +2616,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 764,
-      "roi": 19.0
+      "roi": 19.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "mike-teunissen",
@@ -2602,7 +2662,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.03,
       "sporza_id": 440,
-      "roi": 9.25
+      "roi": 9.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "filippo-ganna",
@@ -2635,7 +2696,8 @@
       "sporza_price": 7,
       "sporza_popularity": 0.05,
       "sporza_id": 116,
-      "roi": 5.29
+      "roi": 5.29,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "lewis-askey",
@@ -2676,7 +2738,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.03,
       "sporza_id": 1129,
-      "roi": 9.0
+      "roi": 9.0,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "thymen-arensman",
@@ -2707,7 +2770,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.02,
       "sporza_id": 111,
-      "roi": 8.75
+      "roi": 8.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "ben-tulett",
@@ -2744,7 +2808,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0,
       "sporza_id": 352,
-      "roi": 8.5
+      "roi": 8.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "laurenz-rex",
@@ -2781,7 +2846,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.03,
       "sporza_id": 259,
-      "roi": 8.0
+      "roi": 8.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "marc-hirschi",
@@ -2816,7 +2882,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.02,
       "sporza_id": 720,
-      "roi": 6.4
+      "roi": 6.4,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "gianni-vermeersch",
@@ -2863,7 +2930,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.24,
       "sporza_id": 239,
-      "roi": 7.25
+      "roi": 7.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "gerben-thijssen",
@@ -2898,7 +2966,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.02,
       "sporza_id": 26,
-      "roi": 7.25
+      "roi": 7.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "benoit-cosnefroy",
@@ -2935,7 +3004,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.02,
       "sporza_id": 363,
-      "roi": 5.6
+      "roi": 5.6,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "ilan-van-wilder",
@@ -2970,7 +3040,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.02,
       "sporza_id": 267,
-      "roi": 7.0
+      "roi": 7.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "dylan-teuns",
@@ -3015,7 +3086,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.06,
       "sporza_id": 522,
-      "roi": 6.75
+      "roi": 6.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "clement-champoussin",
@@ -3052,7 +3124,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 419,
-      "roi": 9.0
+      "roi": 9.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "tim-torn-teutenberg",
@@ -3087,7 +3160,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.13,
       "sporza_id": 161,
-      "roi": 8.67
+      "roi": 8.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "egan-bernal",
@@ -3118,7 +3192,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 113,
-      "roi": 6.25
+      "roi": 6.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "paul-seixas",
@@ -3153,7 +3228,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.1,
       "sporza_id": 1127,
-      "roi": 4.6
+      "roi": 4.6,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "davide-ballerini",
@@ -3196,7 +3272,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.03,
       "sporza_id": 417,
-      "roi": 5.5
+      "roi": 5.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "fabio-jakobsen",
@@ -3235,7 +3312,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.03,
       "sporza_id": 314,
-      "roi": 5.5
+      "roi": 5.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "antonio-morgado",
@@ -3268,7 +3346,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.03,
       "sporza_id": 371,
-      "roi": 5.5
+      "roi": 5.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "stefan-kung",
@@ -3309,7 +3388,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.14,
       "sporza_id": 724,
-      "roi": 4.2
+      "roi": 4.2,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "alec-segaert",
@@ -3354,7 +3434,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.05,
       "sporza_id": 50,
-      "roi": 5.25
+      "roi": 5.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "christophe-laporte",
@@ -3401,7 +3482,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.53,
       "sporza_id": 345,
-      "roi": 4.0
+      "roi": 4.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "giulio-pellizzari",
@@ -3432,7 +3514,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0,
       "sporza_id": 229,
-      "roi": 4.0
+      "roi": 4.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "lenny-martinez",
@@ -3463,7 +3546,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.01,
       "sporza_id": 44,
-      "roi": 4.0
+      "roi": 4.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "valentin-madouas",
@@ -3504,7 +3588,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.05,
       "sporza_id": 100,
-      "roi": 4.75
+      "roi": 4.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "madis-mihkels",
@@ -3545,7 +3630,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 71,
-      "roi": 4.75
+      "roi": 4.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46342.png"
     },
     {
       "id": "vincenzo-albanese",
@@ -3592,7 +3678,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.05,
       "sporza_id": 60,
-      "roi": 6.0
+      "roi": 6.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46342.png"
     },
     {
       "id": "hugo-page",
@@ -3635,7 +3722,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 517,
-      "roi": 6.0
+      "roi": 6.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "jenthe-biermans",
@@ -3670,7 +3758,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.04,
       "sporza_id": 499,
-      "roi": 6.0
+      "roi": 6.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "jelte-krijnsen",
@@ -3719,7 +3808,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 290,
-      "roi": 5.67
+      "roi": 5.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "luke-lamperti",
@@ -3766,7 +3856,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.05,
       "sporza_id": 68,
-      "roi": 4.25
+      "roi": 4.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46342.png"
     },
     {
       "id": "rory-townsend",
@@ -3799,7 +3890,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 768,
-      "roi": 5.67
+      "roi": 5.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "daan-hoole",
@@ -3840,7 +3932,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.02,
       "sporza_id": 1113,
-      "roi": 5.67
+      "roi": 5.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "samuel-watson",
@@ -3871,7 +3964,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 137,
-      "roi": 4.0
+      "roi": 4.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "matteo-trentin",
@@ -3906,7 +4000,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.03,
       "sporza_id": 735,
-      "roi": 3.2
+      "roi": 3.2,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "jasper-stuyven",
@@ -3945,7 +4040,8 @@
       "sporza_price": 6,
       "sporza_popularity": 0.22,
       "sporza_id": 261,
-      "roi": 2.67
+      "roi": 2.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "riley-sheehan",
@@ -3986,7 +4082,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.02,
       "sporza_id": 1150,
-      "roi": 5.0
+      "roi": 5.0,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "max-kanter",
@@ -4019,7 +4116,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0,
       "sporza_id": 426,
-      "roi": 3.75
+      "roi": 3.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "mathias-vacek",
@@ -4062,7 +4160,8 @@
       "sporza_price": 6,
       "sporza_popularity": 0.29,
       "sporza_id": 163,
-      "roi": 2.33
+      "roi": 2.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "nicolas-prodhomme",
@@ -4093,7 +4192,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 1124,
-      "roi": 4.67
+      "roi": 4.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "bastien-tronchon",
@@ -4138,7 +4238,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.04,
       "sporza_id": 110,
-      "roi": 4.33
+      "roi": 4.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "paul-lapeira",
@@ -4177,7 +4278,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.02,
       "sporza_id": 1118,
-      "roi": 2.75
+      "roi": 2.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "rasmus-sojbergpedersen",
@@ -4246,7 +4348,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 218,
-      "roi": 3.33
+      "roi": 3.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "matej-mohoric",
@@ -4293,7 +4396,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.17,
       "sporza_id": 47,
-      "roi": 1.8
+      "roi": 1.8,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "marijn-van-den-berg",
@@ -4340,7 +4444,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 80,
-      "roi": 2.25
+      "roi": 2.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46342.png"
     },
     {
       "id": "pello-bilbao",
@@ -4377,7 +4482,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 33,
-      "roi": 2.25
+      "roi": 2.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "alex-kirsch",
@@ -4422,7 +4528,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 510,
-      "roi": 2.67
+      "roi": 2.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "laurence-pithie",
@@ -4467,7 +4574,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.13,
       "sporza_id": 230,
-      "roi": 2.0
+      "roi": 2.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "timo-kielich",
@@ -4512,7 +4620,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.05,
       "sporza_id": 342,
-      "roi": 2.67
+      "roi": 2.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "bert-van-lerberghe",
@@ -4547,7 +4656,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 266,
-      "roi": 2.67
+      "roi": 2.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "filippo-baroncini",
@@ -4578,7 +4688,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 360,
-      "roi": 2.67
+      "roi": 2.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "julius-johansen",
@@ -4621,7 +4732,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.02,
       "sporza_id": 367,
-      "roi": 3.5
+      "roi": 3.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "rick-pluimers",
@@ -4664,7 +4776,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.03,
       "sporza_id": 729,
-      "roi": 1.75
+      "roi": 1.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "roger-adria",
@@ -4707,7 +4820,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.05,
       "sporza_id": 186,
-      "roi": 2.33
+      "roi": 2.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46063.png"
     },
     {
       "id": "frank-van-den-broek",
@@ -4750,7 +4864,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 327,
-      "roi": 2.33
+      "roi": 2.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "oliver-naesen",
@@ -4793,7 +4908,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.1,
       "sporza_id": 1120,
-      "roi": 2.33
+      "roi": 2.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "arjen-livyns",
@@ -4836,7 +4952,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.05,
       "sporza_id": 428,
-      "roi": 2.33
+      "roi": 2.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "dorian-godon",
@@ -4869,7 +4986,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0,
       "sporza_id": 117,
-      "roi": 1.75
+      "roi": 1.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "florian-senechal",
@@ -4910,7 +5028,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.03,
       "sporza_id": 24,
-      "roi": 2.0
+      "roi": 2.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "axel-zingle",
@@ -4951,7 +5070,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.02,
       "sporza_id": 357,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "john-degenkolb",
@@ -4992,7 +5112,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.02,
       "sporza_id": 307,
-      "roi": 2.0
+      "roi": 2.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "mikkel-honore",
@@ -5033,7 +5154,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 67,
-      "roi": 2.0
+      "roi": 2.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46342.png"
     },
     {
       "id": "stefan-bissegger",
@@ -5074,7 +5196,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.06,
       "sporza_id": 1104,
-      "roi": 2.0
+      "roi": 2.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "dylan-van-baarle",
@@ -5115,7 +5238,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.25,
       "sporza_id": 263,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "rui-oliveira",
@@ -5156,7 +5280,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 375,
-      "roi": 2.0
+      "roi": 2.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "yves-lampaert",
@@ -5197,7 +5322,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.1,
       "sporza_id": 250,
-      "roi": 2.0
+      "roi": 2.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "oded-kogut",
@@ -5228,7 +5354,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 1141,
-      "roi": 2.0
+      "roi": 2.0,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "huub-artz",
@@ -5269,7 +5396,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.02,
       "sporza_id": 1200,
-      "roi": 2.0
+      "roi": 2.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "ivan-garcia-cortina",
@@ -5308,7 +5436,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.02,
       "sporza_id": 194,
-      "roi": 1.25
+      "roi": 1.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46063.png"
     },
     {
       "id": "tim-van-dijke",
@@ -5347,7 +5476,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 236,
-      "roi": 1.67
+      "roi": 1.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "soren-kragh-andersen",
@@ -5424,7 +5554,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.09,
       "sporza_id": 61,
-      "roi": 1.25
+      "roi": 1.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46342.png"
     },
     {
       "id": "mick-van-dijke",
@@ -5463,7 +5594,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 235,
-      "roi": 1.67
+      "roi": 1.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "axel-laurance",
@@ -5502,7 +5634,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.03,
       "sporza_id": 124,
-      "roi": 1.25
+      "roi": 1.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "domen-novak",
@@ -5541,7 +5674,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 373,
-      "roi": 1.67
+      "roi": 1.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "jordan-labrosse",
@@ -5580,7 +5714,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 1117,
-      "roi": 1.67
+      "roi": 1.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "jan-tratnik",
@@ -5619,7 +5754,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 233,
-      "roi": 1.25
+      "roi": 1.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "michael-valgren-andersen",
@@ -5694,7 +5830,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 1142,
-      "roi": 1.33
+      "roi": 1.33,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "brent-van-moer",
@@ -5731,7 +5868,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.02,
       "sporza_id": 611,
-      "roi": 1.33
+      "roi": 1.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484217.png"
     },
     {
       "id": "alberto-bettiol",
@@ -5768,7 +5906,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.03,
       "sporza_id": 418,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "pau-miquel-delgado",
@@ -5877,7 +6016,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 55,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "frits-biesterbos",
@@ -5914,7 +6054,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.06,
       "sporza_id": 303,
-      "roi": 2.0
+      "roi": 2.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "filippo-fiorelli",
@@ -5951,7 +6092,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 336,
-      "roi": 1.33
+      "roi": 1.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "danny-van-poppel",
@@ -5988,7 +6130,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 238,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "louis-barre",
@@ -6025,7 +6168,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.02,
       "sporza_id": 1302,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "alessandro-covi",
@@ -6062,7 +6206,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 277,
-      "roi": 1.33
+      "roi": 1.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "francesco-busatto",
@@ -6099,7 +6244,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 4,
-      "roi": 1.33
+      "roi": 1.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "lennert-van-eetvelt",
@@ -6136,7 +6282,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.06,
       "sporza_id": 183,
-      "roi": 0.8
+      "roi": 0.8,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "aurelien-paret-peintre",
@@ -6173,7 +6320,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 1121,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "carlos-canal",
@@ -6208,7 +6356,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 190,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46063.png"
     },
     {
       "id": "kamil-malecki",
@@ -6243,7 +6392,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 604,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484217.png"
     },
     {
       "id": "baptiste-vadic",
@@ -6278,7 +6428,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 710,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "orluis-aular",
@@ -6313,7 +6464,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 188,
-      "roi": 0.75
+      "roi": 0.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46063.png"
     },
     {
       "id": "tomas-kopecky",
@@ -6348,7 +6500,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.04,
       "sporza_id": 753,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "cyril-barthe",
@@ -6383,7 +6536,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 82,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "clement-alleno",
@@ -6418,7 +6572,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 446,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46293.png"
     },
     {
       "id": "piet-allegaert",
@@ -6453,7 +6608,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.02,
       "sporza_id": 496,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "cesar-macias-estrada",
@@ -6522,7 +6678,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 451,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46293.png"
     },
     {
       "id": "vlad-van-mechelen",
@@ -6557,7 +6714,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 57,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "pietro-mattio",
@@ -6592,7 +6750,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 347,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "tom-van-asbroeck",
@@ -6627,7 +6786,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 1153,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "luca-van-boven",
@@ -6662,7 +6822,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 1208,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "samuel-leroux",
@@ -6697,7 +6858,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 703,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "aime-de-gendt",
@@ -6732,7 +6894,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 592,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484217.png"
     },
     {
       "id": "anthony-turgis",
@@ -6767,7 +6930,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 709,
-      "roi": 0.75
+      "roi": 0.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "joren-bloem2",
@@ -6802,7 +6966,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 743,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "aaron-gate",
@@ -6837,7 +7002,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 423,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "julius-van-den-berg",
@@ -6872,7 +7038,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 326,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "marco-haller",
@@ -6907,7 +7074,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 719,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "vito-braet",
@@ -6942,7 +7110,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.02,
       "sporza_id": 1202,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "guillaume-boivin",
@@ -6977,7 +7146,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1132,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "cedric-beullens",
@@ -7012,7 +7182,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 1201,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "martijn-rasenberg",
@@ -7047,7 +7218,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1297,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "frederik-frison",
@@ -7082,7 +7254,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 596,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484217.png"
     },
     {
       "id": "alexys-brunel",
@@ -7117,7 +7290,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 691,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "luca-mozzato",
@@ -7152,7 +7326,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 728,
-      "roi": 0.75
+      "roi": 0.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "kamil-gradek",
@@ -7187,7 +7362,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 42,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "sean-flynn",
@@ -7222,7 +7398,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 311,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "aivaras-mikutis",
@@ -7257,7 +7434,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 727,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "matyas-kopecky",
@@ -7292,7 +7470,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.1,
       "sporza_id": 752,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "axel-huens",
@@ -7327,7 +7506,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.04,
       "sporza_id": 96,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "manlio-moro",
@@ -7362,7 +7542,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 200,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46063.png"
     },
     {
       "id": "ryan-mullen",
@@ -7397,7 +7578,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1145,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "jasper-de-buyst",
@@ -7432,7 +7614,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.07,
       "sporza_id": 170,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "silvan-dillier",
@@ -7467,7 +7650,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 9,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "jonas-rickaert",
@@ -7502,7 +7686,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.02,
       "sporza_id": 22,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "jonas-geens",
@@ -7537,7 +7722,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 11,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "florian-dauphin",
@@ -7572,7 +7758,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 693,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "alessandro-borgo",
@@ -7607,7 +7794,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 34,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "mathias-norsgaard",
@@ -7642,7 +7830,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.02,
       "sporza_id": 152,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "jarno-widar",
@@ -7677,7 +7866,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.04,
       "sporza_id": 185,
-      "roi": 0.75
+      "roi": 0.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "andrea-raccagni-noviero",
@@ -7746,7 +7936,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 723,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "warren-barguil",
@@ -7781,7 +7972,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 302,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "alex-baudin",
@@ -7816,7 +8008,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 63,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46342.png"
     },
     {
       "id": "joseph-blackmore",
@@ -7851,7 +8044,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.02,
       "sporza_id": 1131,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "maxim-van-gils",
@@ -7886,7 +8080,8 @@
       "sporza_price": 6,
       "sporza_popularity": 0.02,
       "sporza_id": 237,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "diego-ulissi",
@@ -7921,7 +8116,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 442,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "ion-izagirre",
@@ -7956,7 +8152,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 507,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "ewen-costiou",
@@ -7991,7 +8188,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 87,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "jakub-otruba",
@@ -8026,7 +8224,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 490,
-      "roi": 1.5
+      "roi": 1.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48650.png"
     },
     {
       "id": "pavel-sivakov",
@@ -8061,7 +8260,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0,
       "sporza_id": 379,
-      "roi": 0.75
+      "roi": 0.75,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "victor-langellotti",
@@ -8096,7 +8296,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 123,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "thibau-nys",
@@ -8131,7 +8332,8 @@
       "sporza_price": 6,
       "sporza_popularity": 0.08,
       "sporza_id": 153,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "nick-schultz",
@@ -8198,7 +8400,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 747,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "vojtech-kminek",
@@ -8231,7 +8434,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 461,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46293.png"
     },
     {
       "id": "timo-roosen",
@@ -8264,7 +8468,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 325,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "lev-gonov",
@@ -8297,7 +8502,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1214,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "thomas-gachignard",
@@ -8330,7 +8536,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 698,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "edward-theuns",
@@ -8363,7 +8570,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.02,
       "sporza_id": 162,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "sander-de-pestel",
@@ -8396,7 +8604,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.02,
       "sporza_id": 1107,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "roel-van-sintmaartensdijk",
@@ -8429,7 +8638,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 1210,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "timo-de-jong",
@@ -8462,7 +8672,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 306,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "thomas-bonnet",
@@ -8495,7 +8706,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 687,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "dries-de-pooter",
@@ -8528,7 +8740,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 279,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "henri-francois-renard-haquin",
@@ -8561,7 +8774,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 324,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "petr-kelemen",
@@ -8594,7 +8808,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 721,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "noah-hobbs",
@@ -8627,7 +8842,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 66,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46342.png"
     },
     {
       "id": "alexandre-mayer",
@@ -8660,7 +8876,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 465,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46293.png"
     },
     {
       "id": "josh-burnett",
@@ -8693,7 +8910,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 450,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46293.png"
     },
     {
       "id": "dylan-vandenstorme",
@@ -8726,7 +8944,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 632,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "jarrad-drizners",
@@ -8759,7 +8978,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 217,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "carl-frederik-bevort",
@@ -8792,7 +9012,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 388,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "niklas-larsen",
@@ -8825,7 +9046,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 756,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "rasmus-tiller",
@@ -8858,7 +9080,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.02,
       "sporza_id": 412,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "per-strand-hagenes",
@@ -8891,7 +9114,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 338,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "juan-sebastian-molano",
@@ -8924,7 +9148,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 370,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "dries-van-gestel",
@@ -8957,7 +9182,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 265,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "colby-simmons",
@@ -8990,7 +9216,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 76,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46342.png"
     },
     {
       "id": "filip-maciejuk",
@@ -9023,7 +9250,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1301,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46063.png"
     },
     {
       "id": "michiel-lambrecht",
@@ -9056,7 +9284,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 622,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "robert-stannard",
@@ -9089,7 +9318,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 52,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "kelland-brien",
@@ -9154,7 +9384,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 449,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46293.png"
     },
     {
       "id": "cees-bol",
@@ -9187,7 +9418,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 1105,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "clement-russo",
@@ -9220,7 +9452,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 109,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "rune-herregodts",
@@ -9253,7 +9486,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 366,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "erik-nordsaeter-resell",
@@ -9318,7 +9552,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 97,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "nils-politt",
@@ -9351,7 +9586,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.05,
       "sporza_id": 378,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45599.png"
     },
     {
       "id": "nickolas-zukowsky",
@@ -9384,7 +9620,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 614,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484217.png"
     },
     {
       "id": "emils-liepins",
@@ -9417,7 +9654,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 603,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484217.png"
     },
     {
       "id": "nolan-huysmans",
@@ -9450,7 +9688,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 621,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "johan-price-pejtersen",
@@ -9483,7 +9722,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 20,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "ceriel-desal",
@@ -9548,7 +9788,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1195,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/508860.png"
     },
     {
       "id": "phil-bauhaus",
@@ -9581,7 +9822,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 32,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "cole-kessler",
@@ -9614,7 +9856,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1186,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/508860.png"
     },
     {
       "id": "matisse-van-kerckhove",
@@ -9679,7 +9922,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 745,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "gleb-syritsa",
@@ -9712,7 +9956,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 438,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "artuur-torney",
@@ -9745,7 +9990,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 626,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "jan-maas",
@@ -9778,7 +10024,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 512,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "sean-christian",
@@ -9811,7 +10058,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1181,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/508860.png"
     },
     {
       "id": "jakob-soderqvist",
@@ -9844,7 +10092,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.04,
       "sporza_id": 160,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "titouan-fontaine",
@@ -9877,7 +10126,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 90,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "niklas-markl",
@@ -9910,7 +10160,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 318,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "matevz-govekar",
@@ -9943,7 +10194,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 41,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "ben-oliver",
@@ -9976,7 +10228,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1192,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/508860.png"
     },
     {
       "id": "riley-pickrell",
@@ -10009,7 +10262,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 1193,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/508860.png"
     },
     {
       "id": "samuel-boardman",
@@ -10042,7 +10296,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1178,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/508860.png"
     },
     {
       "id": "quinn-simmons",
@@ -10075,7 +10330,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.03,
       "sporza_id": 156,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "victor-lafay",
@@ -10108,7 +10364,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 755,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "lorenzo-germani",
@@ -10141,7 +10398,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 93,
-      "roi": 1.0
+      "roi": 1.0,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "afonso-eulalio",
@@ -10174,7 +10432,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 40,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "georg-zimmermann",
@@ -10207,7 +10466,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 1211,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "bauke-mollema",
@@ -10240,7 +10500,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 150,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "magnus-cort-nielsen",
@@ -10305,7 +10566,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 199,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46063.png"
     },
     {
       "id": "toon-aerts",
@@ -10338,7 +10600,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.03,
       "sporza_id": 1199,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "daniel-felipe-martinez",
@@ -10371,7 +10634,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0,
       "sporza_id": 226,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "cian-uijtdebroeks",
@@ -10404,7 +10668,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.02,
       "sporza_id": 212,
-      "roi": 0.4
+      "roi": 0.4,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46063.png"
     },
     {
       "id": "alexandre-delettre",
@@ -10437,7 +10702,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 695,
-      "roi": 0.67
+      "roi": 0.67,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "pepijn-reinderink",
@@ -10468,7 +10734,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 258,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "alessandro-romele",
@@ -10499,7 +10766,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 433,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "magnus-sheffield",
@@ -10530,7 +10798,8 @@
       "sporza_price": 5,
       "sporza_popularity": 0.04,
       "sporza_id": 128,
-      "roi": 0.2
+      "roi": 0.2,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "casper-pedersen",
@@ -10561,7 +10830,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 256,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "xandro-meurisse",
@@ -10592,7 +10862,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 605,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484217.png"
     },
     {
       "id": "ward-vanhoof",
@@ -10623,7 +10894,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 1217,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "albert-withen-philipsen",
@@ -10654,7 +10926,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.04,
       "sporza_id": 167,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "siebe-deweirdt",
@@ -10685,7 +10958,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 618,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "victor-vercouillie",
@@ -10716,7 +10990,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 1218,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "lennert-belmans",
@@ -10747,7 +11022,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 3,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "ben-turner",
@@ -10778,7 +11054,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.08,
       "sporza_id": 135,
-      "roi": 0.25
+      "roi": 0.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "sebastien-grignard",
@@ -10809,7 +11086,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 175,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "vincent-van-hemelen",
@@ -10840,7 +11118,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 629,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "milan-lanhove",
@@ -10871,7 +11150,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 623,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "edoardo-affini",
@@ -10902,7 +11182,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.03,
       "sporza_id": 330,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "artem-shmidt",
@@ -10933,7 +11214,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 129,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "kim-heiduk",
@@ -10964,7 +11246,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 120,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "otto-vergaerde",
@@ -10995,7 +11278,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.02,
       "sporza_id": 164,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "sven-erik-bystrom",
@@ -11026,7 +11310,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 391,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "stan-dewulf",
@@ -11057,7 +11342,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.02,
       "sporza_id": 1108,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "ben-swift",
@@ -11088,7 +11374,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.02,
       "sporza_id": 132,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "tobias-bayer",
@@ -11119,7 +11406,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.02,
       "sporza_id": 2,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "jonathan-vervenne",
@@ -11150,7 +11438,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 271,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "michal-kwiatkowski",
@@ -11181,7 +11470,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 122,
-      "roi": 0.25
+      "roi": 0.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48612.png"
     },
     {
       "id": "markus-hoelgaard",
@@ -11212,7 +11502,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 397,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "edward-planckaert",
@@ -11243,7 +11534,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 18,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "anders-foldager",
@@ -11274,7 +11566,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 285,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "robert-donaldson",
@@ -11305,7 +11598,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 281,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "felix-orn-kristoff",
@@ -11336,7 +11630,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1212,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "liam-slock",
@@ -11367,7 +11662,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 180,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "henrik-pedersen",
@@ -11398,7 +11694,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 408,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "max-walscheid",
@@ -11429,7 +11726,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 166,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/59902.png"
     },
     {
       "id": "ferre-geeraerts",
@@ -11460,7 +11758,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 619,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "tim-naberman",
@@ -11491,7 +11790,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 320,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "leander-van-hautegem",
@@ -11522,7 +11822,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 628,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "jules-hesters",
@@ -11553,7 +11854,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.06,
       "sporza_id": 620,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "pierre-thierry",
@@ -11584,7 +11886,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1221,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "brem-deman",
@@ -11615,7 +11918,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 616,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "rayan-boulahoite",
@@ -11646,7 +11950,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 689,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "jonas-hem-hvideberg",
@@ -11677,7 +11982,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 399,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "pascal-ackermann",
@@ -11708,7 +12014,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 273,
-      "roi": 0.25
+      "roi": 0.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "maikel-zijlaard",
@@ -11739,7 +12046,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 741,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "luka-mezgec",
@@ -11770,7 +12078,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 293,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "hector-alvarez-martinez",
@@ -11831,7 +12140,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1180,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/508860.png"
     },
     {
       "id": "storm-ingebrigtsen",
@@ -11862,7 +12172,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 400,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "martin-urianstad",
@@ -11893,7 +12204,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 415,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/432471.png"
     },
     {
       "id": "kristoffer-gullhav",
@@ -11982,7 +12294,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 262,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "milan-van-den-haute",
@@ -12011,7 +12324,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 627,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "james-mckay",
@@ -12102,7 +12416,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1154,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "marijn-maas",
@@ -12133,7 +12448,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 794,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "max-kroonen",
@@ -12164,7 +12480,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 793,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "jonathan-malte-rottmann",
@@ -12311,7 +12628,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 780,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "ole-jablonski",
@@ -12369,7 +12687,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 786,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "joshua-huppertz",
@@ -12428,7 +12747,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 781,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "timothy-dupont",
@@ -12459,7 +12779,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0.01,
       "sporza_id": 772,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "george-radcliffe",
@@ -12520,7 +12841,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 706,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "jelle-johannink",
@@ -12551,7 +12873,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 751,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "hugo-paats",
@@ -12698,7 +13021,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 785,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "alessio-magagnotti",
@@ -12845,7 +13169,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1275,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "daan-van-sintmaartensdijk",
@@ -12876,7 +13201,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 795,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "killian-theot",
@@ -12991,7 +13317,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 708,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45981.png"
     },
     {
       "id": "bert-bolle",
@@ -13082,7 +13409,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.02,
       "sporza_id": 102,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     },
     {
       "id": "senne-thonnon",
@@ -13113,7 +13441,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 625,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "rick-ottema",
@@ -13174,7 +13503,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 791,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "gil-gelders",
@@ -13205,7 +13535,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 248,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "ed-uptegrove",
@@ -13292,7 +13623,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 39,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "enrico-dhaeye",
@@ -13587,7 +13919,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 788,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "blake-agnoletto",
@@ -13738,7 +14071,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 631,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46272.png"
     },
     {
       "id": "aldo-taillieu",
@@ -13859,7 +14193,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 7,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "alfred-george",
@@ -14010,7 +14345,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 35,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "warre-vangheluwe",
@@ -14041,7 +14377,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 268,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45844.png"
     },
     {
       "id": "yorben-lauryssen",
@@ -14072,7 +14409,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 775,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "arnaud-noirhomme",
@@ -14451,7 +14789,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 354,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/43809.png"
     },
     {
       "id": "julien-desmarets",
@@ -14626,7 +14965,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 783,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "zeno-moonen",
@@ -14657,7 +14997,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 778,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "hugo-wertz",
@@ -14805,7 +15146,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 787,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "arnaud-tendon",
@@ -14896,7 +15238,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1189,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/508860.png"
     },
     {
       "id": "daniel-arnes",
@@ -15015,7 +15358,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 734,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/450038.png"
     },
     {
       "id": "alexandre-balmer",
@@ -15046,7 +15390,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1286,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/477182.png"
     },
     {
       "id": "simone-gualdi",
@@ -15077,7 +15422,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1204,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "martin-marcellusi",
@@ -15108,7 +15454,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 1166,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46274.png"
     },
     {
       "id": "filippo-conca",
@@ -15139,7 +15486,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 276,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "alessandro-pinarello",
@@ -15170,7 +15518,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1147,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.vrt.be/orig/2026/02/18/83ad048c-2195-4773-a93d-39d248e72fb6.png"
     },
     {
       "id": "pau-marti-soriano",
@@ -15231,7 +15580,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 441,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "adrien-boichis",
@@ -15262,7 +15612,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 214,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48539.png"
     },
     {
       "id": "mattia-gaffuri",
@@ -15293,7 +15644,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 312,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "gregor-muhlberger",
@@ -15324,7 +15676,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 1119,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/45647.png"
     },
     {
       "id": "wout-poels",
@@ -15355,7 +15708,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 763,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "alan-hatherly",
@@ -15386,7 +15740,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 287,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "felix-engelhardt",
@@ -15417,7 +15772,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 284,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/61617.png"
     },
     {
       "id": "casper-van-uden",
@@ -15448,7 +15804,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0,
       "sporza_id": 328,
-      "roi": 0.25
+      "roi": 0.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46066.png"
     },
     {
       "id": "ivan-romeo",
@@ -15479,7 +15836,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0.01,
       "sporza_id": 205,
-      "roi": 0.25
+      "roi": 0.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46063.png"
     },
     {
       "id": "damiano-caruso",
@@ -15510,7 +15868,8 @@
       "sporza_price": 4,
       "sporza_popularity": 0,
       "sporza_id": 37,
-      "roi": 0.25
+      "roi": 0.25,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/431902.png"
     },
     {
       "id": "nicolas-vinokurov",
@@ -15541,7 +15900,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 445,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "benjamin-thomas-2",
@@ -15572,7 +15932,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 523,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "dario-igor-belletta",
@@ -15603,7 +15964,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 655,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/442193.png"
     },
     {
       "id": "clement-izquierdo",
@@ -15634,7 +15996,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 508,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "maurice-ballerstedt",
@@ -15665,7 +16028,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0.01,
       "sporza_id": 1,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46420.png"
     },
     {
       "id": "yevgeniy-fedorov",
@@ -15696,7 +16060,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 421,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "wessel-mouris",
@@ -15727,7 +16092,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 760,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/484540.png"
     },
     {
       "id": "jonas-rutsch",
@@ -15758,7 +16124,8 @@
       "sporza_price": 3,
       "sporza_popularity": 0,
       "sporza_id": 1206,
-      "roi": 0.33
+      "roi": 0.33,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46268.png"
     },
     {
       "id": "merhawi-kudus",
@@ -15789,7 +16156,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 463,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46293.png"
     },
     {
       "id": "lorenzo-quartucci",
@@ -15820,7 +16188,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 467,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46293.png"
     },
     {
       "id": "hugo-de-la-calle-arango",
@@ -15851,7 +16220,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 453,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46293.png"
     },
     {
       "id": "eric-antonio-fagundez",
@@ -15912,7 +16282,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 502,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44245.png"
     },
     {
       "id": "darren-van-bekkum",
@@ -15943,7 +16314,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 443,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/46140.png"
     },
     {
       "id": "alex-molenaar",
@@ -15974,7 +16346,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 487,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/48650.png"
     },
     {
       "id": "brieuc-rolland",
@@ -16005,7 +16378,8 @@
       "sporza_price": 2,
       "sporza_popularity": 0,
       "sporza_id": 108,
-      "roi": 0.5
+      "roi": 0.5,
+      "team_logo": "https://images.sports.gracenote.com/images/lib/basic/sport/TimeJudgeSports/club/shirt/medium/44246.png"
     }
   ],
   "races": [
