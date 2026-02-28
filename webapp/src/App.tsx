@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react';
-import { Trophy, CalendarDays, User, TrendingUp, Loader2, X, BarChart3, Medal } from 'lucide-react';
+import React, { useState } from 'react';
+import { Trophy, CalendarDays, User, TrendingUp, Loader2, X, BarChart3, Medal, LogOut, Plus, Users } from 'lucide-react';
+import { Routes, Route, useNavigate, Navigate } from 'react-router-dom';
+import { useAuth } from './AuthContext';
+import { loginWithGoogle, logout } from './firebase';
 import './index.css';
 
-interface Race {
-  race_id: string;
-  selected: string[];
-}
+
 
 interface Rider {
   id: string;
@@ -22,17 +22,66 @@ interface RacesMetadata {
   class: string;
 }
 
+interface CustomTeam {
+  id: string;
+  name: string;
+  riders: string[]; // up to 20
+}
+
+function LandingPage() {
+  const navigate = useNavigate();
+  const { user, setMockUser } = useAuth();
+
+  // Automatically redirect if logged in
+  React.useEffect(() => {
+    if (user) navigate('/dashboard');
+  }, [user, navigate]);
+
+  const handleLogin = async () => {
+    try {
+      const res = await loginWithGoogle();
+      if (res && res.user) {
+        setMockUser(res.user);
+      }
+    } catch (e) {
+      console.error("Login failed", e);
+    }
+  }
+
+  return (
+    <div className="app-container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', gap: '2rem' }}>
+      <Trophy size={80} color="var(--primary-color)" className="animate-fade-in" />
+      <div style={{ textAlign: 'center' }}>
+        <h1 style={{ fontSize: '4rem', marginBottom: '0' }}>Wielermanager <span className="text-gradient">Pro</span></h1>
+        <p style={{ color: 'var(--text-main)', fontSize: '1.2rem', marginTop: '10px' }}>Simulate exact PCS Top-Competitor Outcomes</p>
+      </div>
+
+      <button
+        onClick={handleLogin}
+        className="glass-panel"
+        style={{
+          display: 'flex', alignItems: 'center', gap: '15px',
+          padding: '1rem 3rem', cursor: 'pointer', fontSize: '1.2rem',
+          background: 'var(--primary-color)', color: 'black', border: 'none',
+          fontWeight: 'bold', outline: 'none'
+        }}>
+        <User size={24} />
+        Sign in with Google
+      </button>
+    </div>
+  )
+}
+
 function RiderModal({ rider, racesMeta, onClose }: { rider: Rider, racesMeta: Record<string, RacesMetadata>, onClose: () => void }) {
   if (!rider) return null;
 
-  // Find all races where the rider is a top competitor
   const rankedRaces = Object.entries(rider.top_ranks)
     .map(([raceId, rank]) => ({
       raceName: racesMeta[raceId]?.name || raceId,
       date: racesMeta[raceId]?.date || "?",
       rank
     }))
-    .sort((a, b) => a.rank - b.rank); // Sort by best rank
+    .sort((a, b) => a.rank - b.rank);
 
   return (
     <div className="modal-overlay" onClick={onClose} style={{
@@ -58,7 +107,7 @@ function RiderModal({ rider, racesMeta, onClose }: { rider: Rider, racesMeta: Re
           </div>
           <div>
             <h2 style={{ fontSize: '2rem', marginBottom: '0.2rem' }}>{rider.name}</h2>
-            <div style={{ color: 'var(--primary-color)', fontSize: '1.1rem' }}>Ultimate 30-Man Squad</div>
+            <div style={{ color: 'var(--primary-color)', fontSize: '1.1rem' }}>Global Database Pool</div>
           </div>
         </div>
 
@@ -94,36 +143,38 @@ function RiderModal({ rider, racesMeta, onClose }: { rider: Rider, racesMeta: Re
             </ul>
           )}
         </div>
-
-        <div style={{ fontSize: '0.85rem', color: 'var(--text-main)', opacity: 0.8, textAlign: 'center' }}>
-          Riders score points towards their <b>Global Score</b> based on their rank in official ProCyclingStats "Top Competitors" lists (e.g. Rank #1 earns 100 points).
-        </div>
-
       </div>
     </div>
   );
 }
 
+function Dashboard() {
+  const { user, setMockUser } = useAuth();
+  const navigate = useNavigate();
 
-function App() {
   const [activeRaceId, setActiveRaceId] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const [squadRiders, setSquadRiders] = useState<string[]>([]);
-  const [solutionRaces, setSolutionRaces] = useState<Race[]>([]);
+  // Database State
   const [ridersMeta, setRidersMeta] = useState<Record<string, Rider>>({});
+  const [ridersList, setRidersList] = useState<Rider[]>([]); // ALL riders sorted by score
   const [racesMeta, setRacesMeta] = useState<Record<string, RacesMetadata>>({});
   const [racesList, setRacesList] = useState<RacesMetadata[]>([]);
-  const [totalPoints, setTotalPoints] = useState(0);
+
+  // Team Modeling State
+  const [teams, setTeams] = useState<CustomTeam[]>([{ id: 'default', name: 'My Simulator Team', riders: [] }]);
+  const [activeTeamId, setActiveTeamId] = useState<string>('default');
 
   const [selectedRider, setSelectedRider] = useState<Rider | null>(null);
 
-  useEffect(() => {
+  React.useEffect(() => {
     async function fetchData() {
       try {
         setLoading(true);
         const API_BASE = import.meta.env.PROD ? '' : 'http://localhost:8000';
+
+        // Fetch the raw database of everyone
         const [ridersRes, racesRes] = await Promise.all([
           fetch(`${API_BASE}/api/riders`).then(r => r.json()),
           fetch(`${API_BASE}/api/races`).then(r => r.json())
@@ -132,6 +183,7 @@ function App() {
         const rMeta: Record<string, Rider> = {};
         ridersRes.forEach((r: Rider) => rMeta[r.id] = r);
         setRidersMeta(rMeta);
+        setRidersList(ridersRes);
 
         const rcMeta: Record<string, RacesMetadata> = {};
         racesRes.forEach((r: RacesMetadata) => rcMeta[r.id] = r);
@@ -140,15 +192,12 @@ function App() {
 
         if (racesRes.length > 0) setActiveRaceId(racesRes[0].id);
 
-        const solveRes = await fetch(`${API_BASE}/api/solve`, { method: 'POST' }).then(r => r.json());
-
-        if (solveRes.error) {
-          setError(solveRes.error);
-        } else {
-          setSquadRiders(solveRes.squad_riders);
-          setSolutionRaces(solveRes.races);
-          setTotalPoints(solveRes.total_points);
+        // Mock load from LocalStorage first instead of forcing Firestore setup
+        const localTeams = localStorage.getItem('wielermanager_teams');
+        if (localTeams) {
+          setTeams(JSON.parse(localTeams));
         }
+
       } catch (err: any) {
         setError(err.message || 'Failed to fetch data from backend');
       } finally {
@@ -158,14 +207,63 @@ function App() {
     fetchData();
   }, []);
 
+  const handleLogout = () => {
+    logout();
+    setMockUser(null);
+    navigate('/');
+  }
+
+  const saveTeamsToLocal = (updatedTeams: CustomTeam[]) => {
+    setTeams(updatedTeams);
+    localStorage.setItem('wielermanager_teams', JSON.stringify(updatedTeams));
+  };
+
+  const activeTeam = teams.find(t => t.id === activeTeamId) || teams[0];
+
+  const handleToggleRider = (riderId: string) => {
+    const isSelected = activeTeam.riders.includes(riderId);
+    let updatedRiders = [...activeTeam.riders];
+
+    if (isSelected) {
+      updatedRiders = updatedRiders.filter(id => id !== riderId);
+    } else {
+      if (updatedRiders.length >= 20) {
+        alert("Je ploeg mag maximaal 20 renners bevatten.");
+        return;
+      }
+      updatedRiders.push(riderId);
+    }
+
+    const updatedTeams = teams.map(t => t.id === activeTeamId ? { ...t, riders: updatedRiders } : t);
+    saveTeamsToLocal(updatedTeams);
+  };
+
+  // Calculate Middle Column: The best 12 from the active team
+  const evaluateStarters = () => {
+    if (!activeRaceId) return [];
+
+    const ourRiders = activeTeam.riders.map(id => ridersMeta[id]).filter(Boolean);
+    // Who is actually starting the active race?
+    const starters = ourRiders.filter(r => r.starts.includes(activeRaceId));
+
+    // Sort them by their pcs rank for this race
+    starters.sort((a, b) => {
+      const rankA = a.top_ranks[activeRaceId] || 999;
+      const rankB = b.top_ranks[activeRaceId] || 999;
+      return rankA - rankB;
+    });
+
+    return starters.slice(0, 12).map(r => r.id);
+  };
+
+  const current12Starters = evaluateStarters();
+  const activeRaceMeta = racesMeta[activeRaceId || ''];
+
   if (loading) {
     return (
       <div className="app-container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '80vh', gap: '2rem' }}>
         <Loader2 className="animate-spin" size={64} color="var(--primary-color)" />
-        <h2 className="text-gradient">Scraping 'Top Competitors' Data...</h2>
-        <p style={{ color: 'var(--text-main)', textAlign: 'center', maxWidth: '400px' }}>
-          De AI verzamelt prognoses voor {racesList.length || 25} klassiekers en berekent de ultieme 30-koppige selectie.
-        </p>
+        <h2 className="text-gradient">Loading PCS Database...</h2>
       </div>
     );
   }
@@ -174,47 +272,70 @@ function App() {
     return <div className="app-container" style={{ color: 'var(--accent-red)' }}>Error: {error}</div>;
   }
 
-  const activeRaceData = solutionRaces.find(r => r.race_id === activeRaceId);
-  const activeRaceMeta = racesMeta[activeRaceId || ''];
-
-  // The squad is inherently the top 30
-  const sortedSquad = [...squadRiders];
-
   return (
-    <div className="app-container">
+    <div className="app-container" style={{ maxWidth: '100vw' }}>
       {selectedRider && <RiderModal rider={selectedRider} racesMeta={racesMeta} onClose={() => setSelectedRider(null)} />}
 
-      <header className="header animate-fade-in">
+      <header className="header animate-fade-in" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
-          <div className="subtitle">ProCyclingStats AI Predictions</div>
-          <h1>TopCompetitors <span className="text-gradient">Suggester</span></h1>
-          <div style={{ color: 'var(--primary-dark)', fontSize: '0.9rem', marginTop: '5px' }}>The Ultimate 30-Man Spring Roster</div>
+          <div className="subtitle">ProCyclingStats Simulator</div>
+          <h1>Wielermanager <span className="text-gradient">Pro</span></h1>
         </div>
 
-        <div className="stats-badge">
-          <div className="stat-item glass-panel" style={{ padding: '0.5rem 1rem' }}>
-            <span className="stat-label">Total Global Score</span>
-            <span className="stat-value">{totalPoints} <span style={{ fontSize: '0.8rem', color: '#c5c6c7' }}>pts</span></span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <div className="stats-badge">
+            <div className="stat-item glass-panel" style={{ padding: '0.5rem 1rem' }}>
+              <Users size={16} />
+              <span>{user?.displayName || "Sim User"}</span>
+            </div>
           </div>
-          <div className="stat-item glass-panel" style={{ padding: '0.5rem 1rem' }}>
-            <span className="stat-label">Selectie</span>
-            <span className="stat-value">{squadRiders.length} <span style={{ fontSize: '0.8rem', color: '#c5c6c7' }}>renners</span></span>
-          </div>
+          <button onClick={handleLogout} className="glass-panel" style={{ padding: '0.5rem', cursor: 'pointer', background: 'transparent', border: '1px solid rgba(255,255,255,0.1)', color: 'white' }}>
+            <LogOut size={20} />
+          </button>
         </div>
       </header>
 
-      <div className="grid-3">
+      {/* Team Selection Ribbon */}
+      <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem', overflowX: 'auto', paddingBottom: '0.5rem' }}>
+        {teams.map(t => (
+          <button
+            key={t.id}
+            onClick={() => setActiveTeamId(t.id)}
+            style={{
+              padding: '0.5rem 1rem', borderRadius: '20px', cursor: 'pointer',
+              background: t.id === activeTeamId ? 'var(--primary-color)' : 'rgba(255,255,255,0.05)',
+              color: t.id === activeTeamId ? 'black' : 'white',
+              border: 'none', fontWeight: 'bold'
+            }}
+          >
+            {t.name} ({t.riders.length}/20)
+          </button>
+        ))}
+        <button
+          onClick={() => {
+            const newId = `team_${Date.now()}`;
+            saveTeamsToLocal([...teams, { id: newId, name: `Opslag ${teams.length + 1}`, riders: [] }]);
+            setActiveTeamId(newId);
+          }}
+          style={{ padding: '0.5rem 1rem', borderRadius: '20px', cursor: 'pointer', background: 'transparent', border: '1px dashed rgba(255,255,255,0.3)', color: 'white', display: 'flex', alignItems: 'center', gap: '5px' }}>
+          <Plus size={16} /> New Team
+        </button>
+      </div>
+
+      <div className="grid-3" style={{ gridTemplateColumns: 'minmax(250px, 1fr) minmax(350px, 1.5fr) minmax(300px, 1.2fr)' }}>
         {/* Races Timeline */}
-        <div className="glass-panel animate-fade-in delay-1" style={{ gridColumn: '1 / 2', maxHeight: '80vh', overflowY: 'auto' }}>
+        <div className="glass-panel animate-fade-in delay-1" style={{ maxHeight: '75vh', overflowY: 'auto' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1.5rem', position: 'sticky', top: 0, background: 'var(--bg-color)', zIndex: 10, paddingBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
             <CalendarDays size={24} color="var(--primary-color)" />
-            <h2 style={{ fontSize: '1.2rem' }}>Spring Classics 2026</h2>
+            <h2 style={{ fontSize: '1.2rem' }}>Classics Calendar</h2>
           </div>
 
           <div className="race-timeline">
             {racesList.map(race => {
-              const raceData = solutionRaces.find(r => r.race_id === race.id);
-              const hasStarters = raceData && raceData.selected.length > 0;
+              // Calculate how many starters this *specific* team has for this race
+              const startersCount = activeTeam.riders.filter(id => ridersMeta[id]?.starts.includes(race.id)).length;
+              const hasStarters = startersCount > 0;
+
               return (
                 <div
                   key={race.id}
@@ -226,7 +347,9 @@ function App() {
                     <span style={{ fontSize: '0.95rem' }}>{race.name}</span>
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '4px' }}>
                       <span style={{ fontSize: '0.75rem', color: 'var(--text-main)' }}>{race.date} • {race.class}</span>
-                      {!hasStarters && <span style={{ fontSize: '0.75rem', color: 'var(--accent-red)' }}>Geen starters</span>}
+                      <span style={{ fontSize: '0.75rem', color: hasStarters ? 'var(--primary-color)' : 'var(--accent-red)' }}>
+                        {hasStarters ? `${Math.min(12, startersCount)} opgesteld` : 'Geen starters uit ploeg'}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -235,21 +358,21 @@ function App() {
           </div>
         </div>
 
-        {/* Selected Race Roster */}
-        <div className="glass-panel animate-fade-in delay-2" style={{ gridColumn: '2 / 3', maxHeight: '80vh', overflowY: 'auto' }}>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem' }}>
+        {/* Selected Race Roster (Middle Column evaluating Custom Team) */}
+        <div className="glass-panel animate-fade-in delay-2" style={{ maxHeight: '75vh', overflowY: 'auto' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem', position: 'sticky', top: 0, background: 'var(--bg-color)', zIndex: 10, paddingBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
               <Trophy size={24} color="var(--primary-color)" />
-              <h2 style={{ fontSize: '1.2rem', lineHeight: '1.2' }}>{activeRaceMeta?.name}<br /><span style={{ fontSize: '0.9rem', color: 'var(--text-main)', fontWeight: 'normal' }}>Starters & AI Favorieten</span></h2>
+              <h2 style={{ fontSize: '1.2rem', lineHeight: '1.2' }}>{activeRaceMeta?.name}<br /><span style={{ fontSize: '0.9rem', color: 'var(--text-main)', fontWeight: 'normal' }}>Je Team Prognose</span></h2>
             </div>
-            <span className="stat-value" style={{ fontSize: '1rem' }}>{(activeRaceData?.selected?.length) || 0}/12</span>
+            <span className="stat-value" style={{ fontSize: '1rem' }}>{current12Starters.length}/12</span>
           </div>
 
           <div>
-            {!activeRaceData?.selected?.length && (
-              <div style={{ opacity: 0.5, textAlign: 'center', padding: '2rem' }}>Geen renners uit je selectie starten in deze wedstrijd.</div>
+            {current12Starters.length === 0 && (
+              <div style={{ opacity: 0.5, textAlign: 'center', padding: '2rem' }}>Niemand van deze ploeg start in deze wedstrijd. Test de simulatie door renners rechts toe te voegen.</div>
             )}
-            {activeRaceData?.selected.map((riderId, i) => {
+            {current12Starters.map((riderId, i) => {
               const rider = ridersMeta[riderId];
               const raceRank = rider?.top_ranks?.[activeRaceId || ''];
 
@@ -298,39 +421,46 @@ function App() {
           </div>
         </div>
 
-        {/* Start Team */}
+        {/* Start Team (Right Column Full Database Market) */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }} className="animate-fade-in delay-3">
-          <div className="glass-panel" style={{ flex: 1, overflowY: 'auto', maxHeight: '80vh' }}>
+          <div className="glass-panel" style={{ flex: 1, overflowY: 'auto', maxHeight: '75vh' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1.5rem', position: 'sticky', top: 0, background: 'var(--bg-color)', zIndex: 10, paddingBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
               <TrendingUp size={24} color="var(--primary-color)" />
-              <h2 style={{ fontSize: '1.2rem' }}>De 30-Man Roster</h2>
+              <div style={{ flex: 1 }}>
+                <h2 style={{ fontSize: '1.2rem' }}>Ploeg samenstellen</h2>
+                <div style={{ fontSize: '0.8rem', color: 'var(--text-main)' }}>Klik om toe te voegen aan ({activeTeam.riders.length}/20)</div>
+              </div>
             </div>
 
-            {sortedSquad.map((riderId, index) => {
-              const rider = ridersMeta[riderId];
-              const isStarting = activeRaceData?.selected.includes(riderId);
+            {ridersList.map((rider, index) => {
+              const inCustomTeam = activeTeam.riders.includes(rider.id);
 
               return (
                 <div
-                  key={riderId}
+                  key={rider.id}
                   className="rider-card"
                   style={{
-                    borderColor: isStarting ? 'var(--primary-color)' : 'rgba(255, 255, 255, 0.05)',
+                    borderColor: inCustomTeam ? 'var(--primary-color)' : 'rgba(255, 255, 255, 0.05)',
+                    background: inCustomTeam ? 'rgba(102, 252, 241, 0.05)' : 'rgba(255, 255, 255, 0.02)',
                     cursor: 'pointer',
-                    padding: '0.5rem 1rem'
+                    padding: '0.5rem 1rem',
+                    marginBottom: '8px'
                   }}
-                  onClick={() => setSelectedRider(rider)}
+                  onClick={() => handleToggleRider(rider.id)}
                 >
-                  <div style={{ color: 'var(--text-main)', fontSize: '0.8rem', width: '20px' }}>{index + 1}.</div>
+                  <div style={{ color: 'var(--text-main)', fontSize: '0.8rem', width: '25px', opacity: 0.5 }}>{index + 1}.</div>
                   <div className="rider-info">
-                    <div className="rider-name" style={{ fontSize: '0.95rem', color: isStarting ? 'var(--text-highlight)' : 'var(--text-highlight)' }}>{rider?.name}</div>
-                    <div style={{ fontSize: '0.75rem', color: isStarting ? 'var(--primary-color)' : 'var(--text-main)' }}>
-                      {isStarting ? "Start vandaag" : "-"}
-                    </div>
+                    <div className="rider-name" style={{ fontSize: '0.95rem', color: inCustomTeam ? 'var(--text-highlight)' : 'var(--text-highlight)' }}>{rider?.name}</div>
                   </div>
                   <div className="rider-price" style={{ background: 'rgba(255, 255, 255, 0.1)', color: 'white', fontSize: '0.85rem', padding: '0.2rem 0.5rem' }}>
-                    {rider?.global_score} pts
+                    {rider?.global_score} <span style={{ fontSize: '0.7rem', opacity: 0.7 }}>pts</span>
                   </div>
+
+                  {inCustomTeam && (
+                    <div style={{ marginLeft: '10px', color: 'var(--primary-color)' }}>
+                      <Medal size={16} />
+                    </div>
+                  )}
                 </div>
               );
             })}
@@ -339,6 +469,24 @@ function App() {
 
       </div>
     </div>
+  );
+}
+
+function App() {
+  const { loading } = useAuth();
+
+  if (loading) {
+    return <div className="app-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
+      <Loader2 className="animate-spin" size={64} color="var(--primary-color)" />
+    </div>
+  }
+
+  return (
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="*" element={<Navigate to="/" />} />
+    </Routes>
   );
 }
 
