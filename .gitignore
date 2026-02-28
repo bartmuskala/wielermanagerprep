@@ -1,0 +1,24 @@
+# Node
+node_modules/
+webapp/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# Python
+backend/venv/
+backend/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment
+.env
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo

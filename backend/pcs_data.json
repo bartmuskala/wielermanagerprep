@@ -1,0 +1,6232 @@
+{
+  "riders": [
+    {
+      "id": "cedric-beullens",
+      "name": "Cedric  Beullens",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 5,
+        "cobbles": 11,
+        "hills": 2,
+        "one_day": 11,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 11.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "jonas-abrahamsen",
+      "name": "Jonas  Abrahamsen",
+      "team": "Uno-X Mobility",
+      "uci_points": 989.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 21,
+        "hills": 9,
+        "one_day": 21,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [
+        "Muur Classic Geraardsbergen (1.1)",
+        "Circuit Franco-Belge (1.Pro)",
+        "S11Stage 11 - Toulouse \u203a Toulouse"
+      ],
+      "strength": 30.7,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "filippo-baroncini",
+      "name": "Filippo  Baroncini",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 351.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 9,
+        "hills": 7,
+        "one_day": 9,
+        "gc": 7,
+        "tt": 8
+      },
+      "wins": [
+        "General classificationGeneral classification"
+      ],
+      "strength": 13.6,
+      "starts": [
+        "nokere-koerse"
+      ]
+    },
+    {
+      "id": "pau-marti-soriano",
+      "name": "Pau  Mart\u00ed",
+      "team": "NSN Cycling Team",
+      "uci_points": 163.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 2,
+        "hills": 2,
+        "one_day": 2,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [
+        "S2Stage 2 - Nyamata \u203a Huye"
+      ],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "manlio-moro",
+      "name": "Manlio  Moro",
+      "team": "Movistar Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 1,
+        "hills": 0,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "felix-engelhardt",
+      "name": "Felix  Engelhardt",
+      "team": "Team Jayco AlUla",
+      "uci_points": 20.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 9,
+        "hills": 8,
+        "one_day": 9,
+        "gc": 7,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 10.9,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "silvan-dillier",
+      "name": "Silvan  Dillier",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 11,
+        "cobbles": 24,
+        "hills": 10,
+        "one_day": 24,
+        "gc": 19,
+        "tt": 10
+      },
+      "wins": [],
+      "strength": 27.5,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "hartthijs-de-vries",
+      "name": "Hartthijs de Vries",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 5,
+        "cobbles": 5,
+        "hills": 2,
+        "one_day": 5,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 6.4,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "pauline-ferrand-prevot",
+      "name": "Pauline  Ferrand-Pr\u00e9vot",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 1780.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 71,
+        "hills": 20,
+        "one_day": 71,
+        "gc": 13,
+        "tt": 16
+      },
+      "wins": [
+        "General classificationGeneral classification",
+        "S9Stage 9 - Praz-sur-Arly \u203a Ch\u00e2tel Les Portes du Soleil",
+        "S8Stage 8 - Chamb\u00e9ry \u203a Saint-Fran\u00e7ois Longchamp (Col de la Madeleine)",
+        "Paris-Roubaix Femmes  (1.WWT)"
+      ],
+      "strength": 81.8,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "benjamin-thomas-2",
+      "name": "Benjamin  Thomas",
+      "team": "Cofidis",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 10,
+        "hills": 20,
+        "one_day": 10,
+        "gc": 18,
+        "tt": 23
+      },
+      "wins": [],
+      "strength": 17.2,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "egan-bernal",
+      "name": "Egan  Bernal",
+      "team": "INEOS Grenadiers",
+      "uci_points": 110.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 21,
+        "hills": 89,
+        "one_day": 21,
+        "gc": 95,
+        "tt": 12
+      },
+      "wins": [
+        "National Championships Colombia ME - Road Race (NC)"
+      ],
+      "strength": 53.7,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "andrea-raccagni-noviero",
+      "name": "Andrea  Raccagni Noviero",
+      "team": "Soudal Quick-Step",
+      "uci_points": 196.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 2,
+        "hills": 3,
+        "one_day": 2,
+        "gc": 3,
+        "tt": 1
+      },
+      "wins": [
+        "Youth classificationYouth classification"
+      ],
+      "strength": 5.1,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "christophe-laporte",
+      "name": "Christophe  Laporte",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 43.0,
+      "expertise": {
+        "sprint": 52,
+        "cobbles": 86,
+        "hills": 36,
+        "one_day": 86,
+        "gc": 21,
+        "tt": 19
+      },
+      "wins": [
+        "S1Stage 1 - Benahav\u00eds \u203a Pizarra"
+      ],
+      "strength": 103.2,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "xandro-meurisse",
+      "name": "Xandro  Meurisse",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 8,
+        "cobbles": 25,
+        "hills": 21,
+        "one_day": 25,
+        "gc": 29,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 31.8,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "jarrad-drizners",
+      "name": "Jarrad  Drizners",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 1,
+        "hills": 1,
+        "one_day": 1,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "clement-russo",
+      "name": "Cl\u00e9ment  Russo",
+      "team": "Groupama - FDJ United",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 8,
+        "cobbles": 10,
+        "hills": 6,
+        "one_day": 10,
+        "gc": 5,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 13.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "alec-segaert",
+      "name": "Alec  Segaert",
+      "team": "Bahrain - Victorious",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 6,
+        "hills": 3,
+        "one_day": 6,
+        "gc": 8,
+        "tt": 14
+      },
+      "wins": [],
+      "strength": 6.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "alberto-dainese",
+      "name": "Alberto  Dainese",
+      "team": "Soudal Quick-Step",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 38,
+        "cobbles": 17,
+        "hills": 13,
+        "one_day": 17,
+        "gc": 5,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 29.2,
+      "starts": [
+        "nokere-koerse",
+        "bredene-koksijde-classic"
+      ]
+    },
+    {
+      "id": "emilien-jeanniere",
+      "name": "Emilien  Jeanni\u00e8re",
+      "team": "TotalEnergies",
+      "uci_points": 100.0,
+      "expertise": {
+        "sprint": 14,
+        "cobbles": 25,
+        "hills": 15,
+        "one_day": 25,
+        "gc": 6,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 31.4,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "robert-stannard",
+      "name": "Robert  Stannard",
+      "team": "Bahrain - Victorious",
+      "uci_points": 4.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 4,
+        "hills": 13,
+        "one_day": 4,
+        "gc": 4,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 9.1,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "matteo-jorgenson",
+      "name": "Matteo  Jorgenson",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 1987.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 18,
+        "hills": 38,
+        "one_day": 18,
+        "gc": 45,
+        "tt": 15
+      },
+      "wins": [
+        "General classificationGeneral classification",
+        "S3 (TTT)Stage 3 (TTT) - Circuit Nevers Magny-Cours \u203a Nevers"
+      ],
+      "strength": 40.7,
+      "starts": [
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "alex-kirsch",
+      "name": "Alex  Kirsch",
+      "team": "Cofidis",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 7,
+        "cobbles": 12,
+        "hills": 9,
+        "one_day": 12,
+        "gc": 10,
+        "tt": 14
+      },
+      "wins": [],
+      "strength": 15.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "lennert-van-eetvelt",
+      "name": "Lennert Van Eetvelt",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 213.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 11,
+        "hills": 23,
+        "one_day": 11,
+        "gc": 22,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 19.0,
+      "starts": [
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "paul-lapeira",
+      "name": "Paul  Lapeira",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 216.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 19,
+        "hills": 13,
+        "one_day": 19,
+        "gc": 5,
+        "tt": 2
+      },
+      "wins": [
+        "Tour des Alpes-Maritimes (1.1)"
+      ],
+      "strength": 24.3,
+      "starts": [
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "yevgeniy-fedorov",
+      "name": "Yevgeniy  Fedorov",
+      "team": "XDS Astana Team",
+      "uci_points": 338.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 18,
+        "hills": 3,
+        "one_day": 18,
+        "gc": 4,
+        "tt": 10
+      },
+      "wins": [
+        "Asian Continental Championships ME - Road Race (CC)",
+        "Asian Continental Championships ME - ITT (CC)"
+      ],
+      "strength": 22.1,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "julius-van-den-berg",
+      "name": "Julius van den Berg",
+      "team": "Team Picnic PostNL",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 5,
+        "cobbles": 3,
+        "hills": 1,
+        "one_day": 3,
+        "gc": 4,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "soren-kragh-andersen",
+      "name": "S\u00f8ren Kragh Andersen",
+      "team": "Lidl - Trek",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 8,
+        "cobbles": 30,
+        "hills": 29,
+        "one_day": 30,
+        "gc": 30,
+        "tt": 37
+      },
+      "wins": [],
+      "strength": 39.1,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "alexis-renard",
+      "name": "Alexis  Renard",
+      "team": "Cofidis",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 9,
+        "cobbles": 16,
+        "hills": 2,
+        "one_day": 16,
+        "gc": 5,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 17.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "ben-tulett",
+      "name": "Ben  Tulett",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 11,
+        "hills": 12,
+        "one_day": 11,
+        "gc": 18,
+        "tt": 9
+      },
+      "wins": [],
+      "strength": 14.2,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "matteo-trentin",
+      "name": "Matteo  Trentin",
+      "team": "Tudor Pro Cycling Team",
+      "uci_points": 7.0,
+      "expertise": {
+        "sprint": 53,
+        "cobbles": 100,
+        "hills": 84,
+        "one_day": 100,
+        "gc": 20,
+        "tt": 6
+      },
+      "wins": [],
+      "strength": 132.3,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "dries-de-bondt",
+      "name": "Dries De Bondt",
+      "team": "Team Jayco AlUla",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 21,
+        "cobbles": 35,
+        "hills": 8,
+        "one_day": 35,
+        "gc": 7,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 38.9,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "quinn-simmons",
+      "name": "Quinn  Simmons",
+      "team": "Lidl - Trek",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 14,
+        "hills": 15,
+        "one_day": 14,
+        "gc": 10,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 18.1,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "ryan-mullen",
+      "name": "Ryan  Mullen",
+      "team": "NSN Cycling Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 6,
+        "hills": 1,
+        "one_day": 6,
+        "gc": 4,
+        "tt": 27
+      },
+      "wins": [],
+      "strength": 5.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "nicolas-prodhomme",
+      "name": "Nicolas  Prodhomme",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 36.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 6,
+        "hills": 15,
+        "one_day": 6,
+        "gc": 15,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 11.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "clement-izquierdo",
+      "name": "Cl\u00e9ment  Izquierdo",
+      "team": "Cofidis",
+      "uci_points": 33.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "sander-de-pestel",
+      "name": "Sander De Pestel",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 4,
+        "hills": 1,
+        "one_day": 4,
+        "gc": 1,
+        "tt": 3
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "lorenzo-milesi",
+      "name": "Lorenzo  Milesi",
+      "team": "Movistar Team",
+      "uci_points": 15.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 4,
+        "hills": 4,
+        "one_day": 4,
+        "gc": 2,
+        "tt": 8
+      },
+      "wins": [],
+      "strength": 5.1,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "anders-foldager",
+      "name": "Anders  Foldager",
+      "team": "Team Jayco AlUla",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 5,
+        "hills": 9,
+        "one_day": 5,
+        "gc": 6,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 8.3,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "huub-artz",
+      "name": "Huub  Artz",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 2,
+        "hills": 2,
+        "one_day": 2,
+        "gc": 2,
+        "tt": 4
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "milano-sanremo",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "john-degenkolb",
+      "name": "John  Degenkolb",
+      "team": "Team Picnic PostNL",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 100,
+        "cobbles": 100,
+        "hills": 66,
+        "one_day": 100,
+        "gc": 24,
+        "tt": 5
+      },
+      "wins": [],
+      "strength": 137.2,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "milan-fretin",
+      "name": "Milan  Fretin",
+      "team": "Cofidis",
+      "uci_points": 210.0,
+      "expertise": {
+        "sprint": 23,
+        "cobbles": 22,
+        "hills": 6,
+        "one_day": 22,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [
+        "S3Stage 3 - Ja\u00e9n \u203a Lopera"
+      ],
+      "strength": 29.3,
+      "starts": [
+        "bredene-koksijde-classic",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "jonathan-vervenne",
+      "name": "Jonathan  Vervenne",
+      "team": "Soudal Quick-Step",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "kamil-malecki",
+      "name": "Kamil  Ma\u0142ecki",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 3,
+        "hills": 2,
+        "one_day": 3,
+        "gc": 6,
+        "tt": 4
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "gregor-muhlberger",
+      "name": "Gregor  M\u00fchlberger",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 17,
+        "hills": 21,
+        "one_day": 17,
+        "gc": 20,
+        "tt": 4
+      },
+      "wins": [],
+      "strength": 23.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "dries-de-pooter",
+      "name": "Dries De Pooter",
+      "team": "Team Jayco AlUla",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 1,
+        "hills": 3,
+        "one_day": 1,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "filip-maciejuk",
+      "name": "Filip  Maciejuk",
+      "team": "Movistar Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 2,
+        "hills": 0,
+        "one_day": 2,
+        "gc": 5,
+        "tt": 7
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "stanislaw-aniolkowski",
+      "name": "Stanis\u0142aw  Anio\u0142kowski",
+      "team": "Cofidis",
+      "uci_points": 15.0,
+      "expertise": {
+        "sprint": 32,
+        "cobbles": 18,
+        "hills": 13,
+        "one_day": 18,
+        "gc": 8,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 28.7,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "classic-brugge-de-panne"
+      ]
+    },
+    {
+      "id": "aurelien-paret-peintre",
+      "name": "Aur\u00e9lien  Paret-Peintre",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 65.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 18,
+        "hills": 31,
+        "one_day": 18,
+        "gc": 34,
+        "tt": 5
+      },
+      "wins": [],
+      "strength": 27.9,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "florian-senechal",
+      "name": "Florian  S\u00e9n\u00e9chal",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 23,
+        "cobbles": 61,
+        "hills": 25,
+        "one_day": 61,
+        "gc": 14,
+        "tt": 4
+      },
+      "wins": [],
+      "strength": 68.5,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "ivan-garcia-cortina",
+      "name": "Iv\u00e1n  Garc\u00eda Cortina",
+      "team": "Movistar Team",
+      "uci_points": 19.0,
+      "expertise": {
+        "sprint": 20,
+        "cobbles": 36,
+        "hills": 31,
+        "one_day": 36,
+        "gc": 7,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 48.2,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "ben-turner",
+      "name": "Ben  Turner",
+      "team": "INEOS Grenadiers",
+      "uci_points": 65.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 9,
+        "hills": 11,
+        "one_day": 9,
+        "gc": 6,
+        "tt": 5
+      },
+      "wins": [],
+      "strength": 13.7,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "rune-herregodts",
+      "name": "Rune  Herregodts",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 35.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 8,
+        "hills": 5,
+        "one_day": 8,
+        "gc": 5,
+        "tt": 11
+      },
+      "wins": [],
+      "strength": 9.8,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "juan-sebastian-molano",
+      "name": "Juan Sebasti\u00e1n  Molano",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 40.0,
+      "expertise": {
+        "sprint": 48,
+        "cobbles": 21,
+        "hills": 21,
+        "one_day": 21,
+        "gc": 5,
+        "tt": 0
+      },
+      "wins": [
+        "S1Stage 1 - Ministry of Tourism \u203a Bimmah Sink Hole"
+      ],
+      "strength": 39.6,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "nils-politt",
+      "name": "Nils  Politt",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 38.0,
+      "expertise": {
+        "sprint": 9,
+        "cobbles": 45,
+        "hills": 28,
+        "one_day": 45,
+        "gc": 21,
+        "tt": 27
+      },
+      "wins": [],
+      "strength": 52.3,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "josh-burnett",
+      "name": "Josh  Burnett",
+      "team": "Burgos Burpellet BH",
+      "uci_points": 33.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [
+        "Mountains classificationMountains classification",
+        "General classificationGeneral classification",
+        "S6Stage 6 - Invercargill \u203a Bluff Hill",
+        "S4Stage 4 - Mossburn \u203a The Remarkables"
+      ],
+      "strength": 5.5,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "romain-gregoire1",
+      "name": "Romain  Gr\u00e9goire",
+      "team": "Groupama - FDJ United",
+      "uci_points": 110.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 24,
+        "hills": 32,
+        "one_day": 24,
+        "gc": 20,
+        "tt": 6
+      },
+      "wins": [],
+      "strength": 33.7,
+      "starts": [
+        "strade-bianche",
+        "milano-sanremo",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "marco-haller",
+      "name": "Marco  Haller",
+      "team": "Tudor Pro Cycling Team",
+      "uci_points": 7.0,
+      "expertise": {
+        "sprint": 9,
+        "cobbles": 27,
+        "hills": 12,
+        "one_day": 27,
+        "gc": 14,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 30.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "bert-van-lerberghe",
+      "name": "Bert Van Lerberghe",
+      "team": "Soudal Quick-Step",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 25,
+        "cobbles": 24,
+        "hills": 2,
+        "one_day": 24,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 28.0,
+      "starts": [
+        "nokere-koerse",
+        "bredene-koksijde-classic"
+      ]
+    },
+    {
+      "id": "michael-matthews",
+      "name": "Michael  Matthews",
+      "team": "Team Jayco AlUla",
+      "uci_points": 135.0,
+      "expertise": {
+        "sprint": 43,
+        "cobbles": 100,
+        "hills": 100,
+        "one_day": 100,
+        "gc": 17,
+        "tt": 33
+      },
+      "wins": [
+        "Gran Premio Castell\u00f3n - Ruta de la Cer\u00e1mica (1.1)"
+      ],
+      "strength": 137.5,
+      "starts": [
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "brent-van-moer",
+      "name": "Brent Van Moer",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 10,
+        "hills": 8,
+        "one_day": 10,
+        "gc": 10,
+        "tt": 5
+      },
+      "wins": [],
+      "strength": 12.3,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "jonas-vingegaard",
+      "name": "Jonas  Vingegaard",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 5944.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 6,
+        "hills": 100,
+        "one_day": 6,
+        "gc": 100,
+        "tt": 46
+      },
+      "wins": [
+        "General classificationGeneral classification",
+        "S20Stage 20 - Robledo de Chavela \u203a Bola del Mundo. Puerto de Navacerrada",
+        "S9Stage 9 - Alfaro \u203a Estaci\u00f3n de Esqu\u00ed de Valdezcaray",
+        "S2Stage 2 - Alba \u203a Limone Piemonte",
+        "S3 (TTT)Stage 3 (TTT) - Circuit Nevers Magny-Cours \u203a Nevers",
+        "S5 (ITT)Stage 5 (ITT) - Salir \u203a Malh\u00e3o"
+      ],
+      "strength": 61.5,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "orluis-aular",
+      "name": "Orluis  Aular",
+      "team": "Movistar Team",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 18,
+        "cobbles": 14,
+        "hills": 25,
+        "one_day": 14,
+        "gc": 9,
+        "tt": 12
+      },
+      "wins": [],
+      "strength": 26.2,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "francesco-busatto",
+      "name": "Francesco  Busatto",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 80.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 11,
+        "hills": 9,
+        "one_day": 11,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 13.3,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "alessandro-borgo",
+      "name": "Alessandro  Borgo",
+      "team": "Bahrain - Victorious",
+      "uci_points": 6.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [
+        "Al Salam Championship (NAT)"
+      ],
+      "strength": 5.0,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "biniam-girmay",
+      "name": "Biniam  Girmay",
+      "team": "NSN Cycling Team",
+      "uci_points": 293.0,
+      "expertise": {
+        "sprint": 30,
+        "cobbles": 66,
+        "hills": 41,
+        "one_day": 66,
+        "gc": 2,
+        "tt": 2
+      },
+      "wins": [
+        "Clasica de Almeria (1.Pro)",
+        "Points classificationPoints classification",
+        "S1Stage 1 - Segorbe \u203a Torreblanca"
+      ],
+      "strength": 85.5,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "alfred-wright",
+      "name": "Fred  Wright",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "uci_points": 6.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 17,
+        "hills": 31,
+        "one_day": 17,
+        "gc": 10,
+        "tt": 9
+      },
+      "wins": [],
+      "strength": 27.5,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "domen-novak",
+      "name": "Domen  Novak",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 1,
+        "hills": 5,
+        "one_day": 1,
+        "gc": 10,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "damiano-caruso",
+      "name": "Damiano  Caruso",
+      "team": "Bahrain - Victorious",
+      "uci_points": 30.0,
+      "expertise": {
+        "sprint": 10,
+        "cobbles": 17,
+        "hills": 93,
+        "one_day": 17,
+        "gc": 96,
+        "tt": 26
+      },
+      "wins": [],
+      "strength": 52.4,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "otto-vergaerde",
+      "name": "Otto  Vergaerde",
+      "team": "Lidl - Trek",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 4,
+        "hills": 1,
+        "one_day": 4,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "jordi-meeus",
+      "name": "Jordi  Meeus",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 30.0,
+      "expertise": {
+        "sprint": 40,
+        "cobbles": 47,
+        "hills": 20,
+        "one_day": 47,
+        "gc": 2,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 58.7,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "amaury-capiot",
+      "name": "Amaury  Capiot",
+      "team": "Team Jayco AlUla",
+      "uci_points": 48.0,
+      "expertise": {
+        "sprint": 28,
+        "cobbles": 42,
+        "hills": 17,
+        "one_day": 42,
+        "gc": 6,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 50.3,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "piet-allegaert",
+      "name": "Piet  Allegaert",
+      "team": "Cofidis",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 17,
+        "cobbles": 28,
+        "hills": 9,
+        "one_day": 28,
+        "gc": 2,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 32.1,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "wout-poels",
+      "name": "Wout  Poels",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 8.0,
+      "expertise": {
+        "sprint": 5,
+        "cobbles": 21,
+        "hills": 100,
+        "one_day": 21,
+        "gc": 100,
+        "tt": 18
+      },
+      "wins": [],
+      "strength": 57.2,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "wessel-mouris",
+      "name": "Wessel  Mouris",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 0,
+        "hills": 0,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "jasper-stuyven",
+      "name": "Jasper  Stuyven",
+      "team": "Soudal Quick-Step",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 37,
+        "cobbles": 98,
+        "hills": 72,
+        "one_day": 98,
+        "gc": 27,
+        "tt": 5
+      },
+      "wins": [],
+      "strength": 122.0,
+      "starts": [
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "arnaud-de-lie",
+      "name": "Arnaud De Lie",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 83.0,
+      "expertise": {
+        "sprint": 40,
+        "cobbles": 94,
+        "hills": 37,
+        "one_day": 94,
+        "gc": 11,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 106.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "henri-francois-renard-haquin",
+      "name": "Henri-Fran\u00e7ois  Renard-Haquin",
+      "team": "Team Picnic PostNL",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 0,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "jelte-krijnsen",
+      "name": "Jelte  Krijnsen",
+      "team": "Team Jayco AlUla",
+      "uci_points": 20.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 3,
+        "hills": 3,
+        "one_day": 3,
+        "gc": 4,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "lotte-kopecky",
+      "name": "Lotte  Kopecky",
+      "team": "Team SD Worx - Protime",
+      "uci_points": 1184.0,
+      "expertise": {
+        "sprint": 61,
+        "cobbles": 100,
+        "hills": 58,
+        "one_day": 100,
+        "gc": 55,
+        "tt": 40
+      },
+      "wins": [
+        "S1Stage 1 - Laudun-l\u2019Ardoise \u203a Laudun-l\u2019Ardoise",
+        "National Championships Belgium WE - ITT (NC)",
+        "Ronde van Vlaanderen - Tour des Flandres WE (1.WWT)"
+      ],
+      "strength": 132.7,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "milan-lanhove",
+      "name": "Milan  Lanhove",
+      "team": "Team Flanders - Baloise",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 0,
+        "one_day": 0,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "dylan-teuns",
+      "name": "Dylan  Teuns",
+      "team": "Cofidis",
+      "uci_points": 45.0,
+      "expertise": {
+        "sprint": 7,
+        "cobbles": 43,
+        "hills": 56,
+        "one_day": 43,
+        "gc": 57,
+        "tt": 12
+      },
+      "wins": [],
+      "strength": 60.5,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "rui-oliveira",
+      "name": "Rui  Oliveira",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 73.0,
+      "expertise": {
+        "sprint": 11,
+        "cobbles": 11,
+        "hills": 14,
+        "one_day": 11,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 17.9,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "axel-laurance",
+      "name": "Axel  Laurance",
+      "team": "INEOS Grenadiers",
+      "uci_points": 14.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 11,
+        "hills": 22,
+        "one_day": 11,
+        "gc": 6,
+        "tt": 0
+      },
+      "wins": [
+        "S3Stage 3 - Rognac \u203a Arles"
+      ],
+      "strength": 19.9,
+      "starts": [
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "fabio-jakobsen",
+      "name": "Fabio  Jakobsen",
+      "team": "Team Picnic PostNL",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 79,
+        "cobbles": 37,
+        "hills": 13,
+        "one_day": 37,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 57.0,
+      "starts": [
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "classic-brugge-de-panne"
+      ]
+    },
+    {
+      "id": "bryan-coquard",
+      "name": "Bryan  Coquard",
+      "team": "Cofidis",
+      "uci_points": 130.0,
+      "expertise": {
+        "sprint": 90,
+        "cobbles": 65,
+        "hills": 52,
+        "one_day": 65,
+        "gc": 25,
+        "tt": 5
+      },
+      "wins": [
+        "Grand Prix Cycliste de Marseille La Marseillaise (1.1)"
+      ],
+      "strength": 100.6,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "michael-valgren-andersen",
+      "name": "Michael  Valgren",
+      "team": "EF Education - EasyPost",
+      "uci_points": 153.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 58,
+        "hills": 38,
+        "one_day": 58,
+        "gc": 24,
+        "tt": 9
+      },
+      "wins": [],
+      "strength": 66.1,
+      "starts": [
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "maurice-ballerstedt",
+      "name": "Maurice  Ballerstedt",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 3,
+        "hills": 1,
+        "one_day": 3,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "florian-dauphin",
+      "name": "Florian  Dauphin",
+      "team": "TotalEnergies",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 3,
+        "hills": 1,
+        "one_day": 3,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "kaden-groves",
+      "name": "Kaden  Groves",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 31,
+        "cobbles": 10,
+        "hills": 41,
+        "one_day": 10,
+        "gc": 5,
+        "tt": 7
+      },
+      "wins": [],
+      "strength": 31.9,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "ivan-romeo",
+      "name": "Iv\u00e1n  Romeo",
+      "team": "Movistar Team",
+      "uci_points": 482.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 4,
+        "hills": 5,
+        "one_day": 4,
+        "gc": 11,
+        "tt": 11
+      },
+      "wins": [
+        "General classificationGeneral classification",
+        "S2Stage 2 - Torrox \u203a Otura"
+      ],
+      "strength": 9.9,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "luca-van-boven",
+      "name": "Luca Van Boven",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 5,
+        "hills": 5,
+        "one_day": 5,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 6.5,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "florian-vermeersch",
+      "name": "Florian  Vermeersch",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 21.0,
+      "expertise": {
+        "sprint": 11,
+        "cobbles": 30,
+        "hills": 8,
+        "one_day": 30,
+        "gc": 12,
+        "tt": 11
+      },
+      "wins": [],
+      "strength": 32.1,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "alessandro-romele",
+      "name": "Alessandro  Romele",
+      "team": "XDS Astana Team",
+      "uci_points": 20.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 2,
+        "hills": 2,
+        "one_day": 2,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "nickolas-zukowsky",
+      "name": "Nickolas  Zukowsky",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 5,
+        "hills": 2,
+        "one_day": 5,
+        "gc": 3,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.4,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "elmar-reinders",
+      "name": "Elmar  Reinders",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 65.0,
+      "expertise": {
+        "sprint": 7,
+        "cobbles": 11,
+        "hills": 1,
+        "one_day": 11,
+        "gc": 4,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 12.0,
+      "starts": [
+        "bredene-koksijde-classic",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "lennert-belmans",
+      "name": "Lennert  Belmans",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 0,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "jonas-rickaert",
+      "name": "Jonas  Rickaert",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 13,
+        "cobbles": 16,
+        "hills": 1,
+        "one_day": 16,
+        "gc": 4,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 17.6,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "sente-sentjens",
+      "name": "Sente  Sentjens",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 2,
+        "hills": 0,
+        "one_day": 2,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "nokere-koerse",
+        "bredene-koksijde-classic"
+      ]
+    },
+    {
+      "id": "ward-vanhoof",
+      "name": "Ward  Vanhoof",
+      "team": "Team Flanders - Baloise",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 3,
+        "hills": 1,
+        "one_day": 3,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "thomas-bonnet",
+      "name": "Thomas  Bonnet",
+      "team": "TotalEnergies",
+      "uci_points": 24.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 1,
+        "hills": 1,
+        "one_day": 1,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "jenthe-biermans",
+      "name": "Jenthe  Biermans",
+      "team": "Cofidis",
+      "uci_points": 6.0,
+      "expertise": {
+        "sprint": 10,
+        "cobbles": 28,
+        "hills": 13,
+        "one_day": 28,
+        "gc": 5,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 31.9,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse"
+      ]
+    },
+    {
+      "id": "filippo-conca",
+      "name": "Filippo  Conca",
+      "team": "Team Jayco AlUla",
+      "uci_points": 103.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 2,
+        "hills": 2,
+        "one_day": 2,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [
+        "National Championships Italy ME - Road Race (NC)"
+      ],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "stan-dewulf",
+      "name": "Stan  Dewulf",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 5,
+        "cobbles": 15,
+        "hills": 9,
+        "one_day": 15,
+        "gc": 13,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 17.8,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "guillaume-boivin",
+      "name": "Guillaume  Boivin",
+      "team": "NSN Cycling Team",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 12,
+        "cobbles": 29,
+        "hills": 7,
+        "one_day": 29,
+        "gc": 9,
+        "tt": 3
+      },
+      "wins": [],
+      "strength": 31.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "camille-charret",
+      "name": "Camille  Charret",
+      "team": "Cofidis",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 0,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "isaac-del-toro",
+      "name": "Isaac del Toro",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 680.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 33,
+        "hills": 31,
+        "one_day": 33,
+        "gc": 29,
+        "tt": 7
+      },
+      "wins": [
+        "Youth classificationYouth classification",
+        "General classificationGeneral classification",
+        "S6Stage 6 - Al Ain Museum \u203a Jebel Hafeet",
+        "S1Stage 1 - Madinat Zayed Majlis \u203a Liwa Palace"
+      ],
+      "strength": 48.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "alex-aranburu",
+      "name": "Alex  Aranburu",
+      "team": "Cofidis",
+      "uci_points": 270.0,
+      "expertise": {
+        "sprint": 8,
+        "cobbles": 53,
+        "hills": 53,
+        "one_day": 53,
+        "gc": 20,
+        "tt": 6
+      },
+      "wins": [
+        "Points classificationPoints classification"
+      ],
+      "strength": 70.5,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "rasmus-sojbergpedersen",
+      "name": "Rasmus S\u00f8jberg  Pedersen",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 7,
+        "cobbles": 4,
+        "hills": 2,
+        "one_day": 4,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 6.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "classic-brugge-de-panne",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "axel-zingle",
+      "name": "Axel  Zingle",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 6.0,
+      "expertise": {
+        "sprint": 10,
+        "cobbles": 34,
+        "hills": 21,
+        "one_day": 34,
+        "gc": 12,
+        "tt": 3
+      },
+      "wins": [],
+      "strength": 40.1,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "attila-valter",
+      "name": "Attila  Valter",
+      "team": "Bahrain - Victorious",
+      "uci_points": 20.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 15,
+        "hills": 24,
+        "one_day": 15,
+        "gc": 23,
+        "tt": 6
+      },
+      "wins": [],
+      "strength": 22.2,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "arne-marit",
+      "name": "Arne  Marit",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 140.0,
+      "expertise": {
+        "sprint": 16,
+        "cobbles": 18,
+        "hills": 13,
+        "one_day": 18,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [
+        "Trofeo Palma (1.1)"
+      ],
+      "strength": 26.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "alessandro-covi",
+      "name": "Alessandro  Covi",
+      "team": "Team Jayco AlUla",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 19,
+        "hills": 15,
+        "one_day": 19,
+        "gc": 7,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 22.5,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "pello-bilbao",
+      "name": "Pello  Bilbao",
+      "team": "Bahrain - Victorious",
+      "uci_points": 40.0,
+      "expertise": {
+        "sprint": 7,
+        "cobbles": 33,
+        "hills": 100,
+        "one_day": 33,
+        "gc": 100,
+        "tt": 23
+      },
+      "wins": [],
+      "strength": 68.3,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "adrien-boichis",
+      "name": "Adrien  Boichis",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 70.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "lorenzo-germani",
+      "name": "Lorenzo  Germani",
+      "team": "Groupama - FDJ United",
+      "uci_points": 6.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 2,
+        "hills": 2,
+        "one_day": 2,
+        "gc": 3,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "markus-hoelgaard",
+      "name": "Markus  Hoelgaard",
+      "team": "Uno-X Mobility",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 18,
+        "hills": 17,
+        "one_day": 18,
+        "gc": 15,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 22.9,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "jordan-labrosse",
+      "name": "Jordan  Labrosse",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 3,
+        "hills": 4,
+        "one_day": 3,
+        "gc": 1,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "jasper-de-buyst",
+      "name": "Jasper De Buyst",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 22,
+        "cobbles": 33,
+        "hills": 17,
+        "one_day": 33,
+        "gc": 14,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 40.8,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "martijn-rasenberg",
+      "name": "Martijn  Rasenberg",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "filippo-ganna",
+      "name": "Filippo  Ganna",
+      "team": "INEOS Grenadiers",
+      "uci_points": 25.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 20,
+        "hills": 22,
+        "one_day": 20,
+        "gc": 21,
+        "tt": 100
+      },
+      "wins": [
+        "S3 (ITT)Stage 3 (ITT) - Vilamoura \u203a Vilamoura"
+      ],
+      "strength": 28.6,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "matthew-brennan",
+      "name": "Matthew  Brennan",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 420.0,
+      "expertise": {
+        "sprint": 12,
+        "cobbles": 12,
+        "hills": 12,
+        "one_day": 12,
+        "gc": 5,
+        "tt": 2
+      },
+      "wins": [
+        "S5Stage 5 - Stirling \u203a Stirling"
+      ],
+      "strength": 20.8,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "cesar-macias-estrada",
+      "name": "C\u00e9sar  Mac\u00edas",
+      "team": "Burgos Burpellet BH",
+      "uci_points": 25.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 1,
+        "hills": 1,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "baptiste-vadic",
+      "name": "Baptiste  Vadic",
+      "team": "TotalEnergies",
+      "uci_points": 7.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 1,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "danny-van-poppel",
+      "name": "Danny van Poppel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 25.0,
+      "expertise": {
+        "sprint": 80,
+        "cobbles": 69,
+        "hills": 36,
+        "one_day": 69,
+        "gc": 16,
+        "tt": 9
+      },
+      "wins": [],
+      "strength": 94.0,
+      "starts": [
+        "milano-sanremo",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "mathias-vacek",
+      "name": "Mathias  Vacek",
+      "team": "Lidl - Trek",
+      "uci_points": 13.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 11,
+        "hills": 10,
+        "one_day": 11,
+        "gc": 10,
+        "tt": 15
+      },
+      "wins": [],
+      "strength": 14.2,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "mikkel-honore",
+      "name": "Mikkel Fr\u00f8lich  Honor\u00e9",
+      "team": "EF Education - EasyPost",
+      "uci_points": 20.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 24,
+        "hills": 20,
+        "one_day": 24,
+        "gc": 14,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 28.8,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "luke-lamperti",
+      "name": "Luke  Lamperti",
+      "team": "EF Education - EasyPost",
+      "uci_points": 53.0,
+      "expertise": {
+        "sprint": 13,
+        "cobbles": 10,
+        "hills": 9,
+        "one_day": 10,
+        "gc": 3,
+        "tt": 2
+      },
+      "wins": [
+        "HCC Summertime Criterium #15 (NAT)"
+      ],
+      "strength": 16.8,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "kelland-brien",
+      "name": "Kelland  O'Brien",
+      "team": "Team Jayco AlUla",
+      "uci_points": 23.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 5,
+        "hills": 2,
+        "one_day": 5,
+        "gc": 2,
+        "tt": 5
+      },
+      "wins": [],
+      "strength": 5.2,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "clement-champoussin",
+      "name": "Cl\u00e9ment  Champoussin",
+      "team": "XDS Astana Team",
+      "uci_points": 99.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 24,
+        "hills": 31,
+        "one_day": 24,
+        "gc": 19,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 33.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "soren-waerenskjold",
+      "name": "S\u00f8ren  W\u00e6renskjold",
+      "team": "Uno-X Mobility",
+      "uci_points": 20.0,
+      "expertise": {
+        "sprint": 17,
+        "cobbles": 18,
+        "hills": 8,
+        "one_day": 18,
+        "gc": 15,
+        "tt": 19
+      },
+      "wins": [],
+      "strength": 23.1,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "laurenz-rex",
+      "name": "Laurenz  Rex",
+      "team": "Soudal Quick-Step",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 8,
+        "cobbles": 16,
+        "hills": 4,
+        "one_day": 16,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 17.5,
+      "starts": [
+        "nokere-koerse",
+        "bredene-koksijde-classic"
+      ]
+    },
+    {
+      "id": "casper-pedersen",
+      "name": "Casper  Pedersen",
+      "team": "Soudal Quick-Step",
+      "uci_points": 11.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 11,
+        "hills": 6,
+        "one_day": 11,
+        "gc": 9,
+        "tt": 6
+      },
+      "wins": [],
+      "strength": 13.4,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "marijn-van-den-berg",
+      "name": "Marijn van den Berg",
+      "team": "EF Education - EasyPost",
+      "uci_points": 26.0,
+      "expertise": {
+        "sprint": 19,
+        "cobbles": 17,
+        "hills": 23,
+        "one_day": 17,
+        "gc": 9,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 28.3,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "jenno-berckmoes",
+      "name": "Jenno  Berckmoes",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 560.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 10,
+        "hills": 9,
+        "one_day": 10,
+        "gc": 10,
+        "tt": 1
+      },
+      "wins": [
+        "S4Stage 4 - Durbuy \u203a Durbuy"
+      ],
+      "strength": 16.2,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "pepijn-reinderink",
+      "name": "Pepijn  Reinderink",
+      "team": "Soudal Quick-Step",
+      "uci_points": 4.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 1,
+        "hills": 1,
+        "one_day": 1,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "vito-braet",
+      "name": "Vito  Braet",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 9,
+        "hills": 5,
+        "one_day": 9,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 10.8,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "georg-zimmermann",
+      "name": "Georg  Zimmermann",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 38.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 20,
+        "hills": 15,
+        "one_day": 20,
+        "gc": 14,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 23.5,
+      "starts": [
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "stefan-bissegger",
+      "name": "Stefan  Bissegger",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 10,
+        "hills": 8,
+        "one_day": 10,
+        "gc": 5,
+        "tt": 50
+      },
+      "wins": [],
+      "strength": 12.8,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "lukas-kubis",
+      "name": "Luk\u00e1\u0161  Kubi\u0161",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 181.0,
+      "expertise": {
+        "sprint": 13,
+        "cobbles": 13,
+        "hills": 10,
+        "one_day": 13,
+        "gc": 8,
+        "tt": 5
+      },
+      "wins": [
+        "Points classificationPoints classification"
+      ],
+      "strength": 20.3,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "bredene-koksijde-classic",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "tomas-kopecky",
+      "name": "Tom\u00e1\u0161  Kopeck\u00fd",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 1,
+        "hills": 0,
+        "one_day": 1,
+        "gc": 2,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "pietro-mattio",
+      "name": "Pietro  Mattio",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 0,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "matyas-kopecky",
+      "name": "Maty\u00e1\u0161  Kopeck\u00fd",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 8,
+        "cobbles": 7,
+        "hills": 5,
+        "one_day": 7,
+        "gc": 2,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 10.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "katarzyna-niewiadoma",
+      "name": "Kasia  Niewiadoma",
+      "team": "CANYON//SRAM zondacrypto",
+      "uci_points": 245.0,
+      "expertise": {
+        "sprint": 7,
+        "cobbles": 100,
+        "hills": 100,
+        "one_day": 100,
+        "gc": 100,
+        "tt": 23
+      },
+      "wins": [],
+      "strength": 127.7,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "per-strand-hagenes",
+      "name": "Per Strand  Hagenes",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 18.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 7,
+        "hills": 4,
+        "one_day": 7,
+        "gc": 7,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 8.4,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "julius-johansen",
+      "name": "Julius  Johansen",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 1,
+        "hills": 1,
+        "one_day": 1,
+        "gc": 4,
+        "tt": 7
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "timo-roosen",
+      "name": "Timo  Roosen",
+      "team": "Team Picnic PostNL",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 7,
+        "cobbles": 20,
+        "hills": 11,
+        "one_day": 20,
+        "gc": 8,
+        "tt": 4
+      },
+      "wins": [],
+      "strength": 23.4,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "quinten-hermans",
+      "name": "Quinten  Hermans",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 22,
+        "hills": 27,
+        "one_day": 22,
+        "gc": 14,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 30.4,
+      "starts": [
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "tadej-pogacar",
+      "name": "Tadej  Poga\u010dar",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 11680.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 100,
+        "hills": 100,
+        "one_day": 100,
+        "gc": 100,
+        "tt": 64
+      },
+      "wins": [
+        "Il Lombardia (1.UWT)",
+        "Tre Valli Varesine (1.Pro)",
+        "European Continental Championships ME - Road Race (CC)",
+        "World Championships ME - Road Race (WC)",
+        "Mountains classificationMountains classification",
+        "General classificationGeneral classification",
+        "S13 (ITT)Stage 13 (ITT) - Loudenvielle \u203a Peyragudes",
+        "S12Stage 12 - Auch \u203a Hautacam",
+        "S7Stage 7 - Saint-Malo \u203a M\u00fbr-de-Bretagne (Guerl\u00e9dan)",
+        "S4Stage 4 - Amiens M\u00e9tropole \u203a Rouen"
+      ],
+      "strength": 149.8,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "vojtech-kminek",
+      "name": "Vojt\u011bch  Km\u00ednek",
+      "team": "Burgos Burpellet BH",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 0,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "giulio-pellizzari",
+      "name": "Giulio  Pellizzari",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 150.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 3,
+        "hills": 20,
+        "one_day": 3,
+        "gc": 17,
+        "tt": 1
+      },
+      "wins": [
+        "Youth classificationYouth classification"
+      ],
+      "strength": 11.9,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "merhawi-kudus",
+      "name": "Merhawi  Kudus",
+      "team": "Burgos Burpellet BH",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 15,
+        "hills": 19,
+        "one_day": 15,
+        "gc": 32,
+        "tt": 6
+      },
+      "wins": [],
+      "strength": 21.8,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "oliver-naesen",
+      "name": "Oliver  Naesen",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 26,
+        "cobbles": 86,
+        "hills": 47,
+        "one_day": 86,
+        "gc": 30,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 99.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "colby-simmons",
+      "name": "Colby  Simmons",
+      "team": "EF Education - EasyPost",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "arjen-livyns",
+      "name": "Arjen  Livyns",
+      "team": "XDS Astana Team",
+      "uci_points": 2.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 12,
+        "hills": 7,
+        "one_day": 12,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 13.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "kamil-gradek",
+      "name": "Kamil  Gradek",
+      "team": "Bahrain - Victorious",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 4,
+        "hills": 0,
+        "one_day": 4,
+        "gc": 12,
+        "tt": 14
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "tim-wellens",
+      "name": "Tim  Wellens",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 175.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 84,
+        "hills": 62,
+        "one_day": 84,
+        "gc": 90,
+        "tt": 28
+      },
+      "wins": [
+        "Cl\u00e1sica Ja\u00e9n (1.1)"
+      ],
+      "strength": 100.2,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "eric-antonio-fagundez",
+      "name": "Eric Antonio  Fag\u00fandez",
+      "team": "Burgos Burpellet BH",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 9,
+        "hills": 5,
+        "one_day": 9,
+        "gc": 6,
+        "tt": 5
+      },
+      "wins": [],
+      "strength": 10.0,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "noah-hobbs",
+      "name": "Noah  Hobbs",
+      "team": "EF Education - EasyPost",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "luca-mozzato",
+      "name": "Luca  Mozzato",
+      "team": "Tudor Pro Cycling Team",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 25,
+        "cobbles": 41,
+        "hills": 16,
+        "one_day": 41,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 48.1,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "louis-barre",
+      "name": "Louis  Barr\u00e9",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 856.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 12,
+        "hills": 9,
+        "one_day": 12,
+        "gc": 6,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 17.1,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "rick-pluimers",
+      "name": "Rick  Pluimers",
+      "team": "Tudor Pro Cycling Team",
+      "uci_points": 82.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 10,
+        "hills": 10,
+        "one_day": 10,
+        "gc": 3,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 13.8,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "paul-magnier",
+      "name": "Paul  Magnier",
+      "team": "Soudal Quick-Step",
+      "uci_points": 140.0,
+      "expertise": {
+        "sprint": 22,
+        "cobbles": 25,
+        "hills": 18,
+        "one_day": 25,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [
+        "Points classificationPoints classification",
+        "S4Stage 4 - Albufeira \u203a Lagos",
+        "S1Stage 1 - Vila Real de Santo Ant\u00f3nio \u203a Tavira"
+      ],
+      "strength": 38.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "dylan-groenewegen",
+      "name": "Dylan  Groenewegen",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 305.0,
+      "expertise": {
+        "sprint": 100,
+        "cobbles": 88,
+        "hills": 21,
+        "one_day": 88,
+        "gc": 8,
+        "tt": 0
+      },
+      "wins": [
+        "Cl\u00e0ssica Comunitat Valenciana - Gran Premi Val\u00e8ncia (1.1)"
+      ],
+      "strength": 112.3,
+      "starts": [
+        "bredene-koksijde-classic",
+        "classic-brugge-de-panne"
+      ]
+    },
+    {
+      "id": "timo-de-jong",
+      "name": "Timo de Jong",
+      "team": "Team Picnic PostNL",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 5,
+        "cobbles": 1,
+        "hills": 1,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "davide-ballerini",
+      "name": "Davide  Ballerini",
+      "team": "XDS Astana Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 16,
+        "cobbles": 35,
+        "hills": 32,
+        "one_day": 35,
+        "gc": 5,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 46.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "edoardo-affini",
+      "name": "Edoardo  Affini",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 258.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 3,
+        "hills": 2,
+        "one_day": 3,
+        "gc": 6,
+        "tt": 46
+      },
+      "wins": [
+        "S3 (TTT)Stage 3 (TTT) - Circuit Nevers Magny-Cours \u203a Nevers"
+      ],
+      "strength": 6.6,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "dario-igor-belletta",
+      "name": "Dario Igor  Belletta",
+      "team": "Team Polti VisitMalta",
+      "uci_points": 28.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 1,
+        "hills": 1,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "hugo-hofstetter",
+      "name": "Hugo  Hofstetter",
+      "team": "NSN Cycling Team",
+      "uci_points": 9.0,
+      "expertise": {
+        "sprint": 46,
+        "cobbles": 65,
+        "hills": 19,
+        "one_day": 65,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 75.5,
+      "starts": [
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "edward-planckaert",
+      "name": "Edward  Planckaert",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 11,
+        "cobbles": 11,
+        "hills": 9,
+        "one_day": 11,
+        "gc": 4,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 15.8,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "frederik-frison",
+      "name": "Frederik  Frison",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 9,
+        "hills": 0,
+        "one_day": 9,
+        "gc": 2,
+        "tt": 6
+      },
+      "wins": [],
+      "strength": 8.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "michiel-lambrecht",
+      "name": "Michiel  Lambrecht",
+      "team": "Team Flanders - Baloise",
+      "uci_points": 15.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 1,
+        "hills": 0,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "sebastien-grignard",
+      "name": "S\u00e9bastien  Grignard",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 3,
+        "hills": 0,
+        "one_day": 3,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "artem-shmidt",
+      "name": "Artem  Shmidt",
+      "team": "INEOS Grenadiers",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 1,
+        "hills": 1,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "albert-withen-philipsen",
+      "name": "Albert  Withen Philipsen",
+      "team": "Lidl - Trek",
+      "uci_points": 726.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 5,
+        "hills": 2,
+        "one_day": 5,
+        "gc": 2,
+        "tt": 1
+      },
+      "wins": [
+        "Paris-Roubaix Espoirs (1.2U)",
+        "Youth classificationYouth classification"
+      ],
+      "strength": 10.6,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "alberto-bettiol",
+      "name": "Alberto  Bettiol",
+      "team": "XDS Astana Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 52,
+        "hills": 46,
+        "one_day": 52,
+        "gc": 23,
+        "tt": 23
+      },
+      "wins": [],
+      "strength": 63.5,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "daniel-cavia-sanz",
+      "name": "Daniel  Cavia",
+      "team": "Burgos Burpellet BH",
+      "uci_points": 38.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 0,
+        "hills": 2,
+        "one_day": 0,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "georgios-bouglas",
+      "name": "Georgios  Bouglas",
+      "team": "Burgos Burpellet BH",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 24,
+        "cobbles": 3,
+        "hills": 4,
+        "one_day": 3,
+        "gc": 1,
+        "tt": 4
+      },
+      "wins": [],
+      "strength": 10.2,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "edward-theuns",
+      "name": "Edward  Theuns",
+      "team": "Lidl - Trek",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 43,
+        "cobbles": 54,
+        "hills": 20,
+        "one_day": 54,
+        "gc": 14,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 65.5,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "sean-flynn",
+      "name": "Sean  Flynn",
+      "team": "Team Picnic PostNL",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 2,
+        "hills": 4,
+        "one_day": 2,
+        "gc": 4,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "kasper-asgreen",
+      "name": "Kasper  Asgreen",
+      "team": "EF Education - EasyPost",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 7,
+        "cobbles": 32,
+        "hills": 30,
+        "one_day": 32,
+        "gc": 17,
+        "tt": 49
+      },
+      "wins": [],
+      "strength": 41.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "stefan-kung",
+      "name": "Stefan  K\u00fcng",
+      "team": "Tudor Pro Cycling Team",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 10,
+        "cobbles": 58,
+        "hills": 35,
+        "one_day": 58,
+        "gc": 33,
+        "tt": 100
+      },
+      "wins": [],
+      "strength": 66.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "daan-hoole",
+      "name": "Daan  Hoole",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 20.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 4,
+        "hills": 2,
+        "one_day": 4,
+        "gc": 3,
+        "tt": 24
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "tobias-bayer",
+      "name": "Tobias  Bayer",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 4,
+        "hills": 3,
+        "one_day": 4,
+        "gc": 4,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "yves-lampaert",
+      "name": "Yves  Lampaert",
+      "team": "Soudal Quick-Step",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 33,
+        "cobbles": 70,
+        "hills": 24,
+        "one_day": 70,
+        "gc": 30,
+        "tt": 51
+      },
+      "wins": [],
+      "strength": 78.5,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "magnus-sheffield",
+      "name": "Magnus  Sheffield",
+      "team": "INEOS Grenadiers",
+      "uci_points": 80.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 13,
+        "hills": 19,
+        "one_day": 13,
+        "gc": 24,
+        "tt": 25
+      },
+      "wins": [],
+      "strength": 19.1,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "jonas-geens",
+      "name": "Jonas  Geens",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 2,
+        "one_day": 0,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "remco-evenepoel",
+      "name": "Remco  Evenepoel",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 727.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 81,
+        "hills": 92,
+        "one_day": 81,
+        "gc": 91,
+        "tt": 98
+      },
+      "wins": [
+        "S2 (ITT)Stage 2 (ITT) - Hudayriyat Island \u203a Hudayriyat Island",
+        "General classificationGeneral classification",
+        "S4Stage 4 - La Nuc\u00eda \u203a Teulada Moraira",
+        "S2 (ITT)Stage 2 (ITT) - Carlet \u203a Alginet",
+        "Trofeo Andratx - Pollen\u00e7a (1.1)",
+        "Trofeo Serra Tramuntana (1.1)",
+        "Trofeo Ses Salines (1.1)"
+      ],
+      "strength": 117.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "axel-huens",
+      "name": "Axel  Huens",
+      "team": "Groupama - FDJ United",
+      "uci_points": 23.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 4,
+        "hills": 2,
+        "one_day": 4,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.1,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "victor-vercouillie",
+      "name": "Victor  Vercouillie",
+      "team": "Team Flanders - Baloise",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 0,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "robert-donaldson",
+      "name": "Robert  Donaldson",
+      "team": "Team Jayco AlUla",
+      "uci_points": 45.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 1,
+        "hills": 3,
+        "one_day": 1,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "erlend-blikra",
+      "name": "Erlend  Blikra",
+      "team": "Uno-X Mobility",
+      "uci_points": 110.0,
+      "expertise": {
+        "sprint": 24,
+        "cobbles": 10,
+        "hills": 2,
+        "one_day": 10,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [
+        "S4Stage 4 - Al Sawadi Beach \u203a Sohar"
+      ],
+      "strength": 17.2,
+      "starts": [
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "classic-brugge-de-panne"
+      ]
+    },
+    {
+      "id": "roel-van-sintmaartensdijk",
+      "name": "Roel van Sintmaartensdijk",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 1,
+        "hills": 0,
+        "one_day": 1,
+        "gc": 2,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "ben-healy",
+      "name": "Ben  Healy",
+      "team": "EF Education - EasyPost",
+      "uci_points": 2742.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 29,
+        "hills": 28,
+        "one_day": 29,
+        "gc": 15,
+        "tt": 10
+      },
+      "wins": [
+        "S6Stage 6 - Bayeux \u203a Vire Normandie",
+        "S5Stage 5 - Urdu\u00f1a \u203a Gernika-Lumo"
+      ],
+      "strength": 48.7,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "pavel-bittner",
+      "name": "Pavel  Bittner",
+      "team": "Team Picnic PostNL",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 13,
+        "cobbles": 11,
+        "hills": 14,
+        "one_day": 11,
+        "gc": 4,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 18.2,
+      "starts": [
+        "bredene-koksijde-classic",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "thibaud-gruel",
+      "name": "Thibaud  Gruel",
+      "team": "Groupama - FDJ United",
+      "uci_points": 23.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 4,
+        "hills": 8,
+        "one_day": 4,
+        "gc": 4,
+        "tt": 3
+      },
+      "wins": [],
+      "strength": 7.1,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "mauro-schmid",
+      "name": "Mauro  Schmid",
+      "team": "Team Jayco AlUla",
+      "uci_points": 1070.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 20,
+        "hills": 24,
+        "one_day": 20,
+        "gc": 24,
+        "tt": 13
+      },
+      "wins": [
+        "S3Stage 3 - Samail \"Al Fayhaa Resthouse\" \u203a Eastern Mountain",
+        "Muscat Classic (1.Pro)"
+      ],
+      "strength": 33.0,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "max-kanter",
+      "name": "Max  Kanter",
+      "team": "XDS Astana Team",
+      "uci_points": 87.0,
+      "expertise": {
+        "sprint": 27,
+        "cobbles": 23,
+        "hills": 23,
+        "one_day": 23,
+        "gc": 4,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 35.8,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "mathieu-van-der-poel",
+      "name": "Mathieu van der Poel",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 3838.0,
+      "expertise": {
+        "sprint": 32,
+        "cobbles": 100,
+        "hills": 81,
+        "one_day": 100,
+        "gc": 26,
+        "tt": 21
+      },
+      "wins": [
+        "S3Stage 3 - Aalter \u203a Geraardsbergen",
+        "S2Stage 2 - Lauwin-Planque \u203a Boulogne-sur-Mer",
+        "Paris-Roubaix (1.UWT)",
+        "E3 Saxo Classic ME (1.UWT)",
+        "Milano-Sanremo (1.UWT)",
+        "Ename Samyn Classic (1.1)"
+      ],
+      "strength": 144.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "vlad-van-mechelen",
+      "name": "Vlad Van Mechelen",
+      "team": "Bahrain - Victorious",
+      "uci_points": 30.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 2,
+        "hills": 1,
+        "one_day": 2,
+        "gc": 1,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "bastien-tronchon",
+      "name": "Bastien  Tronchon",
+      "team": "Groupama - FDJ United",
+      "uci_points": 25.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 8,
+        "hills": 8,
+        "one_day": 8,
+        "gc": 5,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 10.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "siebe-deweirdt",
+      "name": "Siebe  Deweirdt",
+      "team": "Team Flanders - Baloise",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 0,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "aime-de-gendt",
+      "name": "Aim\u00e9 De Gendt",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 8,
+        "cobbles": 22,
+        "hills": 8,
+        "one_day": 22,
+        "gc": 11,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 24.2,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "karsten-larsen-feldmann",
+      "name": "Karsten Larsen  Feldmann",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "thymen-arensman",
+      "name": "Thymen  Arensman",
+      "team": "INEOS Grenadiers",
+      "uci_points": 53.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 1,
+        "hills": 37,
+        "one_day": 1,
+        "gc": 41,
+        "tt": 28
+      },
+      "wins": [],
+      "strength": 14.9,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "niklas-markl",
+      "name": "Niklas  M\u00e4rkl",
+      "team": "Team Picnic PostNL",
+      "uci_points": 2.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 3,
+        "hills": 3,
+        "one_day": 3,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "valentin-madouas",
+      "name": "Valentin  Madouas",
+      "team": "Groupama - FDJ United",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 66,
+        "hills": 37,
+        "one_day": 66,
+        "gc": 27,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 72.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "jon-barrenetxea-golzarri",
+      "name": "Jon  Barrenetxea",
+      "team": "Movistar Team",
+      "uci_points": 103.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 9,
+        "hills": 11,
+        "one_day": 9,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 12.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "jarno-widar",
+      "name": "Jarno  Widar",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 126.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 3,
+        "hills": 5,
+        "one_day": 3,
+        "gc": 4,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "joren-bloem2",
+      "name": "Joren  Bloem",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 3,
+        "hills": 0,
+        "one_day": 3,
+        "gc": 1,
+        "tt": 4
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "michal-kwiatkowski",
+      "name": "Micha\u0142  Kwiatkowski",
+      "team": "INEOS Grenadiers",
+      "uci_points": 14.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 94,
+        "hills": 72,
+        "one_day": 94,
+        "gc": 74,
+        "tt": 71
+      },
+      "wins": [],
+      "strength": 110.8,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "matej-mohoric",
+      "name": "Matej  Mohori\u010d",
+      "team": "Bahrain - Victorious",
+      "uci_points": 30.0,
+      "expertise": {
+        "sprint": 14,
+        "cobbles": 61,
+        "hills": 58,
+        "one_day": 61,
+        "gc": 47,
+        "tt": 7
+      },
+      "wins": [],
+      "strength": 78.7,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "emils-liepins",
+      "name": "Em\u012bls  Liepi\u0146\u0161",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 31,
+        "cobbles": 15,
+        "hills": 3,
+        "one_day": 15,
+        "gc": 5,
+        "tt": 5
+      },
+      "wins": [],
+      "strength": 22.0,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "tom-crabbe",
+      "name": "Tom  Crabbe",
+      "team": "Team Flanders - Baloise",
+      "uci_points": 48.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 1,
+        "hills": 0,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [
+        "S4Stage 4 - Montoro \u203a Pozoblanco",
+        "S1Stage 1 - Bellegarde \u203a Bellegarde"
+      ],
+      "strength": 5.0,
+      "starts": [
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "hugo-page",
+      "name": "Hugo  Page",
+      "team": "Cofidis",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 5,
+        "cobbles": 13,
+        "hills": 13,
+        "one_day": 13,
+        "gc": 3,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 17.5,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "alexandre-mayer",
+      "name": "Alexandre  Mayer",
+      "team": "Burgos Burpellet BH",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 7,
+        "hills": 1,
+        "one_day": 7,
+        "gc": 0,
+        "tt": 7
+      },
+      "wins": [],
+      "strength": 6.8,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "wout-van-aert",
+      "name": "Wout van Aert",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 2908.0,
+      "expertise": {
+        "sprint": 44,
+        "cobbles": 100,
+        "hills": 99,
+        "one_day": 100,
+        "gc": 25,
+        "tt": 62
+      },
+      "wins": [
+        "S21Stage 21 - Mantes-la-Ville \u203a Paris (Champs-\u00c9lys\u00e9es)",
+        "S9Stage 9 - Gubbio \u203a Siena"
+      ],
+      "strength": 149.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "tim-torn-teutenberg",
+      "name": "Tim Torn  Teutenberg",
+      "team": "Lidl - Trek",
+      "uci_points": 18.0,
+      "expertise": {
+        "sprint": 16,
+        "cobbles": 7,
+        "hills": 7,
+        "one_day": 7,
+        "gc": 1,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 12.8,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "bredene-koksijde-classic"
+      ]
+    },
+    {
+      "id": "mick-van-dijke",
+      "name": "Mick van Dijke",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 154.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 5,
+        "hills": 5,
+        "one_day": 5,
+        "gc": 6,
+        "tt": 5
+      },
+      "wins": [],
+      "strength": 7.8,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "sebastian-kolze-changizi",
+      "name": "Sebastian  Kolze Changizi",
+      "team": "Tudor Pro Cycling Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 1,
+        "hills": 1,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "erik-nordsaeter-resell",
+      "name": "Erik Nords\u00e6ter  Resell",
+      "team": "Uno-X Mobility",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 5,
+        "hills": 0,
+        "one_day": 5,
+        "gc": 0,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.2,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "paul-seixas",
+      "name": "Paul  Seixas",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 210.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 5,
+        "hills": 8,
+        "one_day": 5,
+        "gc": 5,
+        "tt": 3
+      },
+      "wins": [
+        "Youth classificationYouth classification",
+        "S2Stage 2 - Portim\u00e3o  \u203a F\u00f3ia (Monchique)"
+      ],
+      "strength": 10.7,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "laurence-pithie",
+      "name": "Laurence  Pithie",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 200.0,
+      "expertise": {
+        "sprint": 11,
+        "cobbles": 23,
+        "hills": 14,
+        "one_day": 23,
+        "gc": 2,
+        "tt": 4
+      },
+      "wins": [],
+      "strength": 28.9,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "ben-swift",
+      "name": "Ben  Swift",
+      "team": "INEOS Grenadiers",
+      "uci_points": 2.0,
+      "expertise": {
+        "sprint": 54,
+        "cobbles": 40,
+        "hills": 34,
+        "one_day": 40,
+        "gc": 19,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 61.3,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "julian-alaphilippe",
+      "name": "Julian  Alaphilippe",
+      "team": "Tudor Pro Cycling Team",
+      "uci_points": 6.0,
+      "expertise": {
+        "sprint": 14,
+        "cobbles": 100,
+        "hills": 100,
+        "one_day": 100,
+        "gc": 59,
+        "tt": 29
+      },
+      "wins": [],
+      "strength": 128.5,
+      "starts": [
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "afonso-eulalio",
+      "name": "Afonso  Eul\u00e1lio",
+      "team": "Bahrain - Victorious",
+      "uci_points": 120.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 2,
+        "hills": 4,
+        "one_day": 2,
+        "gc": 5,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "madis-mihkels",
+      "name": "Madis  Mihkels",
+      "team": "EF Education - EasyPost",
+      "uci_points": 26.0,
+      "expertise": {
+        "sprint": 10,
+        "cobbles": 14,
+        "hills": 9,
+        "one_day": 14,
+        "gc": 2,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 18.2,
+      "starts": [
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "clement-venturini",
+      "name": "Cl\u00e9ment  Venturini",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 27,
+        "cobbles": 36,
+        "hills": 34,
+        "one_day": 36,
+        "gc": 12,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 51.0,
+      "starts": [
+        "nokere-koerse",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "tim-merlier",
+      "name": "Tim  Merlier",
+      "team": "Soudal Quick-Step",
+      "uci_points": 1976.0,
+      "expertise": {
+        "sprint": 100,
+        "cobbles": 86,
+        "hills": 9,
+        "one_day": 86,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [
+        "S1Stage 1 - Dordrecht \u203a Dordrecht",
+        "Omloop van het Houtland (1.1)",
+        "S4Stage 4 - Riemst \u203a Bilzen-Hoeselt",
+        "S1Stage 1 - Terneuzen \u203a Breskens (Sluis)",
+        "S9Stage 9 - Chinon \u203a Ch\u00e2teauroux",
+        "S3Stage 3 - Valenciennes \u203a Dunkerque",
+        "S5Stage 5 - Brussels \u203a Brussels",
+        "S1Stage 1 - Merelbeke-Melle \u203a Knokke-Heist",
+        "Brussels Cycling Classic (1.Pro)",
+        "Scheldeprijs ME (1.Pro)"
+      ],
+      "strength": 123.5,
+      "starts": [
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "carl-frederik-bevort",
+      "name": "Carl-Frederik  B\u00e9vort",
+      "team": "Uno-X Mobility",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 1,
+        "hills": 2,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "victor-lafay",
+      "name": "Victor  Lafay",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 363.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 10,
+        "hills": 13,
+        "one_day": 10,
+        "gc": 14,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 15.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "alan-hatherly",
+      "name": "Alan  Hatherly",
+      "team": "Team Jayco AlUla",
+      "uci_points": 26.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 2,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "bauke-mollema",
+      "name": "Bauke  Mollema",
+      "team": "Lidl - Trek",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 4,
+        "cobbles": 100,
+        "hills": 100,
+        "one_day": 100,
+        "gc": 100,
+        "tt": 41
+      },
+      "wins": [],
+      "strength": 126.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "steffen-de-schuyteneer",
+      "name": "Steffen De Schuyteneer",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 105.0,
+      "expertise": {
+        "sprint": 8,
+        "cobbles": 3,
+        "hills": 3,
+        "one_day": 3,
+        "gc": 3,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 6.1,
+      "starts": [
+        "nokere-koerse",
+        "bredene-koksijde-classic"
+      ]
+    },
+    {
+      "id": "pau-miquel-delgado",
+      "name": "Pau  Miquel",
+      "team": "Bahrain - Victorious",
+      "uci_points": 88.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 11,
+        "hills": 14,
+        "one_day": 11,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 15.2,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "magnus-cort-nielsen",
+      "name": "Magnus  Cort",
+      "team": "Uno-X Mobility",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 25,
+        "cobbles": 32,
+        "hills": 54,
+        "one_day": 32,
+        "gc": 29,
+        "tt": 16
+      },
+      "wins": [],
+      "strength": 54.5,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "casper-van-uden",
+      "name": "Casper van Uden",
+      "team": "Team Picnic PostNL",
+      "uci_points": 12.0,
+      "expertise": {
+        "sprint": 22,
+        "cobbles": 9,
+        "hills": 3,
+        "one_day": 9,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 14.5,
+      "starts": [
+        "nokere-koerse"
+      ]
+    },
+    {
+      "id": "samuel-watson",
+      "name": "Samuel  Watson",
+      "team": "INEOS Grenadiers",
+      "uci_points": 116.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 8,
+        "hills": 11,
+        "one_day": 8,
+        "gc": 9,
+        "tt": 11
+      },
+      "wins": [
+        "ProloguePrologue - Adelaide \u203a Adelaide"
+      ],
+      "strength": 14.3,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "hugo-de-la-calle-arango",
+      "name": "Hugo de la Calle",
+      "team": "Burgos Burpellet BH",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 1,
+        "hills": 0,
+        "one_day": 1,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "lewis-askey",
+      "name": "Lewis  Askey",
+      "team": "NSN Cycling Team",
+      "uci_points": 6.0,
+      "expertise": {
+        "sprint": 5,
+        "cobbles": 16,
+        "hills": 11,
+        "one_day": 16,
+        "gc": 4,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 19.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "lev-gonov",
+      "name": "Lev  Gonov",
+      "team": "XDS Astana Team",
+      "uci_points": 2.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 0,
+        "hills": 1,
+        "one_day": 0,
+        "gc": 1,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "aivaras-mikutis",
+      "name": "Aivaras  Mikutis",
+      "team": "Tudor Pro Cycling Team",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 1,
+        "hills": 1,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 3
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "demi-vollering",
+      "name": "Demi  Vollering",
+      "team": "FDJ United - SUEZ",
+      "uci_points": 315.0,
+      "expertise": {
+        "sprint": 10,
+        "cobbles": 100,
+        "hills": 100,
+        "one_day": 100,
+        "gc": 100,
+        "tt": 39
+      },
+      "wins": [
+        "Points classificationPoints classification",
+        "General classificationGeneral classification",
+        "S4Stage 4 - Sagunt \u203a Valencia",
+        "S1Stage 1 - Gandia \u203a Gandia"
+      ],
+      "strength": 133.7,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "alexandre-balmer",
+      "name": "Alexandre  Balmer",
+      "team": "Solution Tech NIPPO Rali",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 3,
+        "hills": 1,
+        "one_day": 3,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "dries-van-gestel",
+      "name": "Dries Van Gestel",
+      "team": "Soudal Quick-Step",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 15,
+        "cobbles": 31,
+        "hills": 11,
+        "one_day": 31,
+        "gc": 5,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 35.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "simone-gualdi",
+      "name": "Simone  Gualdi",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 22.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 2,
+        "hills": 1,
+        "one_day": 2,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "mattia-gaffuri",
+      "name": "Mattia  Gaffuri",
+      "team": "Team Picnic PostNL",
+      "uci_points": 10.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 0,
+        "hills": 0,
+        "one_day": 0,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "rasmus-tiller",
+      "name": "Rasmus  Tiller",
+      "team": "Uno-X Mobility",
+      "uci_points": 80.0,
+      "expertise": {
+        "sprint": 13,
+        "cobbles": 38,
+        "hills": 13,
+        "one_day": 38,
+        "gc": 5,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 41.7,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "gerben-thijssen",
+      "name": "Gerben  Thijssen",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 45.0,
+      "expertise": {
+        "sprint": 48,
+        "cobbles": 38,
+        "hills": 1,
+        "one_day": 38,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 45.8,
+      "starts": [
+        "nokere-koerse",
+        "bredene-koksijde-classic"
+      ]
+    },
+    {
+      "id": "gleb-syritsa",
+      "name": "Gleb  Syritsa",
+      "team": "XDS Astana Team",
+      "uci_points": 2.0,
+      "expertise": {
+        "sprint": 18,
+        "cobbles": 3,
+        "hills": 2,
+        "one_day": 3,
+        "gc": 1,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 7.9,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "alexys-brunel",
+      "name": "Alexys  Brunel",
+      "team": "TotalEnergies",
+      "uci_points": 2.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 2,
+        "hills": 0,
+        "one_day": 2,
+        "gc": 1,
+        "tt": 5
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "nicolas-vinokurov",
+      "name": "Nicolas  Vinokurov",
+      "team": "XDS Astana Team",
+      "uci_points": 276.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 2,
+        "hills": 2,
+        "one_day": 2,
+        "gc": 4,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "mathias-norsgaard",
+      "name": "Mathias Sunek\u00e6r Norsgaard",
+      "team": "Lidl - Trek",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 5,
+        "hills": 0,
+        "one_day": 5,
+        "gc": 2,
+        "tt": 10
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "phil-bauhaus",
+      "name": "Phil  Bauhaus",
+      "team": "Bahrain - Victorious",
+      "uci_points": 100.0,
+      "expertise": {
+        "sprint": 62,
+        "cobbles": 20,
+        "hills": 33,
+        "one_day": 20,
+        "gc": 5,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 45.8,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "martin-marcellusi",
+      "name": "Martin  Marcellusi",
+      "team": "Bardiani CSF 7 Saber",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 6,
+        "hills": 7,
+        "one_day": 6,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 8.1,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "samuel-leroux",
+      "name": "Samuel  Leroux",
+      "team": "TotalEnergies",
+      "uci_points": 2.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 3,
+        "hills": 1,
+        "one_day": 3,
+        "gc": 4,
+        "tt": 4
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "jan-tratnik",
+      "name": "Jan  Tratnik",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 6.0,
+      "expertise": {
+        "sprint": 16,
+        "cobbles": 24,
+        "hills": 16,
+        "one_day": 24,
+        "gc": 17,
+        "tt": 37
+      },
+      "wins": [],
+      "strength": 31.0,
+      "starts": [
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "timo-kielich",
+      "name": "Timo  Kielich",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 379.0,
+      "expertise": {
+        "sprint": 9,
+        "cobbles": 12,
+        "hills": 6,
+        "one_day": 12,
+        "gc": 2,
+        "tt": 0
+      },
+      "wins": [
+        "Mountains classificationMountains classification",
+        "Antwerp Port Epic / Sels Trophy (1.1)"
+      ],
+      "strength": 18.9,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "frits-biesterbos",
+      "name": "Frits  Biesterbos",
+      "team": "Team Picnic PostNL",
+      "uci_points": 51.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 1,
+        "hills": 0,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "tobias-halland-johannessen",
+      "name": "Tobias Halland  Johannessen",
+      "team": "Uno-X Mobility",
+      "uci_points": 137.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 16,
+        "hills": 30,
+        "one_day": 16,
+        "gc": 29,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 25.8,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "tim-van-dijke",
+      "name": "Tim van Dijke",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 183.0,
+      "expertise": {
+        "sprint": 5,
+        "cobbles": 6,
+        "hills": 4,
+        "one_day": 6,
+        "gc": 2,
+        "tt": 7
+      },
+      "wins": [],
+      "strength": 8.7,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "milan-menten",
+      "name": "Milan  Menten",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 6.0,
+      "expertise": {
+        "sprint": 25,
+        "cobbles": 30,
+        "hills": 20,
+        "one_day": 30,
+        "gc": 8,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 40.0,
+      "starts": [
+        "nokere-koerse"
+      ]
+    },
+    {
+      "id": "jan-christen",
+      "name": "Jan  Christen",
+      "team": "UAE Team Emirates - XRG",
+      "uci_points": 415.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 16,
+        "hills": 11,
+        "one_day": 16,
+        "gc": 12,
+        "tt": 5
+      },
+      "wins": [
+        "Youth classificationYouth classification",
+        "General classificationGeneral classification",
+        "S5Stage 5 - AlUla Old Town \u203a Skyviews of Harrat Uwayrid"
+      ],
+      "strength": 23.4,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "johan-jacobs",
+      "name": "Johan  Jacobs",
+      "team": "Groupama - FDJ United",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 6,
+        "hills": 1,
+        "one_day": 6,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.9,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "carlos-canal",
+      "name": "Carlos  Canal",
+      "team": "Movistar Team",
+      "uci_points": 11.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 10,
+        "hills": 12,
+        "one_day": 10,
+        "gc": 8,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 14.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "toms-skujins",
+      "name": "Toms  Skuji\u0146\u0161",
+      "team": "Lidl - Trek",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 12,
+        "cobbles": 60,
+        "hills": 30,
+        "one_day": 60,
+        "gc": 22,
+        "tt": 7
+      },
+      "wins": [],
+      "strength": 66.8,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "vincent-van-hemelen",
+      "name": "Vincent Van Hemelen",
+      "team": "Team Flanders - Baloise",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 2,
+        "hills": 1,
+        "one_day": 2,
+        "gc": 2,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "jonas-rutsch",
+      "name": "Jonas  Rutsch",
+      "team": "Lotto Intermarch\u00e9",
+      "uci_points": 8.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 10,
+        "hills": 4,
+        "one_day": 10,
+        "gc": 6,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 10.5,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "thomas-gachignard",
+      "name": "Thomas  Gachignard",
+      "team": "TotalEnergies",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 3,
+        "hills": 2,
+        "one_day": 3,
+        "gc": 4,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "cees-bol",
+      "name": "Cees  Bol",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 40.0,
+      "expertise": {
+        "sprint": 29,
+        "cobbles": 18,
+        "hills": 17,
+        "one_day": 18,
+        "gc": 11,
+        "tt": 6
+      },
+      "wins": [],
+      "strength": 29.5,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "riley-sheehan",
+      "name": "Riley  Sheehan",
+      "team": "NSN Cycling Team",
+      "uci_points": 50.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 12,
+        "hills": 7,
+        "one_day": 12,
+        "gc": 5,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 13.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "gianni-vermeersch",
+      "name": "Gianni  Vermeersch",
+      "team": "Red Bull - BORA - hansgrohe",
+      "uci_points": 50.0,
+      "expertise": {
+        "sprint": 19,
+        "cobbles": 39,
+        "hills": 17,
+        "one_day": 39,
+        "gc": 5,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 45.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "roger-adria",
+      "name": "Roger  Adri\u00e0",
+      "team": "Movistar Team",
+      "uci_points": 23.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 23,
+        "hills": 17,
+        "one_day": 23,
+        "gc": 7,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 26.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "aaron-gate",
+      "name": "Aaron  Gate",
+      "team": "XDS Astana Team",
+      "uci_points": 118.0,
+      "expertise": {
+        "sprint": 9,
+        "cobbles": 11,
+        "hills": 17,
+        "one_day": 11,
+        "gc": 19,
+        "tt": 12
+      },
+      "wins": [],
+      "strength": 18.7,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "lorenzo-quartucci",
+      "name": "Lorenzo  Quartucci",
+      "team": "Burgos Burpellet BH",
+      "uci_points": 16.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 3,
+        "hills": 5,
+        "one_day": 3,
+        "gc": 5,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.1,
+      "starts": [
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "davide-toneatti",
+      "name": "Davide  Toneatti",
+      "team": "XDS Astana Team",
+      "uci_points": 18.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 1,
+        "hills": 1,
+        "one_day": 1,
+        "gc": 1,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "mike-teunissen",
+      "name": "Mike  Teunissen",
+      "team": "XDS Astana Team",
+      "uci_points": 2.0,
+      "expertise": {
+        "sprint": 27,
+        "cobbles": 49,
+        "hills": 29,
+        "one_day": 49,
+        "gc": 29,
+        "tt": 6
+      },
+      "wins": [],
+      "strength": 60.5,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "petr-kelemen",
+      "name": "Petr  Kelemen",
+      "team": "Tudor Pro Cycling Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 1,
+        "hills": 0,
+        "one_day": 1,
+        "gc": 1,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "tobias-lund-andresen",
+      "name": "Tobias Lund  Andresen",
+      "team": "Decathlon CMA CGM Team",
+      "uci_points": 580.0,
+      "expertise": {
+        "sprint": 18,
+        "cobbles": 18,
+        "hills": 18,
+        "one_day": 18,
+        "gc": 6,
+        "tt": 0
+      },
+      "wins": [
+        "Mapei Cadel Evans Great Ocean Road Race - Men (1.UWT)",
+        "Points classificationPoints classification",
+        "S1Stage 1 - Tanunda \u203a Tanunda"
+      ],
+      "strength": 32.9,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "anthony-turgis",
+      "name": "Anthony  Turgis",
+      "team": "TotalEnergies",
+      "uci_points": 42.0,
+      "expertise": {
+        "sprint": 19,
+        "cobbles": 50,
+        "hills": 22,
+        "one_day": 50,
+        "gc": 16,
+        "tt": 3
+      },
+      "wins": [],
+      "strength": 56.9,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "jonathan-milan",
+      "name": "Jonathan  Milan",
+      "team": "Lidl - Trek",
+      "uci_points": 258.0,
+      "expertise": {
+        "sprint": 41,
+        "cobbles": 15,
+        "hills": 25,
+        "one_day": 15,
+        "gc": 3,
+        "tt": 6
+      },
+      "wins": [
+        "Points classificationPoints classification",
+        "S7Stage 7 - Zayed National\u00a0Museum \u203a Abu Dhabi Breakwater",
+        "S5Stage 5 - Dubai Al Mamzar Park \u203a Hamdan Bin Mohammed Smart University",
+        "S4Stage 4 - Fujairah \u203a Fujairah",
+        "S2Stage 2 - AlManshiyah Train Station \u203a AlManshiyah Train Station",
+        "S1Stage 1 - AlUla Camel Cup Track \u203a AlUla Camel Cup Track"
+      ],
+      "strength": 41.2,
+      "starts": [
+        "milano-sanremo",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "roland-thalmann",
+      "name": "Roland  Thalmann",
+      "team": "Tudor Pro Cycling Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 3,
+        "hills": 6,
+        "one_day": 3,
+        "gc": 7,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "cyril-barthe",
+      "name": "Cyril  Barthe",
+      "team": "Groupama - FDJ United",
+      "uci_points": 6.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 5,
+        "hills": 8,
+        "one_day": 5,
+        "gc": 5,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 8.9,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "frank-van-den-broek",
+      "name": "Frank van den Broek",
+      "team": "Team Picnic PostNL",
+      "uci_points": 15.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 3,
+        "hills": 7,
+        "one_day": 3,
+        "gc": 9,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.3,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "vincenzo-albanese",
+      "name": "Vincenzo  Albanese",
+      "team": "EF Education - EasyPost",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 28,
+        "hills": 31,
+        "one_day": 28,
+        "gc": 9,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 37.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "clement-alleno",
+      "name": "Cl\u00e9ment  Alleno",
+      "team": "Burgos Burpellet BH",
+      "uci_points": 21.0,
+      "expertise": {
+        "sprint": 1,
+        "cobbles": 2,
+        "hills": 4,
+        "one_day": 2,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [
+        "Mountains classificationMountains classification"
+      ],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "jasper-philipsen",
+      "name": "Jasper  Philipsen",
+      "team": "Alpecin-Premier Tech",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 100,
+        "cobbles": 100,
+        "hills": 50,
+        "one_day": 100,
+        "gc": 12,
+        "tt": 3
+      },
+      "wins": [],
+      "strength": 131.3,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "nokere-koerse",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "matis-louvel",
+      "name": "Matis  Louvel",
+      "team": "NSN Cycling Team",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 22,
+        "hills": 12,
+        "one_day": 22,
+        "gc": 3,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 24.3,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "tom-van-asbroeck",
+      "name": "Tom Van Asbroeck",
+      "team": "NSN Cycling Team",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 42,
+        "cobbles": 65,
+        "hills": 16,
+        "one_day": 65,
+        "gc": 10,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 73.4,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "sven-erik-bystrom",
+      "name": "Sven Erik  Bystr\u00f8m",
+      "team": "Uno-X Mobility",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 2,
+        "cobbles": 16,
+        "hills": 14,
+        "one_day": 16,
+        "gc": 16,
+        "tt": 2
+      },
+      "wins": [],
+      "strength": 19.8,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "thomas-pidcock",
+      "name": "Thomas  Pidcock",
+      "team": "Pinarello Q36.5 Pro Cycling Team",
+      "uci_points": 253.0,
+      "expertise": {
+        "sprint": 7,
+        "cobbles": 60,
+        "hills": 51,
+        "one_day": 60,
+        "gc": 33,
+        "tt": 2
+      },
+      "wins": [
+        "S5Stage 5 - La Roda de Andaluc\u00eda \u203a Lucena"
+      ],
+      "strength": 75.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "milano-sanremo"
+      ]
+    },
+    {
+      "id": "niklas-larsen",
+      "name": "Niklas  Larsen",
+      "team": "Unibet Rose Rockets",
+      "uci_points": 55.0,
+      "expertise": {
+        "sprint": 5,
+        "cobbles": 5,
+        "hills": 3,
+        "one_day": 5,
+        "gc": 8,
+        "tt": 9
+      },
+      "wins": [],
+      "strength": 7.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "alessandro-pinarello",
+      "name": "Alessandro  Pinarello",
+      "team": "NSN Cycling Team",
+      "uci_points": 20.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 5,
+        "hills": 4,
+        "one_day": 5,
+        "gc": 3,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 6.0,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "filippo-fiorelli",
+      "name": "Filippo  Fiorelli",
+      "team": "Team Visma | Lease a Bike",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 10,
+        "cobbles": 11,
+        "hills": 19,
+        "one_day": 11,
+        "gc": 5,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 19.2,
+      "starts": [
+        "strade-bianche"
+      ]
+    },
+    {
+      "id": "sandy-dujardin",
+      "name": "Sandy  Dujardin",
+      "team": "TotalEnergies",
+      "uci_points": 28.0,
+      "expertise": {
+        "sprint": 6,
+        "cobbles": 23,
+        "hills": 10,
+        "one_day": 23,
+        "gc": 2,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 25.5,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "mads-pedersen",
+      "name": "Mads  Pedersen",
+      "team": "Lidl - Trek",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 58,
+        "cobbles": 93,
+        "hills": 71,
+        "one_day": 93,
+        "gc": 33,
+        "tt": 38
+      },
+      "wins": [],
+      "strength": 122.5,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "strade-bianche",
+        "nokere-koerse",
+        "bredene-koksijde-classic",
+        "milano-sanremo",
+        "classic-brugge-de-panne",
+        "e3-harelbeke",
+        "gent-wevelgem"
+      ]
+    },
+    {
+      "id": "dylan-van-baarle",
+      "name": "Dylan van Baarle",
+      "team": "Soudal Quick-Step",
+      "uci_points": 5.0,
+      "expertise": {
+        "sprint": 12,
+        "cobbles": 53,
+        "hills": 30,
+        "one_day": 53,
+        "gc": 30,
+        "tt": 26
+      },
+      "wins": [],
+      "strength": 60.6,
+      "starts": [
+        "omloop-het-nieuwsblad",
+        "e3-harelbeke"
+      ]
+    },
+    {
+      "id": "dylan-vandenstorme",
+      "name": "Dylan  Vandenstorme",
+      "team": "Team Flanders - Baloise",
+      "uci_points": 0.0,
+      "expertise": {
+        "sprint": 0,
+        "cobbles": 1,
+        "hills": 0,
+        "one_day": 1,
+        "gc": 0,
+        "tt": 0
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    },
+    {
+      "id": "kim-heiduk",
+      "name": "Kim  Heiduk",
+      "team": "INEOS Grenadiers",
+      "uci_points": 3.0,
+      "expertise": {
+        "sprint": 3,
+        "cobbles": 2,
+        "hills": 4,
+        "one_day": 2,
+        "gc": 4,
+        "tt": 1
+      },
+      "wins": [],
+      "strength": 5.0,
+      "starts": [
+        "omloop-het-nieuwsblad"
+      ]
+    }
+  ],
+  "races": [
+    {
+      "id": "omloop-het-nieuwsblad",
+      "year": "2026",
+      "name": "Omloop Nieuwsblad"
+    },
+    {
+      "id": "kuurne-brussels-kuurne",
+      "year": "2026",
+      "name": "Kuurne-Brussel-Kuurne"
+    },
+    {
+      "id": "le-samyn",
+      "year": "2026",
+      "name": "Le Samyn"
+    },
+    {
+      "id": "strade-bianche",
+      "year": "2026",
+      "name": "Strade Bianche"
+    },
+    {
+      "id": "nokere-koerse",
+      "year": "2026",
+      "name": "Nokere Koerse"
+    },
+    {
+      "id": "bredene-koksijde-classic",
+      "year": "2026",
+      "name": "Bredene Koksijde Classic"
+    },
+    {
+      "id": "milano-sanremo",
+      "year": "2026",
+      "name": "Milano-Sanremo"
+    },
+    {
+      "id": "classic-brugge-de-panne",
+      "year": "2026",
+      "name": "Classic Brugge-De Panne"
+    },
+    {
+      "id": "e3-harelbeke",
+      "year": "2026",
+      "name": "E3 Saxo Classic"
+    },
+    {
+      "id": "gent-wevelgem",
+      "year": "2026",
+      "name": "Gent-Wevelgem"
+    }
+  ]
+}
