@@ -123,9 +123,10 @@ function App() {
     async function fetchData() {
       try {
         setLoading(true);
+        const API_BASE = import.meta.env.PROD ? '' : 'http://localhost:8000';
         const [ridersRes, racesRes] = await Promise.all([
-          fetch('http://localhost:8000/api/riders').then(r => r.json()),
-          fetch('http://localhost:8000/api/races').then(r => r.json())
+          fetch(`${API_BASE}/api/riders`).then(r => r.json()),
+          fetch(`${API_BASE}/api/races`).then(r => r.json())
         ]);
 
         const rMeta: Record<string, Rider> = {};
@@ -139,7 +140,7 @@ function App() {
 
         if (racesRes.length > 0) setActiveRaceId(racesRes[0].id);
 
-        const solveRes = await fetch('http://localhost:8000/api/solve', { method: 'POST' }).then(r => r.json());
+        const solveRes = await fetch(`${API_BASE}/api/solve`, { method: 'POST' }).then(r => r.json());
 
         if (solveRes.error) {
           setError(solveRes.error);
