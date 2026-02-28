@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Trophy, CalendarDays, User, TrendingUp, Loader2, X, BarChart3, HelpCircle, Medal } from 'lucide-react';
+import { Trophy, CalendarDays, User, TrendingUp, Loader2, X, BarChart3, Medal } from 'lucide-react';
 import './index.css';
 
 interface Race {
