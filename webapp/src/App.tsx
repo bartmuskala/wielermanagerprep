@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Trophy, CalendarDays, User, TrendingUp, Loader2, X, BarChart3, Medal, LogOut, Plus, Users } from 'lucide-react';
 import { Routes, Route, useNavigate, Navigate } from 'react-router-dom';
-import { useAuth } from './AuthContext';
-import { loginWithGoogle, logout } from './firebase';
+import { useAuth } from './AuthContext.tsx';
+import { loginWithGoogle, logout } from './firebase.ts';
 import './index.css';
 
 
