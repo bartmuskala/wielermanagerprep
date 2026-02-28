@@ -18,7 +18,7 @@ def filter_men_spring_classics(scraper):
     return [
         {"id": "omloop-het-nieuwsblad", "year": "2026", "date": "Feb 28", "class": "1.UWT", "name": "Omloop Nieuwsblad"},
         {"id": "kuurne-brussel-kuurne", "year": "2026", "date": "Mar 01", "class": "1.Pro", "name": "Kuurne - Brussel - Kuurne"},
-        {"id": "le-samyn", "year": "2026", "date": "Mar 03", "class": "1.1", "name": "Samyn Classic"},
+        {"id": "gp-samyn", "year": "2026", "date": "Mar 03", "class": "1.1", "name": "Samyn Classic"},
         {"id": "strade-bianche", "year": "2026", "date": "Mar 07", "class": "1.UWT", "name": "Strade Bianche"},
         {"id": "nokere-koerse", "year": "2026", "date": "Mar 18", "class": "1.Pro", "name": "Nokere Koerse"},
         {"id": "bredene-koksijde-classic", "year": "2026", "date": "Mar 20", "class": "1.Pro", "name": "Bredene - Koksijde Classic"},
@@ -88,6 +88,43 @@ def fetch_startlist(scraper, race_slug):
             starts.append(rider_slug)
     return list(set(starts))
 
+def fetch_rider_profile(scraper, rider_slug):
+    url = f"https://www.procyclingstats.com/rider/{rider_slug}"
+    res = scraper.get(url)
+    
+    data = {"team": "Unknown", "expertises": {}, "historic_results": []}
+    if res.status_code != 200:
+        return data
+
+    soup = BeautifulSoup(res.text, 'html.parser')
+
+    team_elem = soup.select_one('.page-title .subtitle h2')
+    if team_elem:
+        data["team"] = team_elem.text.strip()
+
+    points_div = soup.select_one('ul.pps.list')
+    if points_div:
+        for li in points_div.find_all('li'):
+            title_elem = li.select_one('.xtitle a')
+            value_elem = li.select_one('.xvalue')
+            if title_elem and value_elem:
+                t = title_elem.text.strip()
+                v = value_elem.text.strip()
+                if v.isdigit():
+                    data["expertises"][t] = int(v)
+
+    results_ul = soup.select_one('ul.list.topresults')
+    if results_ul:
+        for li in results_ul.find_all('li')[:5]:
+            b_tag = li.find('b')
+            a_tag = li.find('a')
+            if a_tag:
+                count = b_tag.text.strip() if b_tag else "1x"
+                race = a_tag.text.strip()
+                data["historic_results"].append(f"{count} {race}")
+                
+    return data
+
 
 def scrape():
     scraper = cloudscraper.create_scraper()
@@ -142,6 +179,14 @@ def scrape():
     
     # Filter to only riders who have a global score > 0
     scored_riders = [r for r in riders_list if r["global_score"] > 0]
+    
+    print(f"\n--- FETCHING DEEP PROFILES FOR {len(scored_riders)} RIDERS ---")
+    for i, rider in enumerate(scored_riders):
+        if i % 25 == 0:
+            print(f"Fetched {i}/{len(scored_riders)} profiles...")
+        profile_data = fetch_rider_profile(scraper, rider['id'])
+        rider.update(profile_data)
+        time.sleep(0.3)
     
     print("\n--- FINAL SCORED SQUAD ---")
     print(f"Total riders with points: {len(scored_riders)}")

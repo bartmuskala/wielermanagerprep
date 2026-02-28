@@ -16,6 +16,9 @@ interface Rider {
   sporza_price?: number;
   sporza_popularity?: number;
   roi?: number;
+  team?: string;
+  expertises?: Record<string, number>;
+  historic_results?: string[];
 }
 
 interface RacesMetadata {
@@ -66,8 +69,22 @@ function LandingPage() {
   )
 }
 
+function TeamLogo({ teamName, size = 32 }: { teamName?: string, size?: number }) {
+  if (!teamName) return <User size={size} />;
+  const initials = teamName.split(' ').map(w => w[0]).join('').substring(0, 2).toUpperCase();
+  return (
+    <div style={{
+      width: `${size}px`, height: `${size}px`, borderRadius: '50%', background: 'var(--primary-color)', color: 'black',
+      display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: `${size / 2.5}px`
+    }} title={teamName}>
+      {initials}
+    </div>
+  );
+}
+
 function RiderModal({ rider, racesMeta, onClose }: { rider: Rider, racesMeta: Record<string, RacesMetadata>, onClose: () => void }) {
   if (!rider) return null;
+  const [activeTab, setActiveTab] = useState<'expertises' | 'upcoming' | 'historic'>('expertises');
 
   const rankedRaces = Object.entries(rider.top_ranks)
     .map(([raceId, rank]) => ({
@@ -96,12 +113,10 @@ function RiderModal({ rider, racesMeta, onClose }: { rider: Rider, racesMeta: Re
         </button>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '2rem' }}>
-          <div className="rider-avatar" style={{ width: '80px', height: '80px', fontSize: '2rem' }}>
-            <User size={40} />
-          </div>
+          <TeamLogo teamName={rider.team} size={64} />
           <div>
             <h2 style={{ fontSize: '2rem', marginBottom: '0.2rem' }}>{rider.name}</h2>
-            <div style={{ color: 'var(--primary-color)', fontSize: '1.1rem' }}>Global Database Pool</div>
+            <div style={{ color: 'var(--primary-color)', fontSize: '1.1rem' }}>{rider.team || 'Global Database Pool'}</div>
           </div>
         </div>
 
@@ -117,28 +132,62 @@ function RiderModal({ rider, racesMeta, onClose }: { rider: Rider, racesMeta: Re
           </div>
         </div>
 
-        <div className="glass-panel" style={{ padding: '1rem', marginBottom: '1rem' }}>
-          <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <Medal size={20} color="var(--primary-color)" />
-            PCS Top Competitor Rankings
-          </h3>
+        <div style={{ display: 'flex', gap: '10px', marginBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
+          <button onClick={() => setActiveTab('expertises')} style={{ padding: '0.5rem 1rem', background: 'transparent', border: 'none', color: activeTab === 'expertises' ? 'var(--primary-color)' : 'white', fontWeight: activeTab === 'expertises' ? 'bold' : 'normal', borderBottom: activeTab === 'expertises' ? '2px solid var(--primary-color)' : 'none', cursor: 'pointer' }}>Expertise</button>
+          <button onClick={() => setActiveTab('upcoming')} style={{ padding: '0.5rem 1rem', background: 'transparent', border: 'none', color: activeTab === 'upcoming' ? 'var(--primary-color)' : 'white', fontWeight: activeTab === 'upcoming' ? 'bold' : 'normal', borderBottom: activeTab === 'upcoming' ? '2px solid var(--primary-color)' : 'none', cursor: 'pointer' }}>Verwachte Rankings</button>
+          <button onClick={() => setActiveTab('historic')} style={{ padding: '0.5rem 1rem', background: 'transparent', border: 'none', color: activeTab === 'historic' ? 'var(--primary-color)' : 'white', fontWeight: activeTab === 'historic' ? 'bold' : 'normal', borderBottom: activeTab === 'historic' ? '2px solid var(--primary-color)' : 'none', cursor: 'pointer' }}>Erelijst</button>
+        </div>
 
-          {rankedRaces.length === 0 ? (
-            <div style={{ color: 'var(--text-main)', fontStyle: 'italic' }}>Geen 'Top Competitor' rangschikking gevonden (maar staat wel op startlijsten).</div>
-          ) : (
-            <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              {rankedRaces.map((rr, idx) => (
-                <li key={idx} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.5rem', background: 'rgba(255,255,255,0.02)', borderRadius: '8px' }}>
-                  <div>
-                    <span style={{ color: 'var(--text-highlight)', fontWeight: 'bold', display: 'block' }}>{rr.raceName}</span>
-                    <span style={{ fontSize: '0.8rem', color: 'var(--text-main)' }}>{rr.date}</span>
-                  </div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '5px', color: 'var(--accent-green)', fontWeight: 'bold', fontSize: '1.2rem' }}>
-                    #{rr.rank}
-                  </div>
-                </li>
-              ))}
-            </ul>
+        <div className="glass-panel" style={{ padding: '1rem', minHeight: '200px' }}>
+          {activeTab === 'expertises' && (
+            <div>
+              {rider.expertises && Object.keys(rider.expertises).length > 0 ? (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  {Object.entries(rider.expertises).sort((a, b) => b[1] - a[1]).map(([exp, val]: any) => (
+                    <div key={exp} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: 'rgba(255,255,255,0.02)', padding: '0.5rem', borderRadius: '8px' }}>
+                      <span style={{ fontWeight: 'bold' }}>{exp}</span>
+                      <span style={{ color: 'var(--primary-color)' }}>{val}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : <div style={{ color: 'var(--text-main)', fontStyle: 'italic' }}>Geen expertise scores beschikbaar.</div>}
+            </div>
+          )}
+
+          {activeTab === 'upcoming' && (
+            <div>
+              {rankedRaces.length === 0 ? (
+                <div style={{ color: 'var(--text-main)', fontStyle: 'italic' }}>Geen 'Top Competitor' rangschikking gevonden.</div>
+              ) : (
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                  {rankedRaces.map((rr, idx) => (
+                    <li key={idx} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.5rem', background: 'rgba(255,255,255,0.02)', borderRadius: '8px' }}>
+                      <div style={{ display: 'flex', flexDirection: 'column' }}>
+                        <span style={{ color: 'var(--text-highlight)', fontWeight: 'bold' }}>{rr.raceName}</span>
+                        <span style={{ fontSize: '0.8rem', color: 'var(--text-main)' }}>{rr.date}</span>
+                      </div>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '5px', color: 'var(--accent-green)', fontWeight: 'bold', fontSize: '1.2rem' }}>
+                        #{rr.rank}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+
+          {activeTab === 'historic' && (
+            <div>
+              {rider.historic_results && rider.historic_results.length > 0 ? (
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                  {rider.historic_results.map((res, idx) => (
+                    <li key={idx} style={{ display: 'flex', alignItems: 'center', padding: '0.5rem', background: 'rgba(255,255,255,0.02)', borderRadius: '8px', fontSize: '1rem', color: 'var(--text-highlight)' }}>
+                      {res}
+                    </li>
+                  ))}
+                </ul>
+              ) : <div style={{ color: 'var(--text-main)', fontStyle: 'italic' }}>Geen historische resultaten beschikbaar.</div>}
+            </div>
           )}
         </div>
       </div>
@@ -176,6 +225,11 @@ function Dashboard() {
   const [editingName, setEditingName] = useState("");
 
   const [selectedRider, setSelectedRider] = useState<Rider | null>(null);
+
+  // Filters & Sorting State
+  const [searchTerm, setSearchTerm] = useState("");
+  const [teamFilter, setTeamFilter] = useState("All Teams");
+  const [sortBy, setSortBy] = useState("score_desc"); // "budget_desc", "budget_asc", "score_desc", "roi_desc", "race_desc"
 
   React.useEffect(() => {
     async function fetchData() {
@@ -310,6 +364,33 @@ function Dashboard() {
 
   const current12Starters = evaluateStarters();
   const activeRaceMeta = racesMeta[activeRaceId || ''];
+
+  const processedRiders = React.useMemo(() => {
+    let filtered = ridersList;
+
+    if (searchTerm.trim()) {
+      filtered = filtered.filter(r => r.name.toLowerCase().includes(searchTerm.toLowerCase()));
+    }
+
+    if (teamFilter !== "All Teams") {
+      filtered = filtered.filter(r => r.team === teamFilter);
+    }
+
+    const arr = [...filtered];
+    arr.sort((a, b) => {
+      if (sortBy === "budget_desc") return (b.sporza_price || 0) - (a.sporza_price || 0);
+      if (sortBy === "budget_asc") return (a.sporza_price || 0) - (b.sporza_price || 0);
+      if (sortBy === "roi_desc") return (b.roi || 0) - (a.roi || 0);
+      if (sortBy === "race_desc" && activeRaceId) {
+        const rankA = a.top_ranks?.[activeRaceId] || 999;
+        const rankB = b.top_ranks?.[activeRaceId] || 999;
+        return rankA - rankB; // Lower rank is better
+      }
+      return (b.global_score || 0) - (a.global_score || 0); // score_desc default
+    });
+
+    return arr;
+  }, [ridersList, searchTerm, teamFilter, sortBy, activeRaceId]);
 
   if (loading) {
     return (
@@ -513,7 +594,7 @@ function Dashboard() {
                     )}
 
                     <div className="rider-avatar">
-                      <User size={24} />
+                      <TeamLogo teamName={rider?.team} size={24} />
                     </div>
                     <div className="rider-info">
                       <div className="rider-name">{rider?.name || 'Onbekend'}</div>
@@ -574,7 +655,41 @@ function Dashboard() {
                 </div>
               </div>
 
-              {ridersList.map((rider, index) => {
+              {/* FILTERS AND SORTING */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '1.5rem' }}>
+                <input
+                  type="text"
+                  placeholder="Zoek renner..."
+                  value={searchTerm}
+                  onChange={e => setSearchTerm(e.target.value)}
+                  style={{ width: '100%', padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'rgba(255,255,255,0.05)', color: 'white', outline: 'none' }}
+                />
+                <div style={{ display: 'flex', gap: '10px' }}>
+                  <select
+                    value={teamFilter}
+                    onChange={e => setTeamFilter(e.target.value)}
+                    style={{ flex: 1, padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'var(--bg-color)', color: 'white', outline: 'none' }}
+                  >
+                    <option value="All Teams">Alle Teams</option>
+                    {Array.from(new Set(ridersList.map(r => r.team).filter(Boolean))).sort().map(team => (
+                      <option key={team as string} value={team as string}>{team}</option>
+                    ))}
+                  </select>
+                  <select
+                    value={sortBy}
+                    onChange={e => setSortBy(e.target.value)}
+                    style={{ flex: 1, padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'var(--bg-color)', color: 'white', outline: 'none' }}
+                  >
+                    <option value="score_desc">Hoogste PCS Potentieel</option>
+                    <option value="budget_desc">Duurste Prijs</option>
+                    <option value="budget_asc">Goedkoopste Prijs</option>
+                    <option value="roi_desc">Beste ROI</option>
+                    <option value="race_desc">Verwachte Punten (Actieve Race)</option>
+                  </select>
+                </div>
+              </div>
+
+              {processedRiders.map((rider, index) => {
                 const inCustomTeam = activeTeam.riders.includes(rider.id);
                 const isRacing = activeRaceId && rider.starts.includes(activeRaceId);
 
