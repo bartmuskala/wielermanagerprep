@@ -16575,7 +16575,90 @@
         "yves-lampaert",
         "valentin-madouas",
         "ryan-mullen"
-      ]
+      ],
+      "actual_results": {
+        "mathieu-van-der-poel": {
+          "rank": 1,
+          "points": 50
+        },
+        "tim-van-dijke": {
+          "rank": 2,
+          "points": 44
+        },
+        "florian-vermeersch": {
+          "rank": 3,
+          "points": 40
+        },
+        "christophe-laporte": {
+          "rank": 4,
+          "points": 36
+        },
+        "aime-de-gendt": {
+          "rank": 5,
+          "points": 32
+        },
+        "tobias-lund-andresen": {
+          "rank": 6,
+          "points": 30
+        },
+        "jordi-meeus": {
+          "rank": 7,
+          "points": 28
+        },
+        "anthony-turgis": {
+          "rank": 8,
+          "points": 26
+        },
+        "alexis-renard": {
+          "rank": 9,
+          "points": 24
+        },
+        "luke-lamperti": {
+          "rank": 10,
+          "points": 22
+        },
+        "paul-magnier": {
+          "rank": 11,
+          "points": 20
+        },
+        "matyas-kopecky": {
+          "rank": 12,
+          "points": 18
+        },
+        "laurence-pithie": {
+          "rank": 13,
+          "points": 16
+        },
+        "nils-politt": {
+          "rank": 14,
+          "points": 14
+        },
+        "matteo-trentin": {
+          "rank": 15,
+          "points": 12
+        },
+        "jenno-berckmoes": {
+          "rank": 16,
+          "points": 10
+        },
+        "jonas-abrahamsen": {
+          "rank": 17,
+          "points": 8
+        },
+        "jelte-krijnsen": {
+          "rank": 18,
+          "points": 6
+        },
+        "vincent-van-hemelen": {
+          "rank": 19,
+          "points": 4
+        },
+        "cedric-beullens": {
+          "rank": 20,
+          "points": 2
+        }
+      },
+      "is_completed": true
     },
     {
       "id": "kuurne-brussel-kuurne",
@@ -16771,7 +16854,90 @@
         "martin-urianstad",
         "samuel-boardman",
         "ryan-mullen"
-      ]
+      ],
+      "actual_results": {
+        "matthew-brennan": {
+          "rank": 1,
+          "points": 50
+        },
+        "luca-mozzato": {
+          "rank": 2,
+          "points": 44
+        },
+        "matteo-trentin": {
+          "rank": 3,
+          "points": 40
+        },
+        "matevz-govekar": {
+          "rank": 4,
+          "points": 36
+        },
+        "mike-teunissen": {
+          "rank": 5,
+          "points": 32
+        },
+        "laurenz-rex": {
+          "rank": 6,
+          "points": 30
+        },
+        "tobias-lund-andresen": {
+          "rank": 7,
+          "points": 28
+        },
+        "cees-bol": {
+          "rank": 8,
+          "points": 26
+        },
+        "luke-lamperti": {
+          "rank": 9,
+          "points": 24
+        },
+        "jordi-meeus": {
+          "rank": 10,
+          "points": 22
+        },
+        "hugo-hofstetter": {
+          "rank": 11,
+          "points": 20
+        },
+        "jon-barrenetxea-golzarri": {
+          "rank": 12,
+          "points": 18
+        },
+        "tim-van-dijke": {
+          "rank": 13,
+          "points": 16
+        },
+        "florian-dauphin": {
+          "rank": 14,
+          "points": 14
+        },
+        "ivan-garcia-cortina": {
+          "rank": 15,
+          "points": 12
+        },
+        "matyas-kopecky": {
+          "rank": 16,
+          "points": 10
+        },
+        "steffen-de-schuyteneer": {
+          "rank": 17,
+          "points": 8
+        },
+        "jasper-philipsen": {
+          "rank": 18,
+          "points": 6
+        },
+        "pau-miquel-delgado": {
+          "rank": 19,
+          "points": 4
+        },
+        "ben-oliver": {
+          "rank": 20,
+          "points": 2
+        }
+      },
+      "is_completed": true
     },
     {
       "id": "gp-samyn",

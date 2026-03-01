@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Trophy, CalendarDays, User, TrendingUp, Loader2, X, BarChart3, Medal, LogOut, Plus, Users } from 'lucide-react';
+import { Trophy, User, TrendingUp, Loader2, X, BarChart3, Medal, LogOut, Plus, Users } from 'lucide-react';
 import { Routes, Route, useNavigate, Navigate } from 'react-router-dom';
 import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from "jwt-decode";
@@ -232,6 +232,7 @@ function Dashboard() {
   const [activeTeamId, setActiveTeamId] = useState<string>('overview');
   const [editingTeamId, setEditingTeamId] = useState<string | null>(null);
   const [editingName, setEditingName] = useState("");
+  const [expandedRaceId, setExpandedRaceId] = useState<string | null>(null);
 
   const [selectedRider, setSelectedRider] = useState<Rider | null>(null);
 
@@ -344,36 +345,6 @@ function Dashboard() {
   const teamSpent = activeTeam.riders.reduce((sum, id) => sum + (ridersMeta[id]?.sporza_price || 0), 0);
   const teamRemaining = 120 - teamSpent;
 
-  // Calculate Middle Column: The best 12 from the active team
-  const evaluateStarters = () => {
-    if (!activeRaceId) return [];
-
-    const ourRiders = activeTeam.riders.map(id => ridersMeta[id]).filter(Boolean);
-    // Who is actually starting the active race?
-    const starters = ourRiders.filter(r => r.starts.includes(activeRaceId));
-    const raceMeta = racesMeta[activeRaceId];
-
-    if (raceMeta?.is_completed && raceMeta.actual_results) {
-      // If completed, sort by who actually scored the highest Sporza points
-      starters.sort((a, b) => {
-        const ptsA = raceMeta.actual_results![a.id]?.points || 0;
-        const ptsB = raceMeta.actual_results![b.id]?.points || 0;
-        return ptsB - ptsA;
-      });
-    } else {
-      // Sort them by their pcs rank for this race
-      starters.sort((a, b) => {
-        const rankA = a.top_ranks[activeRaceId] || 999;
-        const rankB = b.top_ranks[activeRaceId] || 999;
-        return rankA - rankB;
-      });
-    }
-
-    return starters.slice(0, 12).map(r => r.id);
-  };
-
-  const current12Starters = evaluateStarters();
-  const activeRaceMeta = racesMeta[activeRaceId || ''];
 
   const processedRiders = React.useMemo(() => {
     let filtered = ridersList;
@@ -531,145 +502,19 @@ function Dashboard() {
           </div>
         </div>
       ) : (
-        <div className="grid-3" style={{ gridTemplateColumns: 'minmax(250px, 1fr) minmax(350px, 1.5fr) minmax(300px, 1.2fr)' }}>
-          {/* Races Timeline */}
-          <div className="glass-panel animate-fade-in delay-1" style={{ maxHeight: '75vh', overflowY: 'auto' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1.5rem', position: 'sticky', top: 0, background: 'var(--bg-color)', zIndex: 10, paddingBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-              <CalendarDays size={24} color="var(--primary-color)" />
-              <h2 style={{ fontSize: '1.2rem' }}>Classics Calendar</h2>
-            </div>
+        <div className="grid-3" style={{ gridTemplateColumns: 'minmax(300px, 1.2fr) minmax(300px, 1fr) minmax(350px, 1.5fr)' }}>
 
-            <div className="race-timeline">
-              {racesList.map(race => {
-                // Calculate how many starters this *specific* team has for this race
-                const startersCount = activeTeam.riders.filter(id => ridersMeta[id]?.starts.includes(race.id)).length;
-                const hasStarters = startersCount > 0;
-
-                return (
-                  <div
-                    key={race.id}
-                    className={`race-item ${activeRaceId === race.id ? 'active' : ''}`}
-                    onClick={() => setActiveRaceId(race.id)}
-                    style={{ padding: '0.8rem 1rem' }}
-                  >
-                    <div className="race-name" style={{ display: 'flex', flexDirection: 'column' }}>
-                      <span style={{ fontSize: '0.95rem' }}>{race.name}</span>
-                      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '4px' }}>
-                        <span style={{ fontSize: '0.75rem', color: 'var(--text-main)' }}>{race.date} • {race.class}</span>
-                        <span style={{ fontSize: '0.75rem', color: hasStarters ? 'var(--primary-color)' : 'var(--accent-red)' }}>
-                          {hasStarters ? `${Math.min(12, startersCount)} opgesteld` : 'Geen starters uit ploeg'}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
-          {/* Selected Race Roster (Middle Column evaluating Custom Team) */}
-          <div className="glass-panel animate-fade-in delay-2" style={{ maxHeight: '75vh', overflowY: 'auto' }}>
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.5rem', position: 'sticky', top: 0, background: 'var(--bg-color)', zIndex: 10, paddingBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                <Trophy size={24} color="var(--primary-color)" />
-                <h2 style={{ fontSize: '1.2rem', lineHeight: '1.2' }}>{activeRaceMeta?.name}<br />
-                  <span style={{ fontSize: '0.9rem', color: 'var(--text-main)', fontWeight: 'normal' }}>
-                    {activeRaceMeta?.is_completed ? 'Officiële Sporza Prestaties' : 'Je Team Prognose'}
-                  </span>
-                </h2>
-              </div>
-              {activeRaceMeta?.is_completed ? (
-                <div style={{ background: 'var(--primary-color)', color: 'black', fontWeight: 'bold', padding: '0.4rem 0.8rem', borderRadius: '8px' }}>
-                  {current12Starters.reduce((sum, id) => sum + (activeRaceMeta.actual_results?.[id]?.points || 0), 0)} pts
-                </div>
-              ) : (
-                <span className="stat-value" style={{ fontSize: '1rem' }}>{current12Starters.length}/12</span>
-              )}
-            </div>
-
-            <div>
-              {current12Starters.length === 0 && (
-                <div style={{ opacity: 0.5, textAlign: 'center', padding: '2rem' }}>Niemand van deze ploeg start in deze wedstrijd. Test de simulatie door renners rechts toe te voegen.</div>
-              )}
-              {current12Starters.map((riderId, i) => {
-                const rider = ridersMeta[riderId];
-                const raceRank = rider?.top_ranks?.[activeRaceId || ''];
-
-                return (
-                  <div
-                    key={riderId}
-                    className="rider-card"
-                    style={{ animationDelay: `${i * 0.05}s`, cursor: 'pointer', position: 'relative', overflow: 'hidden' }}
-                    onClick={() => setSelectedRider(rider)}
-                  >
-                    {/* Subtle golden background if they are Top 3 favorite */}
-                    {raceRank && raceRank <= 3 && (
-                      <div style={{ position: 'absolute', top: 0, left: 0, width: '4px', height: '100%', backgroundColor: raceRank === 1 ? '#FFD700' : raceRank === 2 ? '#C0C0C0' : '#CD7F32' }} />
-                    )}
-
-                    <div className="rider-avatar">
-                      <TeamLogo teamName={rider?.team} logoUrl={rider?.team_logo} size={24} />
-                    </div>
-                    <div className="rider-info">
-                      <div className="rider-name">{rider?.name || 'Onbekend'}</div>
-                      <div className="rider-team" style={{ gap: '10px' }}>
-                        <span style={{ color: 'var(--primary-color)' }}>{rider?.global_score} pts</span>
-                        <span style={{ opacity: 0.5 }}>| €{rider?.sporza_price || 0}M</span>
-                      </div>
-                    </div>
-
-                    {activeRaceMeta?.is_completed ? (
-                      <div style={{
-                        fontSize: '1rem',
-                        background: 'var(--primary-color)',
-                        color: '#000',
-                        padding: '4px 10px',
-                        borderRadius: '12px',
-                        fontWeight: 'bold'
-                      }}>
-                        +{activeRaceMeta.actual_results?.[riderId]?.points || 0} pts
-                      </div>
-                    ) : raceRank ? (
-                      <div style={{
-                        fontSize: '0.9rem',
-                        background: raceRank === 1 ? 'linear-gradient(45deg, #FFD700, #FDB931)' : 'rgba(102, 252, 241, 0.1)',
-                        color: raceRank === 1 ? '#000' : 'var(--text-highlight)',
-                        padding: '4px 10px',
-                        borderRadius: '12px',
-                        fontWeight: 'bold',
-                        border: raceRank === 1 ? 'none' : '1px solid var(--primary-color)'
-                      }}>
-                        #{raceRank} PCS Favoriet
-                      </div>
-                    ) : (
-                      <div style={{ fontSize: '0.75rem', color: 'var(--text-main)', fontStyle: 'italic' }}>
-                        Niet gerangschikt
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
-          {/* Start Team (Right Column Full Database Market) */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }} className="animate-fade-in delay-3">
+          {/* COLUMN 1: Full Database Market */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }} className="animate-fade-in delay-1">
             <div className="glass-panel" style={{ flex: 1, overflowY: 'auto', maxHeight: '75vh' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1.5rem', position: 'sticky', top: 0, background: 'var(--bg-color)', zIndex: 10, paddingBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', flexWrap: 'wrap' }}>
                 <TrendingUp size={24} color="var(--primary-color)" />
                 <div style={{ flex: 1 }}>
-                  <h2 style={{ fontSize: '1.2rem' }}>Ploeg samenstellen</h2>
-                  <div style={{ fontSize: '0.8rem', color: 'var(--text-main)' }}>Selecteer ({activeTeam.riders.length}/20)</div>
-                </div>
-                <div style={{ background: 'rgba(0,0,0,0.3)', padding: '0.5rem 1rem', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.1)' }}>
-                  <div style={{ fontSize: '0.75rem', color: 'var(--text-main)' }}>Resterend Budget</div>
-                  <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: teamRemaining < 0 ? 'var(--accent-red)' : 'var(--primary-color)' }}>
-                    €{teamRemaining}M <span style={{ fontSize: '0.8rem', opacity: 0.5 }}>/ €120M</span>
-                  </div>
+                  <h2 style={{ fontSize: '1.2rem' }}>Renner Zoeken</h2>
                 </div>
               </div>
 
-              {/* FILTERS AND SORTING */}
+              {/* FILTERS AND SORTING VERTICAL */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '1.5rem' }}>
                 <input
                   type="text"
@@ -678,47 +523,42 @@ function Dashboard() {
                   onChange={e => setSearchTerm(e.target.value)}
                   style={{ width: '100%', padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'rgba(255,255,255,0.05)', color: 'white', outline: 'none' }}
                 />
-                <div style={{ display: 'flex', gap: '10px' }}>
-                  <select
-                    value={teamFilter}
-                    onChange={e => setTeamFilter(e.target.value)}
-                    style={{ flex: 1, padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'var(--bg-color)', color: 'white', outline: 'none' }}
-                  >
-                    <option value="All Teams">Alle Teams</option>
-                    {Array.from(new Set(ridersList.map(r => r.team).filter(Boolean))).sort().map(team => (
-                      <option key={team as string} value={team as string}>{team}</option>
-                    ))}
-                  </select>
-                  <select
-                    value={maxBudget}
-                    onChange={e => setMaxBudget(e.target.value === "All" ? "All" : Number(e.target.value))}
-                    style={{ flex: 1, padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'var(--bg-color)', color: 'white', outline: 'none', maxWidth: '140px' }}
-                  >
-                    <option value="All">Max Budget</option>
-                    <option value={12}>&le; €12M</option>
-                    <option value={10}>&le; €10M</option>
-                    <option value={8}>&le; €8M</option>
-                    <option value={6}>&le; €6M</option>
-                    <option value={4}>&le; €4M</option>
-                  </select>
-                  <select
-                    value={sortBy}
-                    onChange={e => setSortBy(e.target.value)}
-                    style={{ flex: 1, padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'var(--bg-color)', color: 'white', outline: 'none' }}
-                  >
-                    <option value="score_desc">Rangschikking: PCS Score</option>
-                    <option value="race_desc">Rangschikking: Actieve Race</option>
-                    <option value="budget_desc">Rangschikking: Duurste</option>
-                    <option value="budget_asc">Rangschikking: Goedkoopste</option>
-                    <option value="roi_desc">Rangschikking: Beste ROI</option>
-                  </select>
-                </div>
+                <select
+                  value={teamFilter}
+                  onChange={e => setTeamFilter(e.target.value)}
+                  style={{ width: '100%', padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'var(--bg-color)', color: 'white', outline: 'none' }}
+                >
+                  <option value="All Teams">Alle Teams</option>
+                  {Array.from(new Set(ridersList.map(r => r.team).filter(Boolean))).sort().map(team => (
+                    <option key={team as string} value={team as string}>{team}</option>
+                  ))}
+                </select>
+                <select
+                  value={maxBudget}
+                  onChange={e => setMaxBudget(e.target.value === "All" ? "All" : Number(e.target.value))}
+                  style={{ width: '100%', padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'var(--bg-color)', color: 'white', outline: 'none' }}
+                >
+                  <option value="All">Max Budget</option>
+                  <option value={12}>&le; €12M</option>
+                  <option value={10}>&le; €10M</option>
+                  <option value={8}>&le; €8M</option>
+                  <option value={6}>&le; €6M</option>
+                  <option value={4}>&le; €4M</option>
+                </select>
+                <select
+                  value={sortBy}
+                  onChange={e => setSortBy(e.target.value)}
+                  style={{ width: '100%', padding: '0.8rem', borderRadius: '8px', border: 'none', background: 'var(--bg-color)', color: 'white', outline: 'none' }}
+                >
+                  <option value="score_desc">Rangschikking: PCS Score</option>
+                  <option value="budget_desc">Rangschikking: Duurste</option>
+                  <option value="budget_asc">Rangschikking: Goedkoopste</option>
+                  <option value="roi_desc">Rangschikking: Beste ROI</option>
+                </select>
               </div>
 
               {processedRiders.map((rider, index) => {
                 const inCustomTeam = activeTeam.riders.includes(rider.id);
-                const isRacing = activeRaceId && rider.starts.includes(activeRaceId);
-
                 return (
                   <div
                     key={rider.id}
@@ -728,33 +568,27 @@ function Dashboard() {
                       background: inCustomTeam ? 'rgba(102, 252, 241, 0.05)' : 'rgba(255, 255, 255, 0.02)',
                       cursor: 'pointer',
                       padding: '0.5rem 1rem',
-                      marginBottom: '8px',
-                      opacity: activeRaceId && !isRacing ? 0.6 : 1
+                      marginBottom: '8px'
                     }}
                     onClick={() => handleToggleRider(rider.id)}
                   >
                     <div style={{ color: 'var(--text-main)', fontSize: '0.8rem', width: '25px', opacity: 0.5 }}>{index + 1}.</div>
-                    <div className="rider-avatar">
+                    <div className="rider-avatar" onClick={(e) => { e.stopPropagation(); setSelectedRider(rider); }}>
                       <TeamLogo teamName={rider?.team} logoUrl={rider?.team_logo} size={28} />
                     </div>
-                    <div className="rider-info" style={{ marginLeft: '10px' }}>
-                      <div className="rider-name" style={{ fontSize: '0.95rem', color: inCustomTeam ? 'var(--text-highlight)' : 'var(--text-highlight)', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <div className="rider-info" style={{ marginLeft: '10px' }} onClick={(e) => { e.stopPropagation(); setSelectedRider(rider); }}>
+                      <div className="rider-name" style={{ fontSize: '0.95rem', color: 'var(--text-highlight)', display: 'flex', alignItems: 'center', gap: '8px' }}>
                         {rider?.name}
-                        {isRacing && <span style={{ fontSize: '0.6rem', background: 'var(--primary-color)', color: '#000', padding: '2px 5px', borderRadius: '4px' }}>Rides</span>}
                       </div>
                       <div style={{ fontSize: '0.7rem', color: 'var(--text-main)' }}>ROI: {rider.roi || 0} pts/M</div>
                     </div>
                     <div className="rider-price" style={{ background: 'rgba(255, 255, 255, 0.1)', color: 'white', fontSize: '0.85rem', padding: '0.2rem 0.6rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                       <span>€{rider.sporza_price || 0}M</span>
-
-                      {/* Dynamic Ranking View depending on active sort */}
                       {sortBy === 'score_desc' && <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>{rider.global_score} pts</span>}
                       {sortBy === 'roi_desc' && <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>{rider.roi} ROI</span>}
                       {sortBy === 'budget_desc' && <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>{rider.global_score} pts</span>}
                       {sortBy === 'budget_asc' && <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>{rider.global_score} pts</span>}
-                      {sortBy === 'race_desc' && activeRaceId && <span style={{ fontSize: '0.65rem', color: 'var(--primary-color)' }}>#{rider.top_ranks?.[activeRaceId] || '-'} Rank</span>}
                     </div>
-
                     {inCustomTeam && (
                       <div style={{ marginLeft: '10px', color: 'var(--primary-color)' }}>
                         <Medal size={16} />
@@ -766,6 +600,133 @@ function Dashboard() {
             </div>
           </div>
 
+          {/* COLUMN 2: Your team selection */}
+          <div className="glass-panel animate-fade-in delay-2" style={{ maxHeight: '75vh', overflowY: 'auto' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1.5rem', position: 'sticky', top: 0, background: 'var(--bg-color)', zIndex: 10, paddingBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', flexWrap: 'wrap' }}>
+              <Users size={24} color="var(--primary-color)" />
+              <div style={{ flex: 1 }}>
+                <h2 style={{ fontSize: '1.2rem' }}>Je ploegselectie</h2>
+                <div style={{ fontSize: '0.8rem', color: 'var(--text-main)' }}>({activeTeam.riders.length}/20)</div>
+              </div>
+              <div style={{ background: 'rgba(0,0,0,0.3)', padding: '0.5rem 1rem', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.1)' }}>
+                <div style={{ fontSize: '0.75rem', color: 'var(--text-main)' }}>Resterend Budget</div>
+                <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: teamRemaining < 0 ? 'var(--accent-red)' : 'var(--primary-color)' }}>
+                  €{teamRemaining}M <span style={{ fontSize: '0.8rem', opacity: 0.5 }}>/ €120M</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              {activeTeam.riders.map((riderId, i) => {
+                const rider = ridersMeta[riderId];
+                if (!rider) return null;
+                return (
+                  <div
+                    key={riderId}
+                    className="rider-card"
+                    style={{ cursor: 'pointer', marginBottom: '8px' }}
+                    onClick={() => setSelectedRider(rider)}
+                  >
+                    <div style={{ color: 'var(--text-main)', fontSize: '0.8rem', width: '25px', opacity: 0.5 }}>{i + 1}.</div>
+                    <div className="rider-avatar">
+                      <TeamLogo teamName={rider?.team} logoUrl={rider?.team_logo} size={24} />
+                    </div>
+                    <div className="rider-info" style={{ marginLeft: '10px' }}>
+                      <div className="rider-name">{rider?.name || 'Onbekend'}</div>
+                      <div className="rider-team" style={{ gap: '10px' }}>
+                        <span style={{ color: 'var(--primary-color)' }}>{rider?.global_score} pts</span>
+                        <span style={{ opacity: 0.5 }}>| €{rider?.sporza_price || 0}M</span>
+                      </div>
+                    </div>
+                    <button
+                      onClick={(e) => { e.stopPropagation(); handleToggleRider(rider.id); }}
+                      style={{ background: 'transparent', border: 'none', color: 'var(--accent-red)', cursor: 'pointer', padding: '0.5rem' }}
+                    >
+                      <X size={18} />
+                    </button>
+                  </div>
+                );
+              })}
+              {activeTeam.riders.length === 0 && (
+                <div style={{ opacity: 0.5, textAlign: 'center', padding: '2rem' }}>Je ploeg is nog leeg. Voeg renners toe vanuit de lijst links!</div>
+              )}
+            </div>
+          </div>
+
+          {/* COLUMN 3: Races Accordion */}
+          <div className="glass-panel animate-fade-in delay-3" style={{ maxHeight: '75vh', overflowY: 'auto' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '1.5rem', position: 'sticky', top: 0, background: 'var(--bg-color)', zIndex: 10, paddingBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
+              <Trophy size={24} color="var(--primary-color)" />
+              <h2 style={{ fontSize: '1.2rem' }}>Wedstrijden <span style={{ fontSize: '0.8rem', fontWeight: 'normal', color: 'var(--text-main)', display: 'block' }}>Auto-selectie 12 Starters</span></h2>
+            </div>
+
+            <div className="race-timeline">
+              {racesList.map(race => {
+                const teamStarters = activeTeam.riders.filter(id => ridersMeta[id]?.starts.includes(race.id));
+                teamStarters.sort((a, b) => (ridersMeta[a]?.top_ranks[race.id] || 999) - (ridersMeta[b]?.top_ranks[race.id] || 999));
+
+                let final12 = [...teamStarters];
+                if (final12.length < 12) {
+                  const nonStarters = activeTeam.riders.filter(id => !ridersMeta[id]?.starts.includes(race.id));
+                  nonStarters.sort((a, b) => (ridersMeta[b]?.global_score || 0) - (ridersMeta[a]?.global_score || 0));
+                  final12 = [...final12, ...nonStarters.slice(0, 12 - final12.length)];
+                } else {
+                  final12 = final12.slice(0, 12);
+                }
+
+                const isExpanded = expandedRaceId === race.id;
+
+                return (
+                  <div
+                    key={race.id}
+                    className="race-item"
+                    style={{ padding: '0', background: isExpanded ? 'rgba(255,255,255,0.02)' : 'transparent', border: '1px solid rgba(255,255,255,0.05)', borderRadius: '8px', marginBottom: '10px', overflow: 'hidden' }}
+                  >
+                    <div onClick={() => setExpandedRaceId(isExpanded ? null : race.id)} style={{ padding: '1rem', cursor: 'pointer', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <div className="race-name" style={{ display: 'flex', flexDirection: 'column' }}>
+                        <span style={{ fontSize: '0.95rem', fontWeight: 'bold' }}>{race.name}</span>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '4px' }}>
+                          <span style={{ fontSize: '0.75rem', color: 'var(--text-main)' }}>{teamStarters.length} startende renners</span>
+                        </div>
+                      </div>
+                      <div>
+                        {race.is_completed ? (
+                          <div style={{ background: 'var(--primary-color)', color: 'black', fontWeight: 'bold', padding: '0.3rem 0.6rem', borderRadius: '8px', fontSize: '0.85rem' }}>
+                            {final12.reduce((sum, id) => sum + (race.actual_results?.[id]?.points || 0), 0)} pts
+                          </div>
+                        ) : (
+                          <span style={{ color: 'var(--text-main)' }}>{isExpanded ? '▼' : '▶'}</span>
+                        )}
+                      </div>
+                    </div>
+                    {isExpanded && (
+                      <div style={{ padding: '0 1rem 1rem 1rem' }}>
+                        {final12.map((riderId, i) => {
+                          const r = ridersMeta[riderId];
+                          const isActualStarter = r?.starts.includes(race.id);
+                          const isFinished = race.is_completed;
+                          const earnedPts = isFinished && race.actual_results?.[riderId] ? race.actual_results[riderId].points : 0;
+                          return (
+                            <div key={riderId} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0.5rem 0', opacity: isActualStarter ? 1 : 0.5, borderTop: '1px solid rgba(255,255,255,0.05)', fontSize: '0.85rem' }}>
+                              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <span style={{ width: '15px', color: 'var(--text-main)' }}>{i + 1}.</span>
+                                <span>{r?.name}</span>
+                              </div>
+                              {isFinished ? (
+                                <div><span style={{ color: 'var(--primary-color)', fontWeight: 'bold' }}>+{earnedPts}</span></div>
+                              ) : (
+                                <div style={{ color: 'var(--text-main)' }}>{isActualStarter ? `#${r?.top_ranks[race.id] || '-'}` : `(Pad)`}</div>
+                              )}
+                            </div>
+                          )
+                        })}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       )}
     </div>
